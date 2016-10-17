@@ -6,4 +6,5 @@ Testobjects (input data for the test) must be located in a **testobject** subfol
 and have a xml or gml file ending.
 
 Test results are compared with a result file located in **expected_results/TestTaskResult.xml**.
-Timestamps will be ignored.
+Timestamps will be ignored. Attachments are placed in the **expected_results** directory, too, and
+have to be referenced correctly from **expected_results/TestTaskResult.xml**.
