@@ -1,0 +1,257 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDe50ae15c-7c95-45c8-8897-b77579d14687">
+  <testObject ref="EID349ec2d0-7534-4328-84f4-1ed8bd1d7df6"/>
+  <testModuleResults>
+    <TestModuleResult id="EID5a084623-2bc8-4055-a7f8-88c5c92aae64">
+      <parent ref="EIDe50ae15c-7c95-45c8-8897-b77579d14687"/>
+      <testCaseResults>
+        <TestCaseResult id="EID4649741c-ee8f-4bfd-8a99-452b9dd46458">
+          <parent ref="EID5a084623-2bc8-4055-a7f8-88c5c92aae64"/>
+          <testStepResults>
+            <TestStepResult id="EID810f4695-b810-429e-92a5-e22b316a1190">
+              <parent ref="EID4649741c-ee8f-4bfd-8a99-452b9dd46458"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID45b2c521-f2dc-4fec-a4a7-f2f769f73e5a">
+                  <parent ref="EID810f4695-b810-429e-92a5-e22b316a1190"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.emptyAttribute">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700600XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                        <argument token="attribute">nationalCadastralReference</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.emptyAttribute">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.001700200XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                        <argument token="attribute">nationalCadastralReference</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EIDf9e38ad9-f997-4e26-8a4c-f5f7d82f48c4"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID9bdf53dd-9102-4e1b-88ea-a05e023f6e2a">
+                  <parent ref="EID810f4695-b810-429e-92a5-e22b316a1190"/>
+                  <resultedFrom ref="EIDf76ab80a-9cd0-4b9a-ac2b-99f296f0f56d"/>
+                  <startTimestamp>2016-10-26T17:59:24.279+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EIDbbccbf96-6daa-46f7-8bad-8563c0209295"/>
+              <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+              <duration>1</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID67cce5c3-336e-4a5b-b6be-4cc4a6daba61"/>
+          <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+          <duration>1</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID394b0274-b017-4974-8f57-1dee4d9246ea">
+          <parent ref="EID5a084623-2bc8-4055-a7f8-88c5c92aae64"/>
+          <testStepResults>
+            <TestStepResult id="EID98578db6-8115-45be-8881-909d67b95d7b">
+              <parent ref="EID394b0274-b017-4974-8f57-1dee4d9246ea"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EIDfe61fea7-c8fb-4929-9be2-c9d1c48e47e1">
+                  <parent ref="EID98578db6-8115-45be-8881-909d67b95d7b"/>
+                  <resultedFrom ref="EIDbe281220-e6b9-47ab-925e-a41015b6337e"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>UNDEFINED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID487e2252-6777-4f61-9e1f-7b97865ffeb2"/>
+              <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+              <duration>0</duration>
+              <status>UNDEFINED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID36322003-1c28-432b-8fcc-dceaa3ce8395"/>
+          <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+          <duration>0</duration>
+          <status>UNDEFINED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDb0392183-f6ba-4e46-a8a4-4abfbb213f84">
+          <parent ref="EID5a084623-2bc8-4055-a7f8-88c5c92aae64"/>
+          <testStepResults>
+            <TestStepResult id="EIDbb36a558-c683-475e-b9ad-c2e906df83c2">
+              <parent ref="EIDb0392183-f6ba-4e46-a8a4-4abfbb213f84"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID1f1803cf-67f2-404e-9c26-f1eca154f116">
+                  <parent ref="EIDbb36a558-c683-475e-b9ad-c2e906df83c2"/>
+                  <resultedFrom ref="EID3b54e278-c15c-44b4-8314-ffba1225b32c"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>310</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID1c04b5b9-e980-4722-8fed-ea7b0fdd26b2"/>
+              <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+              <duration>310</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EIDbf3c38ae-92d1-409e-8550-2680de04bfa1"/>
+          <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+          <duration>310</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID279d854b-6f6a-476a-a286-40b103022266">
+          <parent ref="EID5a084623-2bc8-4055-a7f8-88c5c92aae64"/>
+          <testStepResults>
+            <TestStepResult id="EID926f787e-0730-4b1f-a222-529626fb9f77">
+              <parent ref="EID279d854b-6f6a-476a-a286-40b103022266"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID16fa4cf4-f14f-49aa-a6a5-be7be792a284">
+                  <parent ref="EID926f787e-0730-4b1f-a222-529626fb9f77"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">4</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.uomMissing">
+                      <translationArguments>
+                        <argument token="gmlid">BPU001</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">BasicPropertyUnit</argument>
+                        <argument token="property">areaValue</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownUoM">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700100XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="allowedUoM">m2</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                        <argument token="uom">s</argument>
+                        <argument token="property">areaValue</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownUoM">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700200XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="allowedUoM">m2</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                        <argument token="uom">m</argument>
+                        <argument token="property">areaValue</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.uomMissing">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700300XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                        <argument token="property">areaValue</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID2be9a647-eee6-4a6e-b9cc-ec0220d0c6a7"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>5</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe8c24eb5-f711-42e4-816e-00df9b507852">
+                  <parent ref="EID926f787e-0730-4b1f-a222-529626fb9f77"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.uomMissing">
+                      <translationArguments>
+                        <argument token="gmlid">CB001</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralBoundary</argument>
+                        <argument token="property">estimatedAccuracy</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.uomMissing">
+                      <translationArguments>
+                        <argument token="gmlid">CB002</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralBoundary</argument>
+                        <argument token="property">estimatedAccuracy</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID2c800fcb-3e82-4385-be9c-1fc6a761dc9b"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe6d247c9-59cb-4529-b9b8-d7ac0d095995">
+                  <parent ref="EID926f787e-0730-4b1f-a222-529626fb9f77"/>
+                  <messages>
+                    <message ref="TR.systemError">
+                      <translationArguments>
+                        <argument token="text">[err:XPTY0004] Item expected, sequence found: (element gml:MultiSurface {...},.... 
+C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/inspire-bsxets.xq (741/297)</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID1e7f2289-f7be-4db4-8673-e84d05a091bd"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>4</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID13622df2-fc55-4c19-8839-66fe283f1cc7">
+                  <parent ref="EID926f787e-0730-4b1f-a222-529626fb9f77"/>
+                  <resultedFrom ref="EID7c7de013-84bf-4e14-8831-912f1b328646"/>
+                  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID856a5b01-bfbf-45e0-9f01-7252eff56354"/>
+              <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+              <duration>12</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID43f3aaa7-ea02-4435-9d05-78f5e48c463b"/>
+          <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+          <duration>12</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EID052df133-b598-4f1c-957f-8354751fc3c3"/>
+      <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+      <duration>323</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID2f687cdf-96b2-4c93-af12-4e5f003db4a6">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachement-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDe7a13ebb-0c85-43a1-9fbd-e9435b488e3e">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachement-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID1f9bc92a-5879-4e9b-bcbe-1d2d0cab0aab"/>
+  <startTimestamp>2016-10-26T17:59:24.333+02:00</startTimestamp>
+  <duration>323</duration>
+  <status>FAILED</status>
+</TestTaskResult>

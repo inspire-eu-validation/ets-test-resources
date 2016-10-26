@@ -1,0 +1,125 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDc5d19894-bd7b-40d0-b11f-ae5e93a25195">
+  <testObject ref="EID07dbbf07-f4e8-4b12-a27b-6d338f3297fd"/>
+  <testModuleResults>
+    <TestModuleResult id="EID974321de-0620-4c0a-9830-b859023c48b0">
+      <parent ref="EIDc5d19894-bd7b-40d0-b11f-ae5e93a25195"/>
+      <testCaseResults>
+        <TestCaseResult id="EID888767bc-a7b3-450d-a6c8-ca852fea43bc">
+          <parent ref="EID974321de-0620-4c0a-9830-b859023c48b0"/>
+          <testStepResults>
+            <TestStepResult id="EID899b9997-2a31-4eec-b61d-f9ad469d8dcc">
+              <parent ref="EID888767bc-a7b3-450d-a6c8-ca852fea43bc"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID821f701c-63a2-4d24-9cbd-c46376a3545a">
+                  <parent ref="EID899b9997-2a31-4eec-b61d-f9ad469d8dcc"/>
+                  <resultedFrom ref="EID2f567ef5-3a34-47f2-905c-bd8df7e48b42"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID6e63332c-03d6-4b8b-af11-a989ecf4d240"/>
+              <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID86bc9441-ac6b-42e2-8661-25843623d084"/>
+          <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID703d59a5-9821-4cfb-93be-81b33985750c">
+          <parent ref="EID974321de-0620-4c0a-9830-b859023c48b0"/>
+          <testStepResults>
+            <TestStepResult id="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124">
+              <parent ref="EID703d59a5-9821-4cfb-93be-81b33985750c"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EIDdb1d3752-c803-4d38-93e8-a3634db8a489">
+                  <parent ref="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124"/>
+                  <resultedFrom ref="EID2c21be5a-290b-4163-b5a6-85a1e1759660"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID3512d4c6-5aec-4122-86ca-3e539a0affbb">
+                  <parent ref="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124"/>
+                  <resultedFrom ref="EID7f93dd61-f932-45cf-84ec-08a7a5f8553d"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7122c6a7-2ec1-41bc-a186-9b5cdb1e8534">
+                  <parent ref="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124"/>
+                  <resultedFrom ref="EIDd5cd599f-6206-4560-9f56-240594c24a7b"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID099bdefb-06e1-4798-b2af-bcf7210bac32">
+                  <parent ref="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124"/>
+                  <resultedFrom ref="EID07480090-9995-4d98-bdfd-9bdeb0d2dc67"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID13cdf955-34d0-43d9-85b0-be72a794e0cd">
+                  <parent ref="EIDa306e9be-7b2d-4d52-be62-fc4e94f45124"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.idNotFound2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.Z.02001A003</argument>
+                        <argument token="filename">006-cz-errors.xml</argument>
+                        <argument token="url">#BJKLD</argument>
+                        <argument token="featureType">CadastralZoning</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID33a50b34-71c1-4b0e-abd4-10d4d5ed3464"/>
+                  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+                  <duration>5</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID2ec1757d-cc1d-46dd-853a-6facf3925c47"/>
+              <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+              <duration>9</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID6a16a74c-7b47-4d21-b93e-30150ce2dbac"/>
+          <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+          <duration>9</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EIDd7c77217-3099-4d1e-9794-2b109ace1a99"/>
+      <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+      <duration>9</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDa176d6f7-b038-4ada-beba-d19645b3fc4f">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachement-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID64f276c9-d150-4abb-924a-cd0b625106e9">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachement-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDc4fbae00-3070-49fa-b803-24c66c31ac70"/>
+  <startTimestamp>2016-10-26T18:02:00.004+02:00</startTimestamp>
+  <duration>9</duration>
+  <status>FAILED</status>
+</TestTaskResult>

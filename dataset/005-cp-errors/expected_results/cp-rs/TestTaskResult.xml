@@ -1,0 +1,97 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID5e762eb1-3951-4df6-bd74-5db2506ffac7">
+  <testObject ref="EIDf2e21d90-a5bf-4f1e-9c5e-368a0a9f7e45"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDec2ccb4c-336d-476a-afcb-cdcab01918d5">
+      <parent ref="EID5e762eb1-3951-4df6-bd74-5db2506ffac7"/>
+      <testCaseResults>
+        <TestCaseResult id="EIDdc7eba1c-53c9-46e0-b7aa-532cfc4c8c02">
+          <parent ref="EIDec2ccb4c-336d-476a-afcb-cdcab01918d5"/>
+          <testStepResults>
+            <TestStepResult id="EIDdbb22846-62e4-4006-ab16-194d065345fb">
+              <parent ref="EIDdc7eba1c-53c9-46e0-b7aa-532cfc4c8c02"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID690e1aab-b43f-452b-92f2-98c50340cabe">
+                  <parent ref="EIDdbb22846-62e4-4006-ab16-194d065345fb"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.checkCRS1BesidesLCC">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700100XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.checkCRS1BesidesLCC">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.CP.000700200XJ24B</argument>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="featureType">CadastralParcel</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EIDe2f93bf1-ae15-4b33-a20d-fdd53bd7d78e"/>
+                  <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDed5d3f52-64aa-4731-8df5-a1bb3c2494f4">
+                  <parent ref="EIDdbb22846-62e4-4006-ab16-194d065345fb"/>
+                  <messages>
+                    <message ref="TR.filesWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.checkCRS2BesidesLCC">
+                      <translationArguments>
+                        <argument token="filename">005-cp-errors.xml</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID7d51ed06-6d2c-4dbc-931d-b6c01b4c8e27"/>
+                  <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID634b0715-07c5-4361-bdbe-89ac1fcca709"/>
+              <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+              <duration>3</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID5a4c6fc6-336b-417e-9d2c-229af75a56a4"/>
+          <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+          <duration>3</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EID09e4bbf9-9d94-4463-a190-c2a6106e9e77"/>
+      <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+      <duration>3</duration>
+      <status>PASSED_MANUAL</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID3d5ca31b-a179-47fc-a42a-cf4b0f129ad6">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachement-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDe5394270-2b56-4f4d-963b-89f9bba6ec91">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachement-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDdbcc48ae-6871-4444-8e95-547bc22aacb2"/>
+  <startTimestamp>2016-10-26T18:04:54.062+02:00</startTimestamp>
+  <duration>3</duration>
+  <status>PASSED_MANUAL</status>
+</TestTaskResult>

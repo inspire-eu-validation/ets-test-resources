@@ -1,0 +1,21 @@
+Testing 86 features
+Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-cp\cp-as\ets-cp-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application Schema, Cadastral parcel' started
+Test Case 'Modelling of object references' started
+Test Assertion 'cp-as.a.1: Verify whether all instances of the spatial object type CadastralParcel carry as a thematic identifier the attribute nationalCadastralReference.': FAILED - 1 ms
+Test Assertion 'cp-as.a.2: Manual review - Verify that the value of the attribute nationalCadastralReference enables the users to make the link with rights, owners and other cadastral information in national cadastral registers or equivalent.': PASSED_MANUAL
+Test Case 'Modelling of object references' finished: FAILED
+Test Case 'Cadastral Boundaries' started
+Test Assertion 'cp-as.b.1: Cadastral boundaries corresponding to the outline of a cadastral parcel form closed ring(s).': UNDEFINED - 0 ms
+Test Case 'Cadastral Boundaries' finished: UNDEFINED
+Test Case 'Code list values' started
+Test Assertion 'cp-as.c.1: CadastralZoningLevel attributes': PASSED - 310 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'cp-as.d.1: Value of areaValue shall be given in square meters': FAILED - 5 ms
+Test Assertion 'cp-as.d.2: Value of estimatedAccuracy shall be given in meters': FAILED - 2 ms
+Test Assertion 'cp-as.d.3: Type of geometry shall be GM_Surface or GM_MultiSurface': FAILED - 4 ms
+Test Assertion 'cp-as.d.4: A lower level cadastral zoning shall be part of an upper level zoning.': PASSED - 1 ms
+Test Case 'Constraints' finished: FAILED
+Test Suite 'Conformance class: Application Schema, Cadastral parcel' finished: FAILED
