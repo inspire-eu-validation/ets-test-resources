@@ -1,0 +1,325 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDa132b2eb-3fa5-4019-9d6b-e3213f08d3e4">
+  <testObject ref="EIDcc889c01-0fce-4a62-84e1-b14acc64a0e2"/>
+  <testModuleResults>
+    <TestModuleResult id="EID7917eae4-50b9-43af-b13b-e4c2bcbe1afd">
+      <parent ref="EIDa132b2eb-3fa5-4019-9d6b-e3213f08d3e4"/>
+      <testCaseResults>
+        <TestCaseResult id="EID7984457f-f34c-4937-9a93-27e3b6a1047f">
+          <parent ref="EID7917eae4-50b9-43af-b13b-e4c2bcbe1afd"/>
+          <testStepResults>
+            <TestStepResult id="EID69ee2bd9-53fc-47d5-88fb-6212d1bb41a6">
+              <parent ref="EID7984457f-f34c-4937-9a93-27e3b6a1047f"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EIDef813ece-401d-4d9c-93ab-beff1afbefdb">
+                  <parent ref="EID69ee2bd9-53fc-47d5-88fb-6212d1bb41a6"/>
+                  <resultedFrom ref="EID169b0cb6-4649-47c6-845a-9e73e1c5c287"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID0cd2569f-d0cb-4d07-bfc6-bfbe8df1b69e"/>
+              <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID84a88a7d-c5ae-4387-9ee7-4553c74e9d8a"/>
+          <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID6a9c5bc1-fb6d-4e70-a97d-c3011a144808">
+          <parent ref="EID7917eae4-50b9-43af-b13b-e4c2bcbe1afd"/>
+          <testStepResults>
+            <TestStepResult id="EID4e1a9832-6ef0-4af5-b927-b6b7295df645">
+              <parent ref="EID6a9c5bc1-fb6d-4e70-a97d-c3011a144808"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID89de1501-0f70-4bfe-a669-4a1a43424bc2">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01408</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">AdministrativeUnit</argument>
+                        <argument token="url">#NC.MT01407</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">NUTSRegion</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID9306a903-0338-4b9e-9e90-e8f4b202cbbb"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDdd74bb2b-c7a3-4dc6-a6d1-e641a8783c3c">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">4</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.urlNotHttp2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01402</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">NC.CON002</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.urlNotHttp2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01310</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">NC.CON002</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.urlNotHttp2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01407</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">NC.CON001</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01408</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">AdministrativeUnit</argument>
+                        <argument token="url">#NC.MT01407</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">Condominium</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EIDda16eb9f-b505-4d1e-964a-a84a1181a975"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID589ee202-6773-4671-a6ac-62fa3dd70164">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.urlNotHttp2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01310</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">NC.MT01402</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.urlNotHttp2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01310</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">NC.MT01402</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID4baca37c-bad1-40c2-968f-e12634d2e9e0"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6fdb9574-f917-46c9-bade-7ae3733f1af9">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01536</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EIDb9410e68-66b9-4f0e-adb2-1cabfd92db1e"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6c72d75d-5400-4cec-9b9c-92c07ed6d619">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01536</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID9bffb528-2f84-45ed-bb85-9e4ae4660238"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDf22b45c1-d4e4-4e24-9cda-bcd39b6bbb77">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01536</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID6f9dc910-3aad-47bf-9f86-4d5ac07c0d9b"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID0adfcffa-b982-49a8-a489-49039d74032b">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01536</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeBoundary</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID9225cc46-ea0f-46ba-b628-b89a0b2397a8"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID1ccea2e3-319c-4407-bfb2-97341ce28edb">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EID6d81fbf6-0f59-4906-adae-4b16cc51c233"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDad94d9b9-0da8-4e03-8ba8-b818e287ba60">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <resultedFrom ref="EID675ac071-da42-4ff7-904d-032880ed2523"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDa60f93a4-46f5-4556-90ed-e0c433031ab9">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <resultedFrom ref="EID3522bc52-a785-423a-9500-a9dadc44a36e"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID5c7f70f9-41d1-4335-bf8a-5f43c29b3a67">
+                  <parent ref="EID4e1a9832-6ef0-4af5-b927-b6b7295df645"/>
+                  <resultedFrom ref="EID731b84fe-77c9-4128-b209-4d2dc340e03a"/>
+                  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID9cac03a4-541a-41a0-96a8-de004f114416"/>
+              <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+              <duration>4</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EIDdfc24977-42cd-416c-8cb4-6b4bf03df5c2"/>
+          <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+          <duration>4</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EID3b89fcbb-c406-45ce-ba65-5adb4c0f341f"/>
+      <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+      <duration>4</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID12249bf2-aeef-4052-9777-84459765129c">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachement-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID440d5a43-0414-4c27-8de5-f889dbf4f368">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachement-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDee28b75e-5c80-4370-838d-ab1b18e30b13"/>
+  <startTimestamp>2016-10-26T16:41:57.653+02:00</startTimestamp>
+  <duration>4</duration>
+  <status>FAILED</status>
+</TestTaskResult>

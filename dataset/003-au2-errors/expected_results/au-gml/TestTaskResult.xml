@@ -1,0 +1,64 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID17ba3ca2-58a1-4542-994f-34dab6707bcf">
+  <testObject ref="EIDd1a67b59-9784-44f1-a33d-26597221dc97"/>
+  <testModuleResults>
+    <TestModuleResult id="EID5e9a809c-a9a8-4cca-87fe-2e397fef22f6">
+      <parent ref="EID17ba3ca2-58a1-4542-994f-34dab6707bcf"/>
+      <testCaseResults>
+        <TestCaseResult id="EIDd605f042-3212-4861-a7dd-796c419c4f8e">
+          <parent ref="EID5e9a809c-a9a8-4cca-87fe-2e397fef22f6"/>
+          <testStepResults>
+            <TestStepResult id="EID3850b835-aa4f-4d3e-872e-72e8d9bf6b59">
+              <parent ref="EIDd605f042-3212-4861-a7dd-796c419c4f8e"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EIDa041ddaa-2016-4970-a476-67a5ce9cce55">
+                  <parent ref="EID3850b835-aa4f-4d3e-872e-72e8d9bf6b59"/>
+                  <messages>
+                    <message ref="TR.noFeature">
+                      <translationArguments>
+                        <argument token="theme">Administrative Units</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <resultedFrom ref="EIDe2573fbe-782a-4f96-bee6-651d134a1bd4"/>
+                  <startTimestamp>2016-10-26T16:40:13.69+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EIDd21eedfd-dadb-469a-b8b3-878605550d20"/>
+              <startTimestamp>2016-10-26T16:40:13.69+02:00</startTimestamp>
+              <duration>0</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EIDf0064216-d24f-4738-83d9-bfc03afc3d3f"/>
+          <startTimestamp>2016-10-26T16:40:13.69+02:00</startTimestamp>
+          <duration>0</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EID489a8e1e-85e3-41b7-b4bd-1052146dc8f6"/>
+      <startTimestamp>2016-10-26T16:40:13.69+02:00</startTimestamp>
+      <duration>0</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID9621c591-87f5-49b0-8f76-5bfa072eaef0">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachement-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID415a8e1c-8084-47ad-b1e3-b8e3fdd37719">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachement-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID47c569bc-677d-4ce3-8411-e2b29189332a"/>
+  <startTimestamp>2016-10-26T16:40:13.69+02:00</startTimestamp>
+  <duration>0</duration>
+  <status>FAILED</status>
+</TestTaskResult>

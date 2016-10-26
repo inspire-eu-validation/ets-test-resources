@@ -1,0 +1,13 @@
+Testing 13 features
+Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-au\au-as\ets-au-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Administrative Units' started
+Test Case 'Code list values' started
+Test Assertion 'au-as.a.1: nationalLevel attributes': FAILED - 86 ms
+Test Case 'Code list values' finished: FAILED
+Test Case 'Constraints' started
+Test Assertion 'au-as.b.1: No unit at highest level can associate units at a higher level': UNDEFINED - 0 ms
+Test Assertion 'au-as.b.2: No unit at lowest level can associate units at lower level': UNDEFINED - 0 ms
+Test Assertion 'au-as.b.3: Association role condominium applies only for administrative units which nationalLevel=1st order': FAILED - 1 ms
+Test Case 'Constraints' finished: FAILED
+Test Suite 'Conformance class: Application schema, Administrative Units' finished: FAILED

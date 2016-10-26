@@ -1,0 +1,9 @@
+Testing 6 features
+Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-au\au-mu-as\ets-au-mu-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Administrative Units - Maritime Units' started
+Test Case 'Code list values' started
+Test Assertion 'au-mu-as.a.1: MaritimeUnitZoneType attributes': FAILED - 221 ms
+Test Assertion 'au-mu-as.a.2: BaselineSegmentType attributes': FAILED - 40 ms
+Test Case 'Code list values' finished: FAILED
+Test Suite 'Conformance class: Application schema, Administrative Units - Maritime Units' finished: FAILED
