@@ -166,13 +166,13 @@
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="Attachement-2.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EID619e8315-c912-45b2-aa70-40ff2a05cd8a">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="Attachement-1.xml"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EIDc4fbae00-3070-49fa-b803-24c66c31ac70"/>

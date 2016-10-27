@@ -241,13 +241,13 @@ C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/i
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="Attachement-2.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EIDe7a13ebb-0c85-43a1-9fbd-e9435b488e3e">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="Attachement-1.xml"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EID1f9bc92a-5879-4e9b-bcbe-1d2d0cab0aab"/>

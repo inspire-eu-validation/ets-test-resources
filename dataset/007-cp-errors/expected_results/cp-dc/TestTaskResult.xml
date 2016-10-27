@@ -41,13 +41,13 @@
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="Attachement-2.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EID1dcb4266-14b6-4a43-8bfa-f4478a8304e9">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="Attachement-1.xml"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EID92032cdb-db88-42aa-96c0-70a1af9e68b1"/>

@@ -184,19 +184,13 @@
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/tmp/EID164620f1-4791-49ad-a76d-a30bf2562143-log.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EID739c00ad-eb83-455e-8e1d-64e08048fd05">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/tmp/EID164620f1-4791-49ad-a76d-a30bf2562143-stat.xml"/>
-    </Attachment>
-    <Attachment type="Query" id="EIDb23fd407-5dd2-4114-b7f5-489797d284d3">
-      <label>XQuery executed against the dataset</label>
-      <encoding>UTF-8</encoding>
-      <mimeType>text/plain</mimeType>
-      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/tmp/EID164620f1-4791-49ad-a76d-a30bf2562143-query.xq"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EID1f9bc92a-5879-4e9b-bcbe-1d2d0cab0aab"/>
