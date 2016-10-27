@@ -41,13 +41,13 @@
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/tmp/EID202e39c5-4dc2-4578-9fd6-c63d4ec92001-log.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EID32b1be0d-bc7b-45e2-a4ad-9f27483ce912">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/ARE3NA/WP4/GitHub/ETS-repository/inspire/tmp/EID202e39c5-4dc2-4578-9fd6-c63d4ec92001-stat.xml"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
     <Attachment type="Query" id="EID2e26a1f3-e5e8-46d3-b802-3931ef41484a">
       <label>XQuery executed against the dataset</label>

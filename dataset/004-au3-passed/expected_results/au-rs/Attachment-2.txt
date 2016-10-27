@@ -1,0 +1,8 @@
+Testing 9 features
+Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-au\au-rs\ets-au-rs-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Reference systems, Administrative Units' started
+Test Case 'Additional theme-specific rules for reference systems' started
+Test Assertion 'au-rs.a.1: Test always passes': PASSED - 0 ms
+Test Case 'Additional theme-specific rules for reference systems' finished: PASSED
+Test Suite 'Conformance class: Reference systems, Administrative Units' finished: PASSED

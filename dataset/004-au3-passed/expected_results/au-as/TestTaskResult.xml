@@ -1,0 +1,96 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID052c679a-f89d-4f2b-b947-aea71a7e9588">
+  <testObject ref="EID1c46f449-9920-4c03-881a-8afe93fd10d1"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDbbbbba1a-ad76-4e86-a49f-57bd3726ba0a">
+      <parent ref="EID052c679a-f89d-4f2b-b947-aea71a7e9588"/>
+      <testCaseResults>
+        <TestCaseResult id="EIDe9ebbbb3-13b1-41e0-936d-feb5b7b02258">
+          <parent ref="EIDbbbbba1a-ad76-4e86-a49f-57bd3726ba0a"/>
+          <testStepResults>
+            <TestStepResult id="EID66de6482-6467-4d13-8f99-7a93b59b02de">
+              <parent ref="EIDe9ebbbb3-13b1-41e0-936d-feb5b7b02258"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EID30358718-5c04-4c0f-8170-2337b5b9dce2">
+                  <parent ref="EID66de6482-6467-4d13-8f99-7a93b59b02de"/>
+                  <resultedFrom ref="EID00dc7fd4-a37b-4cb4-b48a-94b4de6ae9c1"/>
+                  <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+                  <duration>84</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EID950529a1-5f07-42e3-aaa8-dc3cef3a7132"/>
+              <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+              <duration>84</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EIDd41f0097-6cb1-40cd-8b31-faf0970e2876"/>
+          <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+          <duration>84</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID4a97b6b9-0458-473f-a93e-768388583d23">
+          <parent ref="EIDbbbbba1a-ad76-4e86-a49f-57bd3726ba0a"/>
+          <testStepResults>
+            <TestStepResult id="EID1b735dcf-0a43-4836-8d9c-c83f08f05b00">
+              <parent ref="EID4a97b6b9-0458-473f-a93e-768388583d23"/>
+              <testAssertionResults>
+                <TestAssertionResult id="EIDc96227be-55fa-4efd-b0bd-1e81509ad9e7">
+                  <parent ref="EID1b735dcf-0a43-4836-8d9c-c83f08f05b00"/>
+                  <resultedFrom ref="EIDde605406-7883-458f-8ae1-59f9b64928e4"/>
+                  <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>UNDEFINED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID5229ac7d-dfdf-4fc5-a2f2-7778d4df3da0">
+                  <parent ref="EID1b735dcf-0a43-4836-8d9c-c83f08f05b00"/>
+                  <resultedFrom ref="EID44c654af-5131-4d16-b51d-30ba80311053"/>
+                  <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>UNDEFINED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe7d2e857-9ae9-4046-a476-f31ce6caec76">
+                  <parent ref="EID1b735dcf-0a43-4836-8d9c-c83f08f05b00"/>
+                  <resultedFrom ref="EID1dd27b97-3672-47ab-aaf3-046b778287a9"/>
+                  <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <resultedFrom ref="EIDc1645b47-344a-456c-a2a2-6808047e0e37"/>
+              <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <resultedFrom ref="EID5cc339a4-c007-4538-a816-e3d5d074ad19"/>
+          <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <resultedFrom ref="EID07e06fe2-84ad-42d7-9f00-ef66c046c90c"/>
+      <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+      <duration>84</duration>
+      <status>PASSED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID600f5839-8ef1-4570-86cc-18f1b86f23e3">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDeb0ef4f2-910b-4fa8-8ca0-bf5369bbf883">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDddecef4b-89a3-4f9d-9246-a50b588fa5a2"/>
+  <startTimestamp>2016-10-27T15:41:43.29+02:00</startTimestamp>
+  <duration>84</duration>
+  <status>PASSED</status>
+</TestTaskResult>
