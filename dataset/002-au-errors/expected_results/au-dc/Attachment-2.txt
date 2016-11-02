@@ -1,27 +1,27 @@
 Testing 13 features
-Indexing features (parsing errors: 0): 18 ms
+Indexing features (parsing errors: 0): 5 ms
 Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-au\au-dc\ets-au-dc-bsxets.xml
-Statistics table: 2 ms
+Statistics table: 4 ms
 Test Suite 'Conformance class: Data consistency, Administrative Units' started
 Test Case 'Higher Hierarchy Consistency' started
 Test Assertion 'au-dc.a.1: Each administrative unit refers to exactly one administrative unit at a higher level except those corresponding to the country level unit representing a Member State or being a co-administered unit.': FAILED - 1 ms
 Test Case 'Higher Hierarchy Consistency' finished: FAILED
 Test Case 'Lower Hierarchy Consistency' started
-Test Assertion 'au-dc.b.1: Each administrative unit refers to all its respective lower level administrative units, except those corresponding to the lowest level of the administrative hierarchy.': FAILED - 1 ms
+Test Assertion 'au-dc.b.1: Each administrative unit refers to all its respective lower level administrative units, except those corresponding to the lowest level of the administrative hierarchy.': FAILED - 3 ms
 Test Case 'Lower Hierarchy Consistency' finished: FAILED
 Test Case 'co-administered' started
 Test Assertion 'au-dc.c.1: Each administrative unit co-administered by two or more administrative units uses the association role administeredBy, and the units co-administering this unit use the inverse role coAdminister.': FAILED - 0 ms
 Test Case 'co-administered' finished: FAILED
 Test Case 'condominium administration' started
-Test Assertion 'au-dc.d.1: Each condominium is only administered by administrative units at country level.': FAILED - 0 ms
+Test Assertion 'au-dc.d.1: Each condominium is only administered by administrative units at country level.': FAILED - 1 ms
 Test Case 'condominium administration' finished: FAILED
 Test Case 'area' started
-Test Assertion 'au-dc.e.1: Administrative units having the same level of administrative hierarchy do not conceptually share common areas.': FAILED - 24 ms
+Test Assertion 'au-dc.e.1: Administrative units having the same level of administrative hierarchy do not conceptually share common areas.': FAILED - 20 ms
 Test Case 'area' finished: FAILED
 Test Case 'boundary' started
 Test Assertion 'au-dc.f.1: The geometry of each instance administrative boundary corresponds to an edge in the topological structure formed by the complete boundary graph, including the boundaries of all levels.': UNDEFINED - 0 ms
 Test Case 'boundary' finished: UNDEFINED
 Test Case 'condominium spatial extent' started
-Test Assertion 'au-dc.g.1: The spatial extent of a condominium is not part of the geometry representing the spatial extent of an administrative unit.': PASSED - 51 ms
-Test Case 'condominium spatial extent' finished: PASSED
+Test Assertion 'au-dc.g.1: The spatial extent of a condominium is not part of the geometry representing the spatial extent of an administrative unit.': FAILED - 16 ms
+Test Case 'condominium spatial extent' finished: FAILED
 Test Suite 'Conformance class: Data consistency, Administrative Units' finished: FAILED
