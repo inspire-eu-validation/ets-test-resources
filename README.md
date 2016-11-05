@@ -1,5 +1,5 @@
 # Purpose
-This repository is intended to store Test Objects and expected test results for automated regression tests. Executable Test Suites from the [ets-repository](https://github.com/interactive-instruments/ets-repository) are executed against the Test Objects and the generated results are compared with the expected test results.
+This repository is intended to store Test Objects and expected test results for automated regression tests. Executable Test Suites from the [ets-repository](https://github.com/inspire-eu-validation/ets-repository) are executed against the Test Objects and the generated results are compared with the expected test results.
 
 ## Repository structure
 There are three root folders for dataset, metadata and service tests resources.
@@ -13,7 +13,7 @@ Test results are compared with a result file located in **expected_results/ETS_S
 ```properties
 ets=inspire/metadata/iso/ets-md-iso-bsxets.xml
 ```
-for executing the [ets-md-iso ETS](https://github.com/interactive-instruments/ets-repository/blob/master/inspire/metadata/iso/ets-md-iso-bsxets.xml).
+for executing the [ets-md-iso ETS](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/iso/ets-md-iso-bsxets.xml).
 
 Attachments are placed in the **expected_results/ETS_SUB_FOLDER** directory, too, and have to be referenced correctly from **TestTaskResult.xml** file.
 
