@@ -14,10 +14,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01402">
         <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01402_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01402_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>
@@ -41,10 +41,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01403">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01403_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01403_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>
@@ -68,10 +68,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01310">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01310_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01310_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>0 0 1 0 0 0 0 0</gml:posList>
@@ -96,10 +96,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01311">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01311_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01311_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>
@@ -123,10 +123,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01407">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01311_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01311_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>
@@ -151,10 +151,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01408">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01408_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01408_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
@@ -180,10 +180,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01536">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01536_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01536_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
@@ -209,10 +209,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01409">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01409_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01409_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
@@ -237,10 +237,10 @@
         <au:AdministrativeUnit gml:id="NC.MT01756">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.MT01756_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.MT01756_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
@@ -270,10 +270,10 @@
         <au:Condominium gml:id="NC.CON001">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.CON001_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.CON001_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
@@ -290,10 +290,10 @@
         <au:Condominium gml:id="NC.CON002">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.CON002_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.CON002_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>0 0 1 0 0 0 0 0</gml:posList>
@@ -310,10 +310,10 @@
         <au:Condominium gml:id="NC.CON003">
             <au:geometry>
                 <gml:MultiSurface gml:id="_NC.CON003_geo"
-                    srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                     <gml:surfaceMember>
                         <gml:Polygon gml:id="_NC.CON003_geo"
-                            srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
                             <gml:exterior>
                                 <gml:LinearRing>
                                     <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>

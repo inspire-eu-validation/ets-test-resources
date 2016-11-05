@@ -1,47 +1,46 @@
 <?xml version="1.0" ?>
-<wfs:FeatureCollection xmlns:mu3='urn:x-inspire:specification:gmlas:MaritimeUnits:3.0rc3'
+<wfs:FeatureCollection xmlns:mu='http://inspire.ec.europa.eu/schemas/mu/3.0'
     xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
     xmlns:ns1="http://www.w3.org/1999/xhtml"
-    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
     xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0"
     xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr"
     xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3"
     xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfs="http://www.opengis.net/wfs/2.0"
-    xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/mu/3.0rc3/MaritimeUnits.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd"
+    xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/mu/3.0 http://inspire.ec.europa.eu/schemas/mu/3.0/MaritimeUnits.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd"
     numberMatched="274" numberReturned="274" timeStamp="2016-03-29T18:12:51.630+02:00">
     <wfs:member>
-        <mu3:MaritimeZone gml:id="MZ001">
-            <mu3:zoneType>continentalShelf</mu3:zoneType>
-            <mu3:seaArea xlink:href="#MB001"/>
-            <mu3:baseline xlink:href="#MB001"/>
-            <mu3:boundary xlink:href="#MB001"/>
-        </mu3:MaritimeZone>
+        <mu:MaritimeZone gml:id="MZ001">
+            <mu:zoneType>continentalShelf</mu:zoneType>
+            <mu:seaArea xlink:href="#MB001"/>
+            <mu:baseline xlink:href="#MB001"/>
+            <mu:boundary xlink:href="#MB001"/>
+        </mu:MaritimeZone>
     </wfs:member> 
     <wfs:member>
-        <mu3:MaritimeZone gml:id="MZ002">
-            <mu3:zoneType>wrong</mu3:zoneType>
-            <mu3:seaArea />
-            <mu3:baseline xlink:href="#BL001"/>
-            <mu3:boundary xlink:href="MZ001"/>
-        </mu3:MaritimeZone>
+        <mu:MaritimeZone gml:id="MZ002">
+            <mu:zoneType xlink:href='wrong'/>
+            <mu:seaArea />
+            <mu:baseline xlink:href="#BL001"/>
+            <mu:boundary xlink:href="MZ001"/>
+        </mu:MaritimeZone>
     </wfs:member>
     <wfs:member>
-        <mu3:MaritimeBoundary gml:id="MB001">
-        </mu3:MaritimeBoundary>
+        <mu:MaritimeBoundary gml:id="MB001">
+        </mu:MaritimeBoundary>
     </wfs:member>
     <wfs:member>
-        <mu3:Baseline gml:id="BL001">
-        </mu3:Baseline>
+        <mu:Baseline gml:id="BL001">
+        </mu:Baseline>
     </wfs:member> 
     <wfs:member>
-        <mu3:BaselineSegment gml:id="BS001">
-            <mu3:segmentType>archipelagic</mu3:segmentType>
-        </mu3:BaselineSegment>
+        <mu:BaselineSegment gml:id="BS001">
+            <mu:segmentType>archipelagic</mu:segmentType>
+        </mu:BaselineSegment>
     </wfs:member>
     <wfs:member>
-        <mu3:BaselineSegment gml:id="BS002">
-            <mu3:segmentType>archipc</mu3:segmentType>
-        </mu3:BaselineSegment>
+        <mu:BaselineSegment gml:id="BS002">
+            <mu:segmentType xlink:href='archipc'/>
+        </mu:BaselineSegment>
     </wfs:member>         
 </wfs:FeatureCollection>
