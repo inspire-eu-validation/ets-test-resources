@@ -1,42 +1,38 @@
-<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID217801c5-61a7-4c95-a34c-3ad039a08b73">
-  <testObject ref="EID54b6f64e-e6e8-4254-b893-1938358d4e19"/>
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID41f50314-653a-4f49-99bb-0dc643ff0687">
+  <testObject ref="EIDe985259b-fd6e-4ab9-a20c-45bcb726bcb5"/>
   <testModuleResults>
-    <TestModuleResult id="EIDb64c15c8-ddc9-4fe1-b422-8ec1df62761d">
-      <parent ref="EID217801c5-61a7-4c95-a34c-3ad039a08b73"/>
+    <TestModuleResult id="EID330d2021-6b91-4e4d-a4a6-1ba6292dfc0b">
       <testCaseResults>
-        <TestCaseResult id="EID8dfd1ae2-420f-4c41-ad6c-59ab6bfc5458">
-          <parent ref="EIDb64c15c8-ddc9-4fe1-b422-8ec1df62761d"/>
+        <TestCaseResult id="EID6a61c485-b78a-48e4-b27f-eacd25a49f7b">
           <testStepResults>
-            <TestStepResult id="EID05ba93b2-d902-4815-9d25-04b433e49219">
-              <parent ref="EID8dfd1ae2-420f-4c41-ad6c-59ab6bfc5458"/>
+            <TestStepResult id="EID3ec4db3f-e9e4-403a-b445-c1193ec6fb53">
               <testAssertionResults>
-                <TestAssertionResult id="EIDeaf60ce1-d70a-4e64-a185-dcb02ec3ba97">
-                  <parent ref="EID05ba93b2-d902-4815-9d25-04b433e49219"/>
+                <TestAssertionResult id="EID5c4edf8b-6827-4fb9-821b-9c094f50a4f0">
+                  <parent ref="EID3ec4db3f-e9e4-403a-b445-c1193ec6fb53"/>
                   <resultedFrom ref="EID2f567ef5-3a34-47f2-905c-bd8df7e48b42"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
                   <duration>0</duration>
                   <status>PASSED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID6a61c485-b78a-48e4-b27f-eacd25a49f7b"/>
               <resultedFrom ref="EID6e63332c-03d6-4b8b-af11-a989ecf4d240"/>
-              <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
+              <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
               <duration>0</duration>
               <status>PASSED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID330d2021-6b91-4e4d-a4a6-1ba6292dfc0b"/>
           <resultedFrom ref="EID86bc9441-ac6b-42e2-8661-25843623d084"/>
-          <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
+          <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
           <duration>0</duration>
           <status>PASSED</status>
         </TestCaseResult>
-        <TestCaseResult id="EID18c4df87-c4db-4143-84e2-f1967b24bd3a">
-          <parent ref="EIDb64c15c8-ddc9-4fe1-b422-8ec1df62761d"/>
+        <TestCaseResult id="EIDc90cf42b-86d2-43a3-b9d8-b25565ed9ddf">
           <testStepResults>
-            <TestStepResult id="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93">
-              <parent ref="EID18c4df87-c4db-4143-84e2-f1967b24bd3a"/>
+            <TestStepResult id="EIDe4737176-f075-406f-b2df-8935d527b878">
               <testAssertionResults>
-                <TestAssertionResult id="EID1febb2a3-2b4b-4157-b975-1356b26b685d">
-                  <parent ref="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93"/>
+                <TestAssertionResult id="EID23894d42-0d26-4a1b-9c0d-6b3a441d8739">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -46,7 +42,7 @@
                     <message ref="TR.unknownXMLResource2">
                       <translationArguments>
                         <argument token="gmlid">ES.SDGC.CP.000700200XJ24B</argument>
-                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="filename">007-cp-errors.xml</argument>
                         <argument token="elementName">CadastralParcel</argument>
                         <argument token="url">#ES.SDGC.CP.000700300XJ24B</argument>
                         <argument token="featureType">CadastralParcel</argument>
@@ -55,13 +51,13 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDe4737176-f075-406f-b2df-8935d527b878"/>
                   <resultedFrom ref="EID2c21be5a-290b-4163-b5a6-85a1e1759660"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
                   <duration>1</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EID1833f968-d18a-4ab9-b6db-ea7b1a1a9ca8">
-                  <parent ref="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93"/>
+                <TestAssertionResult id="EIDf2f2fa3f-39e3-41ce-b719-4a67b0af257b">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -71,7 +67,7 @@
                     <message ref="TR.unknownXMLResource2">
                       <translationArguments>
                         <argument token="gmlid">CB002</argument>
-                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="filename">007-cp-errors.xml</argument>
                         <argument token="elementName">CadastralBoundary</argument>
                         <argument token="url">#CB001</argument>
                         <argument token="featureType">CadastralBoundary</argument>
@@ -80,13 +76,13 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDe4737176-f075-406f-b2df-8935d527b878"/>
                   <resultedFrom ref="EID7f93dd61-f932-45cf-84ec-08a7a5f8553d"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
                   <duration>1</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EIDe87370d2-34fc-4662-9411-4bad2c70c441">
-                  <parent ref="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93"/>
+                <TestAssertionResult id="EID01ee4081-c59d-44c8-a978-84e69d326534">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -96,7 +92,7 @@
                     <message ref="TR.unknownXMLResource2">
                       <translationArguments>
                         <argument token="gmlid">ES.SDGC.CP.000700300XJ24B</argument>
-                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="filename">007-cp-errors.xml</argument>
                         <argument token="elementName">CadastralParcel</argument>
                         <argument token="url">#ES.SDGC.CP.000700400XJ24B</argument>
                         <argument token="featureType">CadastralParcel</argument>
@@ -105,13 +101,13 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDe4737176-f075-406f-b2df-8935d527b878"/>
                   <resultedFrom ref="EIDd5cd599f-6206-4560-9f56-240594c24a7b"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-                  <duration>1</duration>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+                  <duration>3</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EID52fcd9e9-8ef7-43d3-9d7a-a0dda80506ca">
-                  <parent ref="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93"/>
+                <TestAssertionResult id="EIDfc006f18-a1b5-408d-89af-f40d85375974">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -121,7 +117,7 @@
                     <message ref="TR.unknownXMLResource2">
                       <translationArguments>
                         <argument token="gmlid">ES.SDGC.CP.000700100XJ24B</argument>
-                        <argument token="filename">005-cp-errors.xml</argument>
+                        <argument token="filename">007-cp-errors.xml</argument>
                         <argument token="elementName">CadastralParcel</argument>
                         <argument token="url">#ES.SDGC.CP.000700200XJ24B</argument>
                         <argument token="featureType">CadastralParcel</argument>
@@ -130,53 +126,58 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDe4737176-f075-406f-b2df-8935d527b878"/>
                   <resultedFrom ref="EID07480090-9995-4d98-bdfd-9bdeb0d2dc67"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-                  <duration>20</duration>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+                  <duration>16</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EIDa7a93aa2-7755-4e96-b912-0d7a2c98e71d">
-                  <parent ref="EIDde883dc2-cb0b-4661-821a-4b0682ba6e93"/>
+                <TestAssertionResult id="EIDb82e863f-cbac-45f1-ab76-6e1566e9239f">
+                  <parent ref="EIDe4737176-f075-406f-b2df-8935d527b878"/>
                   <resultedFrom ref="EID33a50b34-71c1-4b0e-abd4-10d4d5ed3464"/>
-                  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-                  <duration>1</duration>
+                  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+                  <duration>0</duration>
                   <status>PASSED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDc90cf42b-86d2-43a3-b9d8-b25565ed9ddf"/>
               <resultedFrom ref="EID2ec1757d-cc1d-46dd-853a-6facf3925c47"/>
-              <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-              <duration>24</duration>
+              <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+              <duration>21</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID330d2021-6b91-4e4d-a4a6-1ba6292dfc0b"/>
           <resultedFrom ref="EID6a16a74c-7b47-4d21-b93e-30150ce2dbac"/>
-          <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-          <duration>24</duration>
+          <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+          <duration>21</duration>
           <status>FAILED</status>
         </TestCaseResult>
       </testCaseResults>
+      <parent ref="EID41f50314-653a-4f49-99bb-0dc643ff0687"/>
       <resultedFrom ref="EIDd7c77217-3099-4d1e-9794-2b109ace1a99"/>
-      <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-      <duration>24</duration>
+      <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+      <duration>21</duration>
       <status>FAILED</status>
     </TestModuleResult>
   </testModuleResults>
   <attachments>
-    <Attachment type="LogFile" id="EID37a0bdee-bb65-479f-9fef-a8e41d5fba19">
+    <Attachment type="LogFile" id="EID35c3a16e-f8a9-4a00-90e2-46abf9da7477">
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
       <referencedData href="Attachment-2.txt"/>
     </Attachment>
-    <Attachment type="StatisticalReport" id="EID619e8315-c912-45b2-aa70-40ff2a05cd8a">
+    <Attachment type="StatisticalReport" id="EID7e3943b7-c7eb-459d-b0eb-536084bd824d">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
       <referencedData href="Attachment-1.xml"/>
     </Attachment>
+  
   </attachments>
   <resultedFrom ref="EIDc4fbae00-3070-49fa-b803-24c66c31ac70"/>
-  <startTimestamp>2016-10-26T18:03:12.312+02:00</startTimestamp>
-  <duration>24</duration>
+  <startTimestamp>2016-11-18T18:23:03.806+01:00</startTimestamp>
+  <duration>21</duration>
   <status>FAILED</status>
 </TestTaskResult>

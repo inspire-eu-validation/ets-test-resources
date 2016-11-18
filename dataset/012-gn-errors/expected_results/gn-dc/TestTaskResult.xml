@@ -1,49 +1,49 @@
-<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID126ba6cb-14f8-4b8d-93f3-17cda047a68f">
-  <testObject ref="EID0638d793-33a2-4b68-90c4-5aa17d296dd6"/>
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDd902b3d3-5304-46bf-8b23-0261a8f20a0f">
+  <testObject ref="EIDde0c7482-c1c2-4c3f-943e-1c7007ca53fb"/>
   <testModuleResults>
-    <TestModuleResult id="EID791b26b4-24d7-4802-887b-6904b8265248">
-      <parent ref="EID126ba6cb-14f8-4b8d-93f3-17cda047a68f"/>
+    <TestModuleResult id="EID3c529cb4-1af8-4ca1-bafe-03cbe40c2dd6">
       <testCaseResults>
-        <TestCaseResult id="EIDd1128e8e-befa-455c-b78c-37888b17911f">
-          <parent ref="EID791b26b4-24d7-4802-887b-6904b8265248"/>
+        <TestCaseResult id="EID671b22fb-be81-4a7c-bce5-e353ef750cb4">
           <testStepResults>
-            <TestStepResult id="EID137eebc6-1e49-434f-94ce-171443c4049e">
-              <parent ref="EIDd1128e8e-befa-455c-b78c-37888b17911f"/>
+            <TestStepResult id="EID723fa8a4-80dd-4695-ad7f-035ee8affda5">
               <testAssertionResults>
-                <TestAssertionResult id="EID11eb5863-6ab9-45b3-98aa-2eee5c64e120">
-                  <parent ref="EID137eebc6-1e49-434f-94ce-171443c4049e"/>
+                <TestAssertionResult id="EID63a0e01a-b44e-4003-b060-fe8aa9af03f4">
+                  <parent ref="EID723fa8a4-80dd-4695-ad7f-035ee8affda5"/>
                   <resultedFrom ref="EID62565021-8cce-4299-9aea-dc073c1401ba"/>
-                  <startTimestamp>2016-10-26T18:19:49.461+02:00</startTimestamp>
+                  <startTimestamp>2016-11-18T19:10:11.95+01:00</startTimestamp>
                   <duration>0</duration>
                   <status>PASSED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID671b22fb-be81-4a7c-bce5-e353ef750cb4"/>
               <resultedFrom ref="EID45931c85-c7a3-434b-a0e3-77436bbebfff"/>
-              <startTimestamp>2016-10-26T18:19:49.461+02:00</startTimestamp>
+              <startTimestamp>2016-11-18T19:10:11.95+01:00</startTimestamp>
               <duration>0</duration>
               <status>PASSED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID3c529cb4-1af8-4ca1-bafe-03cbe40c2dd6"/>
           <resultedFrom ref="EIDf4639ad7-8de4-4d45-86db-ee474b895c5c"/>
-          <startTimestamp>2016-10-26T18:19:49.461+02:00</startTimestamp>
+          <startTimestamp>2016-11-18T19:10:11.95+01:00</startTimestamp>
           <duration>0</duration>
           <status>PASSED</status>
         </TestCaseResult>
       </testCaseResults>
+      <parent ref="EIDd902b3d3-5304-46bf-8b23-0261a8f20a0f"/>
       <resultedFrom ref="EIDe430ca59-f15a-4da4-9aff-056b56ef8692"/>
-      <startTimestamp>2016-10-26T18:19:49.461+02:00</startTimestamp>
+      <startTimestamp>2016-11-18T19:10:11.95+01:00</startTimestamp>
       <duration>0</duration>
       <status>PASSED</status>
     </TestModuleResult>
   </testModuleResults>
   <attachments>
-    <Attachment type="LogFile" id="EID2fb8e66c-dfd7-4983-bbf0-97edbdb90e78">
+    <Attachment type="LogFile" id="EID54aea89f-aa20-4c2b-b180-5c325a30c4ba">
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
       <referencedData href="Attachment-2.txt"/>
     </Attachment>
-    <Attachment type="StatisticalReport" id="EID197028d3-2932-4b84-bb1b-054034a37c89">
+    <Attachment type="StatisticalReport" id="EID778072b5-f851-4e78-99a7-b3bbae76cbde">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
@@ -51,7 +51,7 @@
     </Attachment>
   </attachments>
   <resultedFrom ref="EIDa32f76c7-f1d3-4d70-83ef-d51d2545fa2e"/>
-  <startTimestamp>2016-10-26T18:19:49.461+02:00</startTimestamp>
+  <startTimestamp>2016-11-18T19:10:11.95+01:00</startTimestamp>
   <duration>0</duration>
   <status>PASSED</status>
 </TestTaskResult>

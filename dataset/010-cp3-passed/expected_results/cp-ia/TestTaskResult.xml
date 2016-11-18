@@ -1,0 +1,110 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDd9c3bfb2-b238-4102-bd69-bc1f8bbb5873">
+  <testObject ref="EID35116559-58d5-45e0-a9e8-4e2b383aa3d3"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDa1870cdb-5ef6-40cf-bf11-ed54cb3fa702">
+      <testCaseResults>
+        <TestCaseResult id="EID4bd0dfac-6df9-48d9-8899-71b3bc8d7a1f">
+          <testStepResults>
+            <TestStepResult id="EID5424ad6c-e705-44ad-b2c2-302aa428e98d">
+              <testAssertionResults>
+                <TestAssertionResult id="EID46bff0a2-0895-4c6b-be38-4e8b773a2028">
+                  <parent ref="EID5424ad6c-e705-44ad-b2c2-302aa428e98d"/>
+                  <resultedFrom ref="EID2f567ef5-3a34-47f2-905c-bd8df7e48b42"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID4bd0dfac-6df9-48d9-8899-71b3bc8d7a1f"/>
+              <resultedFrom ref="EID6e63332c-03d6-4b8b-af11-a989ecf4d240"/>
+              <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa1870cdb-5ef6-40cf-bf11-ed54cb3fa702"/>
+          <resultedFrom ref="EID86bc9441-ac6b-42e2-8661-25843623d084"/>
+          <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDc08f6097-c946-4003-9e34-5f2371099f18">
+          <testStepResults>
+            <TestStepResult id="EID53d16815-948b-456c-87fe-db37cb8a9953">
+              <testAssertionResults>
+                <TestAssertionResult id="EID4b2f982b-f656-4101-aebb-0227ccf73002">
+                  <parent ref="EID53d16815-948b-456c-87fe-db37cb8a9953"/>
+                  <resultedFrom ref="EID2c21be5a-290b-4163-b5a6-85a1e1759660"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDbcb2dba8-5e4b-46e4-8ef6-9dd1f61d7e3d">
+                  <parent ref="EID53d16815-948b-456c-87fe-db37cb8a9953"/>
+                  <resultedFrom ref="EID7f93dd61-f932-45cf-84ec-08a7a5f8553d"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID1f0c72ba-522f-42aa-beed-e77d80dd5a17">
+                  <parent ref="EID53d16815-948b-456c-87fe-db37cb8a9953"/>
+                  <resultedFrom ref="EIDd5cd599f-6206-4560-9f56-240594c24a7b"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe8322184-29a7-4b2b-ab44-d5820db22670">
+                  <parent ref="EID53d16815-948b-456c-87fe-db37cb8a9953"/>
+                  <resultedFrom ref="EID07480090-9995-4d98-bdfd-9bdeb0d2dc67"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>14</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6a3432f9-886a-4e59-afaa-8fe2398c401f">
+                  <parent ref="EID53d16815-948b-456c-87fe-db37cb8a9953"/>
+                  <resultedFrom ref="EID33a50b34-71c1-4b0e-abd4-10d4d5ed3464"/>
+                  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDc08f6097-c946-4003-9e34-5f2371099f18"/>
+              <resultedFrom ref="EID2ec1757d-cc1d-46dd-853a-6facf3925c47"/>
+              <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+              <duration>16</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa1870cdb-5ef6-40cf-bf11-ed54cb3fa702"/>
+          <resultedFrom ref="EID6a16a74c-7b47-4d21-b93e-30150ce2dbac"/>
+          <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+          <duration>16</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDd9c3bfb2-b238-4102-bd69-bc1f8bbb5873"/>
+      <resultedFrom ref="EIDd7c77217-3099-4d1e-9794-2b109ace1a99"/>
+      <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+      <duration>16</duration>
+      <status>PASSED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID69540db3-41bb-4874-b8fa-ba9d64433b73">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID226ad80c-400e-4c30-a964-b438b3e42c98">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDc4fbae00-3070-49fa-b803-24c66c31ac70"/>
+  <startTimestamp>2016-11-18T18:58:10.363+01:00</startTimestamp>
+  <duration>16</duration>
+  <status>PASSED</status>
+</TestTaskResult>

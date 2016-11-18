@@ -1,6 +1,7 @@
 Testing 9 features
-Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-au\au-gml\ets-au-gml-bsxets.xml
-Statistics table: 2 ms
+Indexing features (parsing errors: 0): 1 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-au\au-gml\ets-au-gml-bsxets.xml
+Statistics table: 1 ms
 Test Suite 'Conformance class: GML application schemas, Administrative Units' started
 Test Case 'Basic test' started
 Test Assertion 'au-gml.a.1: Administrative Unit feature in dataset': PASSED - 0 ms

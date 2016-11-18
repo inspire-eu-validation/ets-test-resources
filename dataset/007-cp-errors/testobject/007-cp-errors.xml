@@ -27,21 +27,21 @@
       <cp:beginLifespanVersion>2008-04-07T00:00:00</cp:beginLifespanVersion>
       <cp:endLifespanVersion xsi:nil="true" nilReason="other:unpopulated"></cp:endLifespanVersion>
       <cp:geometry>
-        <gml:MultiSurface gml:id="MultiSurface_ES.SDGC.CP.000700100XJ24B" srsName="http://www.opengis.net/def/crs/EPSG/0/3034">
-          <gml:surfaceMember>
-            <gml:Surface gml:id="Surface_ES.SDGC.CP000700100XJ24B.1" srsName="http://www.opengis.net/def/crs/EPSG/0/3034">
+        <gml:Point gml:id="MultiSurface_ES.SDGC.CP.000700100XJ24B" srsName="http://www.opengis.net/def/crs/EPSG/0/3034">
+          <gml:Point>
+            <gml:Point gml:id="Surface_ES.SDGC.CP000700100XJ24B.1" srsName="http://www.opengis.net/def/crs/EPSG/0/3034">
               <gml:patches>
-                <gml:PolygonPatch>
+                <gml:Point>
                 <gml:exterior>
-                    <gml:LinearRing>
+                    <gml:Point>
                       <gml:posList srsDimension="2" count="29"> 626083.7395 4341439.47 626088.5695 4341450.21 626091.34 4341458.34 626095.29 4341469.94 626095.71 4341471.19 626096.32 4341472.99 626097.57 4341484.63 626097.03 4341488.23 626102.88 4341492.4295 626108.54 4341512.2195 626108.83 4341513.2095 626163.61 4341508.5495 626164.41 4341501.3595 626164.1895 4341466.0795 626163.9095 4341460.7095 626163.6795 4341456.3195 626162.7195 4341449.9395 626160.7395 4341450.0795 626128.6095 4341453.01 626125.0995 4341453.43 626122.9595 4341453.68 626117.0295 4341449.78 626112.0295 4341446.95 626107.3495 4341444.96 626102.8495 4341443.66 626096.7595 4341442.85 626091.6895 4341441.55 626087.5095 4341439.87 626083.7395 4341439.47</gml:posList>
-                    </gml:LinearRing>
+                    </gml:Point>
                   </gml:exterior>
-                </gml:PolygonPatch>
+                </gml:Point>
               </gml:patches>
-            </gml:Surface>
-          </gml:surfaceMember>
-        </gml:MultiSurface>
+            </gml:Point>
+          </gml:Point>
+        </gml:Point>
       </cp:geometry>
       <cp:inspireId xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2">
         <base:Identifier>
@@ -50,7 +50,6 @@
         </base:Identifier>
       </cp:inspireId>
       <cp:label>001</cp:label>
-      <cp:nationalCadastralReference>000700100XJ24B</cp:nationalCadastralReference>
       <cp:referencePoint>
         <gml:Point gml:id="ReferencePoint_ES.SDGC.CP.000700100XJ24B" srsName="http://www.opengis.net/def/crs/EPSG/0/25830"> 
           <gml:pos>626128.74 4341477.51</gml:pos>
@@ -268,6 +267,7 @@
         </base:Identifier>
       </cp:inspireId>
       <cp:label>006</cp:label>
+      <cp:nationalCadastralReference>000700600XJ24B</cp:nationalCadastralReference>
       <cp:referencePoint>
         <gml:Point gml:id="ReferencePoint_ES.SDGC.CP.000700600XJ24B" srsName="http://www.opengis.net/def/crs/EPSG/0/25830"> 
           <gml:pos>626242.28 4341420.69</gml:pos>

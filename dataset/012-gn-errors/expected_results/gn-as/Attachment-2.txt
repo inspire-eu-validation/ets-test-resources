@@ -1,15 +1,12 @@
 Testing 99 features
-Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-gn\gn-as\ets-gn-as-bsxets.xml
+Indexing features (parsing errors: 0): 30 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-gn\gn-as\ets-gn-as-bsxets.xml
 Statistics table: 2 ms
 Test Suite 'Conformance class: Application schema, Geographical Names' started
 Test Case 'Code list values' started
-Test Assertion 'gn-as.a.1: GrammaticalNumber attributes': FAILED - 86 ms
-Test Assertion 'gn-as.a.2: GrammaticalGender attributes': FAILED - 37 ms
-Test Assertion 'gn-as.a.3: NameStatus attributes': FAILED - 39 ms
-Test Assertion 'gn-as.a.4: Nativeness attributes': FAILED - 42 ms
-Test Assertion 'gn-as.a.5: NamedPlaceType attributes': FAILED - 42 ms
+Test Assertion 'gn-as.a.1: NamedPlaceType attributes': FAILED - 140 ms
 Test Case 'Code list values' finished: FAILED
 Test Case 'Constraints' started
-Test Assertion 'gn-as.b.1: At least one of the two attributes pronunciationSoundLink and pronunciationIPA shall not be void': FAILED - 8 ms
-Test Case 'Constraints' finished: FAILED
+Test Assertion 'gn-as.b.1: Test always passes': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
 Test Suite 'Conformance class: Application schema, Geographical Names' finished: FAILED

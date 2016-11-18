@@ -1,0 +1,9 @@
+Testing 98 features
+Indexing features (parsing errors: 0): 17 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-gn\gn-rs\ets-gn-rs-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Reference systems, Geographical Names' started
+Test Case 'Additional theme-specific rules for reference systems' started
+Test Assertion 'gn-rs.a.1: Test always passes': PASSED - 0 ms
+Test Case 'Additional theme-specific rules for reference systems' finished: PASSED
+Test Suite 'Conformance class: Reference systems, Geographical Names' finished: PASSED

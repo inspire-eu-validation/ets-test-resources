@@ -1,0 +1,118 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID4bae44d5-8aed-403d-b383-b621a8d652ca">
+  <testObject ref="EIDd8ebefa8-f8aa-45b2-97e9-102177549250"/>
+  <testModuleResults>
+    <TestModuleResult id="EID57405d5f-8f7b-48a0-a2eb-174a57196e0b">
+      <testCaseResults>
+        <TestCaseResult id="EID948625ef-bfc7-4273-bc60-6e20a0967b46">
+          <testStepResults>
+            <TestStepResult id="EID4f661ff8-89af-4f33-99ee-35ffabaa7f4e">
+              <testAssertionResults>
+                <TestAssertionResult id="EID3026f114-aecf-4ef8-9b35-aa78d876d4d6">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">MZ001</argument>
+                        <argument token="filename">005-mu-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue</argument>
+                        <argument token="featureType">MaritimeZone</argument>
+                        <argument token="value"/>
+                        <argument token="property">zoneType</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">MZ002</argument>
+                        <argument token="filename">005-mu-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue</argument>
+                        <argument token="featureType">MaritimeZone</argument>
+                        <argument token="value">wrong</argument>
+                        <argument token="property">zoneType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4f661ff8-89af-4f33-99ee-35ffabaa7f4e"/>
+                  <resultedFrom ref="EID29292c27-7d52-4110-b0f4-bc569e48db85"/>
+                  <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+                  <duration>102</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDcb44c4d6-7f9b-4d5d-965c-635a3383156b">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">BS001</argument>
+                        <argument token="filename">005-mu-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/BaselineSegmentTypeValue</argument>
+                        <argument token="featureType">BaselineSegment</argument>
+                        <argument token="value"/>
+                        <argument token="property">segmentType</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">BS002</argument>
+                        <argument token="filename">005-mu-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/BaselineSegmentTypeValue</argument>
+                        <argument token="featureType">BaselineSegment</argument>
+                        <argument token="value">archipc</argument>
+                        <argument token="property">segmentType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4f661ff8-89af-4f33-99ee-35ffabaa7f4e"/>
+                  <resultedFrom ref="EIDe4c5b6fd-62f0-4057-b1be-dbb1306ff26f"/>
+                  <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+                  <duration>54</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID948625ef-bfc7-4273-bc60-6e20a0967b46"/>
+              <resultedFrom ref="EIDb3bd031f-95a2-4774-8aa4-dab2296de4a4"/>
+              <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+              <duration>156</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID57405d5f-8f7b-48a0-a2eb-174a57196e0b"/>
+          <resultedFrom ref="EID98c356ae-d274-4248-986c-40318702e811"/>
+          <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+          <duration>156</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID4bae44d5-8aed-403d-b383-b621a8d652ca"/>
+      <resultedFrom ref="EID6a7984ab-34ec-491e-89be-f907af8649eb"/>
+      <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+      <duration>156</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID380fb37b-a47e-4ff0-9f92-c80e28eaaf85">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID335a4c3b-36f2-413d-9785-42f5a471e73a">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID117562c2-d6e1-4345-9f7b-cba229cf6685"/>
+  <startTimestamp>2016-11-18T17:44:03.23+01:00</startTimestamp>
+  <duration>156</duration>
+  <status>FAILED</status>
+</TestTaskResult>

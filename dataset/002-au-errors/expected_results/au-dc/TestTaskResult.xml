@@ -1,21 +1,17 @@
-<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID38aab15c-3429-444e-97f9-ad8edd600cd1">
-  <testObject ref="EID9a2b8224-e3cd-4ae3-90be-2f930153f857"/>
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID781918bb-f814-403c-be39-bfccf01ab82f">
+  <testObject ref="EID2bbf0ad9-5e70-491b-822e-1c0affa142f9"/>
   <testModuleResults>
-    <TestModuleResult id="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7">
-      <parent ref="EID38aab15c-3429-444e-97f9-ad8edd600cd1"/>
+    <TestModuleResult id="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f">
       <testCaseResults>
-        <TestCaseResult id="EID1fd8211e-d365-4216-8963-8f5ca8680d83">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EID8af61800-dd6b-49b4-9368-2063ae803795">
           <testStepResults>
-            <TestStepResult id="EID1642535e-0967-4455-ba4a-7fde3b11cb18">
-              <parent ref="EID1fd8211e-d365-4216-8963-8f5ca8680d83"/>
+            <TestStepResult id="EIDf0821ab5-6a50-4e38-b065-4c37497ef061">
               <testAssertionResults>
-                <TestAssertionResult id="EID9dc75235-a5a6-4dc0-b00a-f5ad0c7d5181">
-                  <parent ref="EID1642535e-0967-4455-ba4a-7fde3b11cb18"/>
+                <TestAssertionResult id="EID3be8f210-504b-41c7-979b-b3d5171282ed">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
-                        <argument token="count">4</argument>
+                        <argument token="count">3</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.noUpperLevelArea">
@@ -36,14 +32,6 @@
                     </message>
                     <message ref="TR.noUpperLevelArea">
                       <translationArguments>
-                        <argument token="gmlid">NC.MT01536</argument>
-                        <argument token="level"/>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.noUpperLevelArea">
-                      <translationArguments>
                         <argument token="gmlid">NC.MT01756</argument>
                         <argument token="level"/>
                         <argument token="filename">002-au-errors.xml</argument>
@@ -51,125 +39,153 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDf0821ab5-6a50-4e38-b065-4c37497ef061"/>
                   <resultedFrom ref="EID6a701811-e80f-4c94-876b-c15a23bcb063"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>1</duration>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>2</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID8af61800-dd6b-49b4-9368-2063ae803795"/>
               <resultedFrom ref="EIDbead9324-b7b6-405e-bbe8-c59683bfcea1"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>1</duration>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>2</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID89897f44-87d9-4f8e-be29-19e62b0380be"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>1</duration>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>2</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EID9def8fea-7ce8-47b8-afa1-3fc55e883267">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EIDf4cda7a7-a6d3-4a89-9c3d-c0d44eb7d16f">
           <testStepResults>
-            <TestStepResult id="EID42eb8180-8a19-4e04-99c9-985e02f0b4de">
-              <parent ref="EID9def8fea-7ce8-47b8-afa1-3fc55e883267"/>
+            <TestStepResult id="EIDe2022a48-7f9f-4f33-8ce1-5731f7c87884">
               <testAssertionResults>
-                <TestAssertionResult id="EID6b705a08-d6e0-4269-9cf4-dcdb3e2a6f35">
-                  <parent ref="EID42eb8180-8a19-4e04-99c9-985e02f0b4de"/>
+                <TestAssertionResult id="EID2a8356df-eb3e-4ffb-a5da-55f34608f361">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.incorrectLowerLevelArea">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01310</argument>
+                        <argument token="level">2ndOrder</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe2022a48-7f9f-4f33-8ce1-5731f7c87884"/>
+                  <resultedFrom ref="EIDca5200cc-d6e1-47d6-837d-8b1dc40d30fd"/>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe2dc828a-8f92-41e6-aa64-6bb3e78b42fd">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
                         <argument token="count">2</argument>
                       </translationArguments>
                     </message>
-                    <message ref="TR.incorrectLowerLevelArea">
+                    <message ref="TR.notAnAdminUnitAtNextLevel">
                       <translationArguments>
-                        <argument token="gmlid">NC.MT01402</argument>
+                        <argument token="gmlid">NC.MT01311</argument>
                         <argument token="level">1stOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="expectedLevel">3rdOrder</argument>
+                        <argument token="url">#NC.MT01402</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
                       </translationArguments>
                     </message>
-                    <message ref="TR.incorrectLowerLevelArea">
+                    <message ref="TR.notAnAdminUnitAtNextLevel">
                       <translationArguments>
                         <argument token="gmlid">NC.MT01403</argument>
                         <argument token="level">1stOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="expectedLevel">2ndOrder</argument>
+                        <argument token="url">#NC.MT01402</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
                       </translationArguments>
                     </message>
                   </messages>
-                  <resultedFrom ref="EIDca5200cc-d6e1-47d6-837d-8b1dc40d30fd"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>3</duration>
+                  <parent ref="EIDe2022a48-7f9f-4f33-8ce1-5731f7c87884"/>
+                  <resultedFrom ref="EID13980d13-1916-4c1b-a8ad-2ab4c804c477"/>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>8</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDf4cda7a7-a6d3-4a89-9c3d-c0d44eb7d16f"/>
               <resultedFrom ref="EIDd7a07c8f-02ec-4477-891b-e9fad70a06e7"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>3</duration>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>9</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID9a78ce54-e8b5-4484-b73c-ce11f822391a"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>3</duration>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>9</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EID579182e6-f5a4-410d-a654-6ff39f719534">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EID5dc4309e-dc97-4133-86c5-202d90c7842b">
           <testStepResults>
-            <TestStepResult id="EIDfcf5b454-1c3b-4f43-bf46-c1a6465d7915">
-              <parent ref="EID579182e6-f5a4-410d-a654-6ff39f719534"/>
+            <TestStepResult id="EID96a42920-afe4-4c43-91d4-467695dd3d40">
               <testAssertionResults>
-                <TestAssertionResult id="EIDd2bfbd99-b509-45cc-9079-f37ebb1990ff">
-                  <parent ref="EIDfcf5b454-1c3b-4f43-bf46-c1a6465d7915"/>
+                <TestAssertionResult id="EID97f9dfa4-d7e8-4220-ab8d-1d7ecbcabe6b">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
-                        <argument token="count">2</argument>
+                        <argument token="count">1</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.incorrectCoAdministered">
                       <translationArguments>
-                        <argument token="gmlid">#NC.MT01402</argument>
+                        <argument token="gmlid">NC.MT01407</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">#NC.MT01402</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.incorrectCoAdministered">
                       <translationArguments>
-                        <argument token="gmlid">#NC.MT01310</argument>
+                        <argument token="gmlid">NC.MT01407</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">#NC.MT01310</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EID96a42920-afe4-4c43-91d4-467695dd3d40"/>
                   <resultedFrom ref="EID84911bd1-f553-444b-ab96-818ed7e9d956"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>0</duration>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>5</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID5dc4309e-dc97-4133-86c5-202d90c7842b"/>
               <resultedFrom ref="EIDe60579bd-1e10-4957-b27c-d45fe0cd8c43"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>0</duration>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>5</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID8575dc23-994f-439b-b896-1e298845ea87"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>0</duration>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>5</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EID81090339-0e1c-4fa0-9c5e-ee15a34ba8de">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EIDc1b03231-5c61-4ccf-8513-dc307ffa027d">
           <testStepResults>
-            <TestStepResult id="EID5dceb5a4-69d1-4508-b012-5e04d03b53a1">
-              <parent ref="EID81090339-0e1c-4fa0-9c5e-ee15a34ba8de"/>
+            <TestStepResult id="EID4bed9197-9ef5-4416-b6fa-137d5fdd128c">
               <testAssertionResults>
-                <TestAssertionResult id="EID32611311-9489-4fc6-90b0-43f22a60ab78">
-                  <parent ref="EID5dceb5a4-69d1-4508-b012-5e04d03b53a1"/>
+                <TestAssertionResult id="EID15a89a4f-eb5f-46bb-be77-2787d70e3f0a">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -179,43 +195,49 @@
                     <message ref="TR.incorrectCondominiumAdministration">
                       <translationArguments>
                         <argument token="gmlid">NC.CON001</argument>
+                        <argument token="level">6thOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="url">#NC.MT01407</argument>
                         <argument token="featureType">Condominium</argument>
                       </translationArguments>
                     </message>
-                    <message ref="TR.incorrectCondominiumAdministration">
+                    <message ref="TR.unknownXMLResource2">
                       <translationArguments>
                         <argument token="gmlid">NC.CON003</argument>
                         <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="elementName">Condominium</argument>
+                        <argument token="url">#NC.CON001</argument>
                         <argument token="featureType">Condominium</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/au/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EID4bed9197-9ef5-4416-b6fa-137d5fdd128c"/>
                   <resultedFrom ref="EID87e1aeaf-5c2f-4c53-bfd7-410bfaace32b"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
                   <duration>1</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDc1b03231-5c61-4ccf-8513-dc307ffa027d"/>
               <resultedFrom ref="EIDccc9f79a-f082-4164-8beb-cfab6e34254d"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
               <duration>1</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID430577bd-bcb1-4f94-8ec0-8aed8795d1c5"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
           <duration>1</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EID8425b2ba-77f7-4b02-b587-7a34d7ea43c6">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EIDb8a439e8-6ff8-4fc2-ab26-53afdec29ac2">
           <testStepResults>
-            <TestStepResult id="EIDc2d53f17-ed2b-499f-98b7-0b6e7e6c7a66">
-              <parent ref="EID8425b2ba-77f7-4b02-b587-7a34d7ea43c6"/>
+            <TestStepResult id="EIDb8bce951-643c-4eb1-b152-6b2bb4791a32">
               <testAssertionResults>
-                <TestAssertionResult id="EIDc8ce098b-3b86-4855-b0c1-5b0882b41126">
-                  <parent ref="EIDc2d53f17-ed2b-499f-98b7-0b6e7e6c7a66"/>
+                <TestAssertionResult id="EID53ab8453-1d57-4616-b206-9d38bc1d7603">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -228,6 +250,8 @@
                         <argument token="level">1stOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="gmlid2">NC.MT01403</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.AdministrativeUnitArea">
@@ -236,6 +260,8 @@
                         <argument token="level">1stOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="gmlid2">NC.MT01402</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.AdministrativeUnitArea">
@@ -244,6 +270,8 @@
                         <argument token="level">6thOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="gmlid2">NC.MT01408</argument>
+                        <argument token="sharedArea">POLYGON ((2.3333333333333335 1.3333333333333333, 1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333))</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.AdministrativeUnitArea">
@@ -252,59 +280,69 @@
                         <argument token="level">6thOrder</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="gmlid2">NC.MT01407</argument>
+                        <argument token="sharedArea">POLYGON ((1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333, 1.4 1.8))</argument>
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDb8bce951-643c-4eb1-b152-6b2bb4791a32"/>
                   <resultedFrom ref="EID78d41633-eedf-4a06-99fb-753a2d88043e"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>20</duration>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>136</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDb8a439e8-6ff8-4fc2-ab26-53afdec29ac2"/>
               <resultedFrom ref="EIDdb19eabc-cb96-4fa7-bcf0-aea9385423f0"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>20</duration>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>136</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID26ea8352-0519-4b9c-9454-89bfc4d13f51"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>20</duration>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>136</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EIDd9472be0-7ae2-442a-b839-63affe423492">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EIDc7adbef4-2923-47b0-b7c2-fe786613a2f1">
           <testStepResults>
-            <TestStepResult id="EIDe90a7713-3b0e-4b33-87e4-df1a66f35cde">
-              <parent ref="EIDd9472be0-7ae2-442a-b839-63affe423492"/>
+            <TestStepResult id="EIDef30b691-23bd-407d-b358-6c314a2ba835">
               <testAssertionResults>
-                <TestAssertionResult id="EID008242fa-abde-4d7b-8de4-9a10ef960795">
-                  <parent ref="EIDe90a7713-3b0e-4b33-87e4-df1a66f35cde"/>
+                <TestAssertionResult id="EID277b8a24-839e-4f84-bc72-12e417299334">
+                  <messages>
+                    <message ref="TR.systemError">
+                      <translationArguments>
+                        <argument token="text">[bxerr:BASX0000] Failure to parse geometry. A geometry was not found or uses an incorrect type: java.lang.Object[] 
+C:/Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository/inspire-bsxets.xq (929/46)</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDef30b691-23bd-407d-b358-6c314a2ba835"/>
                   <resultedFrom ref="EIDe5ef134b-36f4-4140-8d67-e8be997cd892"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>0</duration>
-                  <status>UNDEFINED</status>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>4</duration>
+                  <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDc7adbef4-2923-47b0-b7c2-fe786613a2f1"/>
               <resultedFrom ref="EIDeea3c33d-0bbe-4de6-ad29-ad677b930609"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>0</duration>
-              <status>UNDEFINED</status>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>4</duration>
+              <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID3bfa3fa6-d22a-4f2d-91b1-d83b16b8c088"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>0</duration>
-          <status>UNDEFINED</status>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>4</duration>
+          <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EIDd664b244-dcad-4903-80cf-633b3fc5d498">
-          <parent ref="EIDd879ec01-f732-4e51-8a55-2cfac1e46ba7"/>
+        <TestCaseResult id="EIDf59da802-ca23-4a5d-bbb0-44125ce5f70a">
           <testStepResults>
-            <TestStepResult id="EIDf510337e-0a74-4b4d-8b2f-b8273f31a174">
-              <parent ref="EIDd664b244-dcad-4903-80cf-633b3fc5d498"/>
+            <TestStepResult id="EID004c959d-2456-4dd2-b68c-50de784bb39c">
               <testAssertionResults>
-                <TestAssertionResult id="EIDfca99374-2659-45c1-91df-d1c291ac2f5a">
-                  <parent ref="EIDf510337e-0a74-4b4d-8b2f-b8273f31a174"/>
+                <TestAssertionResult id="EID9289974c-089e-4bde-9f31-2b52bcf7858b">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -316,6 +354,71 @@
                         <argument token="gmlid">NC.CON001</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01311</argument>
+                        <argument token="sharedArea">POLYGON ((1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333, 1.4 1.8))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01402</argument>
+                        <argument token="sharedArea">POLYGON ((1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333, 1.4 1.8))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01403</argument>
+                        <argument token="sharedArea">POLYGON ((1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333, 1.4 1.8))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01407</argument>
+                        <argument token="sharedArea">POLYGON ((1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333, 1.4 1.8))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01408</argument>
+                        <argument token="sharedArea">POLYGON ((1 1, 2 3, 3 2, 2 1, 1 1))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01409</argument>
+                        <argument token="sharedArea">POLYGON ((1 1, 2 3, 3 2, 2 1, 1 1))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01536</argument>
+                        <argument token="sharedArea">POLYGON ((1 1, 2 3, 3 2, 2 1, 1 1))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON001</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01756</argument>
+                        <argument token="sharedArea">POLYGON ((1 1, 2 3, 3 2, 2 1, 1 1))</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.wrongSpatialCondominiumExtent">
@@ -323,41 +426,110 @@
                         <argument token="gmlid">NC.CON003</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01311</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01402</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01403</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01407</argument>
+                        <argument token="sharedArea">POLYGON ((1 2, 1 4, 3 4, 3 1, 1 2))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01408</argument>
+                        <argument token="sharedArea">POLYGON ((2.3333333333333335 1.3333333333333333, 1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01409</argument>
+                        <argument token="sharedArea">POLYGON ((2.3333333333333335 1.3333333333333333, 1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01536</argument>
+                        <argument token="sharedArea">POLYGON ((2.3333333333333335 1.3333333333333333, 1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333))</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongSpatialCondominiumExtent">
+                      <translationArguments>
+                        <argument token="gmlid">NC.CON003</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">Condominium</argument>
+                        <argument token="gmlid2">NC.MT01756</argument>
+                        <argument token="sharedArea">POLYGON ((2.3333333333333335 1.3333333333333333, 1.4 1.8, 2 3, 3 2, 2.3333333333333335 1.3333333333333333))</argument>
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EID004c959d-2456-4dd2-b68c-50de784bb39c"/>
                   <resultedFrom ref="EIDcd01b1b4-cec2-434a-b4c0-84f264d6b7c3"/>
-                  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-                  <duration>16</duration>
+                  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+                  <duration>34</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EIDf59da802-ca23-4a5d-bbb0-44125ce5f70a"/>
               <resultedFrom ref="EID92ac87b5-cd0e-4e40-a990-ffe39328d633"/>
-              <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-              <duration>16</duration>
+              <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+              <duration>34</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID08805b82-aefe-4c0b-bc9e-b4fda1126c7f"/>
           <resultedFrom ref="EID374ce52a-dcfb-4f75-836d-c7ba1b551c55"/>
-          <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-          <duration>16</duration>
+          <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+          <duration>34</duration>
           <status>FAILED</status>
         </TestCaseResult>
       </testCaseResults>
+      <parent ref="EID781918bb-f814-403c-be39-bfccf01ab82f"/>
       <resultedFrom ref="EID8944a9ef-bf4e-49c4-9a93-4be27b71a77b"/>
-      <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-      <duration>41</duration>
+      <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+      <duration>191</duration>
       <status>FAILED</status>
     </TestModuleResult>
   </testModuleResults>
   <attachments>
-    <Attachment type="LogFile" id="EID7a565333-3ff0-4b50-90f7-714110e45f96">
+    <Attachment type="LogFile" id="EID04d45ba4-d411-49a4-bd52-82ce28dfa894">
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
       <referencedData href="Attachment-2.txt"/>
     </Attachment>
-    <Attachment type="StatisticalReport" id="EID60250a48-3b99-48c0-a84d-a68d3b602e40">
+    <Attachment type="StatisticalReport" id="EID6f7f9285-8af7-42aa-85db-fa53eee260ee">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
@@ -365,7 +537,7 @@
     </Attachment>
   </attachments>
   <resultedFrom ref="EIDacc5931c-4ff0-499f-b916-3cda1603456b"/>
-  <startTimestamp>2016-11-02T16:58:11.526+01:00</startTimestamp>
-  <duration>41</duration>
+  <startTimestamp>2016-11-18T17:31:46.8+01:00</startTimestamp>
+  <duration>191</duration>
   <status>FAILED</status>
 </TestTaskResult>

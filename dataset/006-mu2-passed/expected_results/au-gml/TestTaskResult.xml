@@ -1,57 +1,63 @@
-<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID1a2f92c4-8a1a-4ffb-a0ee-d1a0a5334278">
-  <testObject ref="EID4a726912-4b98-4904-bf68-b33d2d7f86d2"/>
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDa575a82b-2618-4d96-ac7a-1dfe0294f7ec">
+  <testObject ref="EIDc865ec6d-2dae-439e-b282-d1db497ea9cd"/>
   <testModuleResults>
-    <TestModuleResult id="EIDa0846b7a-8f0c-4d10-8b6f-5fb1d09dc89a">
-      <parent ref="EID1a2f92c4-8a1a-4ffb-a0ee-d1a0a5334278"/>
+    <TestModuleResult id="EID20c6e11d-0cb7-4d09-8147-2cc2d65fdfd4">
       <testCaseResults>
-        <TestCaseResult id="EIDd0faccec-1c8c-4ada-a519-47796fa16e41">
-          <parent ref="EIDa0846b7a-8f0c-4d10-8b6f-5fb1d09dc89a"/>
+        <TestCaseResult id="EID974d4f3e-d5e6-46a3-9e46-120e8a6227cb">
           <testStepResults>
-            <TestStepResult id="EID8f4a654e-5d48-4d56-a840-e98b460198be">
-              <parent ref="EIDd0faccec-1c8c-4ada-a519-47796fa16e41"/>
+            <TestStepResult id="EID8c846008-8d1a-41f8-b342-d5c97bf5cf0f">
               <testAssertionResults>
-                <TestAssertionResult id="EIDd7eb9c42-a597-41f7-b767-a58496c761a1">
-                  <parent ref="EID8f4a654e-5d48-4d56-a840-e98b460198be"/>
+                <TestAssertionResult id="EID27326c87-377d-4943-8518-76093c5394c9">
+                  <parent ref="EID8c846008-8d1a-41f8-b342-d5c97bf5cf0f"/>
                   <resultedFrom ref="EIDe2573fbe-782a-4f96-bee6-651d134a1bd4"/>
-                  <startTimestamp>2016-10-27T16:09:07.857+02:00</startTimestamp>
+                  <startTimestamp>2016-11-18T17:49:09.406+01:00</startTimestamp>
                   <duration>0</duration>
                   <status>PASSED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID974d4f3e-d5e6-46a3-9e46-120e8a6227cb"/>
               <resultedFrom ref="EIDd21eedfd-dadb-469a-b8b3-878605550d20"/>
-              <startTimestamp>2016-10-27T16:09:07.857+02:00</startTimestamp>
+              <startTimestamp>2016-11-18T17:49:09.406+01:00</startTimestamp>
               <duration>0</duration>
               <status>PASSED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID20c6e11d-0cb7-4d09-8147-2cc2d65fdfd4"/>
           <resultedFrom ref="EIDf0064216-d24f-4738-83d9-bfc03afc3d3f"/>
-          <startTimestamp>2016-10-27T16:09:07.857+02:00</startTimestamp>
+          <startTimestamp>2016-11-18T17:49:09.406+01:00</startTimestamp>
           <duration>0</duration>
           <status>PASSED</status>
         </TestCaseResult>
       </testCaseResults>
+      <parent ref="EIDa575a82b-2618-4d96-ac7a-1dfe0294f7ec"/>
       <resultedFrom ref="EID489a8e1e-85e3-41b7-b4bd-1052146dc8f6"/>
-      <startTimestamp>2016-10-27T16:09:07.857+02:00</startTimestamp>
+      <startTimestamp>2016-11-18T17:49:09.406+01:00</startTimestamp>
       <duration>0</duration>
       <status>PASSED</status>
     </TestModuleResult>
   </testModuleResults>
   <attachments>
-    <Attachment type="LogFile" id="EID0ee33133-a502-4af3-8f9d-d4e779dd895e">
+    <Attachment type="LogFile" id="EIDaf340bcb-e7ec-4a3f-8e0c-502bab310ba7">
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="Attachment-2.txt"/>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDa575a82b-2618-4d96-ac7a-1dfe0294f7ec-log.txt"/>
     </Attachment>
-    <Attachment type="StatisticalReport" id="EID6c095381-be44-4202-bb99-1eaff8e06901">
+    <Attachment type="StatisticalReport" id="EID0000d64d-f92e-4724-8258-a023b173814b">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="Attachment-1.xml"/>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDa575a82b-2618-4d96-ac7a-1dfe0294f7ec-stat.xml"/>
+    </Attachment>
+    <Attachment type="Query" id="EIDa4f9530a-ebb7-46ab-aaed-10af2b6d9f6a">
+      <label>XQuery executed against the dataset</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDa575a82b-2618-4d96-ac7a-1dfe0294f7ec-query.xq"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EID47c569bc-677d-4ce3-8411-e2b29189332a"/>
-  <startTimestamp>2016-10-27T16:09:07.857+02:00</startTimestamp>
+  <startTimestamp>2016-11-18T17:49:09.406+01:00</startTimestamp>
   <duration>0</duration>
   <status>PASSED</status>
 </TestTaskResult>

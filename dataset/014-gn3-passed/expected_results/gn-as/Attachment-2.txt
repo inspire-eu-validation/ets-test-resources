@@ -1,0 +1,12 @@
+Testing 98 features
+Indexing features (parsing errors: 0): 13 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-gn\gn-as\ets-gn-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Geographical Names' started
+Test Case 'Code list values' started
+Test Assertion 'gn-as.a.1: NamedPlaceType attributes': PASSED - 63 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'gn-as.b.1: Test always passes': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
+Test Suite 'Conformance class: Application schema, Geographical Names' finished: PASSED

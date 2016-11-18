@@ -1,21 +1,17 @@
-<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID3a334474-37c1-4325-9f40-a5044c87ffee">
-  <testObject ref="EID0eeb63e3-647c-48d1-bc56-4b84ec5522be"/>
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDb53c2591-6b19-4cce-b989-3d9845f40022">
+  <testObject ref="EID17cf1eef-7398-47fe-83bc-194d59ef2397"/>
   <testModuleResults>
-    <TestModuleResult id="EID95028d67-c69c-4ba6-86d7-228b4c06c231">
-      <parent ref="EID3a334474-37c1-4325-9f40-a5044c87ffee"/>
+    <TestModuleResult id="EID7aa0883d-3501-4f71-b9ee-a502f01584eb">
       <testCaseResults>
-        <TestCaseResult id="EID19e54134-3e17-4fd9-811b-53e5824fd52f">
-          <parent ref="EID95028d67-c69c-4ba6-86d7-228b4c06c231"/>
+        <TestCaseResult id="EID91f56d29-d73f-4e7d-967f-99615c76d3ed">
           <testStepResults>
-            <TestStepResult id="EID5f14963f-0ca1-4de0-9542-37323b434351">
-              <parent ref="EID19e54134-3e17-4fd9-811b-53e5824fd52f"/>
+            <TestStepResult id="EID86a9be4c-bf17-4db9-bd3c-4b8e599ba9bc">
               <testAssertionResults>
-                <TestAssertionResult id="EIDcd40a543-39da-40ba-9e1a-531bc7a65676">
-                  <parent ref="EID5f14963f-0ca1-4de0-9542-37323b434351"/>
+                <TestAssertionResult id="EID5d3df077-5c90-436a-aa62-fa8c9aef297b">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
-                        <argument token="count">1</argument>
+                        <argument token="count">3</argument>
                       </translationArguments>
                     </message>
                     <message ref="TR.disallowedCodeListValue">
@@ -28,46 +24,98 @@
                         <argument token="property">nationalLevel</argument>
                       </translationArguments>
                     </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01536</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="value"/>
+                        <argument token="property">nationalLevel</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01756</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="value"/>
+                        <argument token="property">nationalLevel</argument>
+                      </translationArguments>
+                    </message>
                   </messages>
+                  <parent ref="EID86a9be4c-bf17-4db9-bd3c-4b8e599ba9bc"/>
                   <resultedFrom ref="EID00dc7fd4-a37b-4cb4-b48a-94b4de6ae9c1"/>
-                  <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-                  <duration>86</duration>
+                  <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+                  <duration>321</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID91f56d29-d73f-4e7d-967f-99615c76d3ed"/>
               <resultedFrom ref="EID950529a1-5f07-42e3-aaa8-dc3cef3a7132"/>
-              <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-              <duration>86</duration>
+              <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+              <duration>321</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID7aa0883d-3501-4f71-b9ee-a502f01584eb"/>
           <resultedFrom ref="EIDd41f0097-6cb1-40cd-8b31-faf0970e2876"/>
-          <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-          <duration>86</duration>
+          <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+          <duration>321</duration>
           <status>FAILED</status>
         </TestCaseResult>
-        <TestCaseResult id="EIDeb3e18b5-84ee-4012-a38a-41efeb3ed50b">
-          <parent ref="EID95028d67-c69c-4ba6-86d7-228b4c06c231"/>
+        <TestCaseResult id="EID1e45d2ed-169c-4187-a798-c8b371934ca5">
           <testStepResults>
-            <TestStepResult id="EIDa7bf6c04-9ed8-44b0-b191-7e2d7f7a42dd">
-              <parent ref="EIDeb3e18b5-84ee-4012-a38a-41efeb3ed50b"/>
+            <TestStepResult id="EIDec6cd97f-f5b1-4da8-b7a8-c2f7ea6fb24f">
               <testAssertionResults>
-                <TestAssertionResult id="EID323ea18c-2f97-4b9d-ba1b-5dcc801b3a3a">
-                  <parent ref="EIDa7bf6c04-9ed8-44b0-b191-7e2d7f7a42dd"/>
+                <TestAssertionResult id="EIDbb2fd240-7537-4b25-9ef5-0230e15c7861">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01403</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="additionalInfo">Reference to: '#NC.MT01402'.</argument>
+                        <argument token="constraint">No unit at highest level can associate units at a higher level.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDec6cd97f-f5b1-4da8-b7a8-c2f7ea6fb24f"/>
                   <resultedFrom ref="EIDde605406-7883-458f-8ae1-59f9b64928e4"/>
-                  <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-                  <duration>0</duration>
-                  <status>UNDEFINED</status>
+                  <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+                  <duration>6</duration>
+                  <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EIDc8cc2323-a8bb-42fe-bbc8-ee540481f32f">
-                  <parent ref="EIDa7bf6c04-9ed8-44b0-b191-7e2d7f7a42dd"/>
+                <TestAssertionResult id="EID7510c58c-a7e7-4a30-8256-be48d52e5b2c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">NC.MT01407</argument>
+                        <argument token="filename">002-au-errors.xml</argument>
+                        <argument token="featureType">AdministrativeUnit</argument>
+                        <argument token="additionalInfo">Reference to: '#NC.MT01408'.</argument>
+                        <argument token="constraint">No unit at lowest level can associate units at lower level.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDec6cd97f-f5b1-4da8-b7a8-c2f7ea6fb24f"/>
                   <resultedFrom ref="EID44c654af-5131-4d16-b51d-30ba80311053"/>
-                  <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-                  <duration>0</duration>
-                  <status>UNDEFINED</status>
+                  <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
                 </TestAssertionResult>
-                <TestAssertionResult id="EIDf945ba10-fab3-4b31-b4a8-a9dcd8789692">
-                  <parent ref="EIDa7bf6c04-9ed8-44b0-b191-7e2d7f7a42dd"/>
+                <TestAssertionResult id="EIDce89aab2-f723-46ce-91d4-81a321a0050c">
                   <messages>
                     <message ref="TR.featuresWithErrors">
                       <translationArguments>
@@ -85,61 +133,7 @@
                     </message>
                     <message ref="TR.constraintViolation">
                       <translationArguments>
-                        <argument token="gmlid">NC.MT01310</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '6thOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
-                        <argument token="gmlid">NC.MT01310</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '6thOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
                         <argument token="gmlid">NC.MT01407</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '2ndOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
-                        <argument token="gmlid">NC.MT01407</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '6thOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
-                        <argument token="gmlid">NC.MT01407</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '6thOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
-                        <argument token="gmlid">NC.MT01408</argument>
-                        <argument token="filename">002-au-errors.xml</argument>
-                        <argument token="featureType">AdministrativeUnit</argument>
-                        <argument token="additionalInfo">Found: '2ndOrder'.</argument>
-                        <argument token="constraint">Association role condominium applies only for administrative units which nationalLevel=1st order</argument>
-                      </translationArguments>
-                    </message>
-                    <message ref="TR.constraintViolation">
-                      <translationArguments>
-                        <argument token="gmlid">NC.MT01408</argument>
                         <argument token="filename">002-au-errors.xml</argument>
                         <argument token="featureType">AdministrativeUnit</argument>
                         <argument token="additionalInfo">Found: '6thOrder'.</argument>
@@ -156,38 +150,42 @@
                       </translationArguments>
                     </message>
                   </messages>
+                  <parent ref="EIDec6cd97f-f5b1-4da8-b7a8-c2f7ea6fb24f"/>
                   <resultedFrom ref="EID1dd27b97-3672-47ab-aaf3-046b778287a9"/>
-                  <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-                  <duration>1</duration>
+                  <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+                  <duration>2</duration>
                   <status>FAILED</status>
                 </TestAssertionResult>
               </testAssertionResults>
+              <parent ref="EID1e45d2ed-169c-4187-a798-c8b371934ca5"/>
               <resultedFrom ref="EIDc1645b47-344a-456c-a2a2-6808047e0e37"/>
-              <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-              <duration>1</duration>
+              <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+              <duration>9</duration>
               <status>FAILED</status>
             </TestStepResult>
           </testStepResults>
+          <parent ref="EID7aa0883d-3501-4f71-b9ee-a502f01584eb"/>
           <resultedFrom ref="EID5cc339a4-c007-4538-a816-e3d5d074ad19"/>
-          <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-          <duration>1</duration>
+          <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+          <duration>9</duration>
           <status>FAILED</status>
         </TestCaseResult>
       </testCaseResults>
+      <parent ref="EIDb53c2591-6b19-4cce-b989-3d9845f40022"/>
       <resultedFrom ref="EID07e06fe2-84ad-42d7-9f00-ef66c046c90c"/>
-      <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-      <duration>87</duration>
+      <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+      <duration>330</duration>
       <status>FAILED</status>
     </TestModuleResult>
   </testModuleResults>
   <attachments>
-    <Attachment type="LogFile" id="EID238061bc-67b8-4128-9de7-4ee58b2fec04">
+    <Attachment type="LogFile" id="EID51ac1618-dcd5-4949-879c-45ac460d3195">
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
       <referencedData href="Attachment-2.txt"/>
     </Attachment>
-    <Attachment type="StatisticalReport" id="EIDa000dea0-ce9a-48e9-bbf3-6eb72c0b4621">
+    <Attachment type="StatisticalReport" id="EID3082a140-dbc7-4c51-b367-44d417a85114">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
@@ -195,7 +193,7 @@
     </Attachment>
   </attachments>
   <resultedFrom ref="EIDddecef4b-89a3-4f9d-9246-a50b588fa5a2"/>
-  <startTimestamp>2016-10-26T16:34:13.705+02:00</startTimestamp>
-  <duration>87</duration>
+  <startTimestamp>2016-11-18T17:30:22.807+01:00</startTimestamp>
+  <duration>330</duration>
   <status>FAILED</status>
 </TestTaskResult>

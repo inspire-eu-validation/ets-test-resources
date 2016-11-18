@@ -1,6 +1,7 @@
 Testing 0 features
-Executing Test Suite: \Users\vandeloc\Documents\Documents\ARE3NA\WP4\GitHub\ETS-repository\inspire\data-cp\cp-gml\ets-cp-gml-bsxets.xml
-Statistics table: 2 ms
+Indexing features (parsing errors: 0): 0 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-cp\cp-gml\ets-cp-gml-bsxets.xml
+Statistics table: 1 ms
 Test Suite 'Conformance class: GML application schemas, Cadastral Parcels' started
 Test Case 'Basic test' started
 Test Assertion 'cp-gml.a.1: CadastralParcel feature in dataset': FAILED - 0 ms

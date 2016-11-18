@@ -1,0 +1,12 @@
+Testing 98 features
+Indexing features (parsing errors: 0): 13 ms
+Executing Test Suite: \Users\vandeloc\Documents\Documents\06 ARE3NA\WP4\GitHub\ETS-repository\data-gn\gn-ia\ets-gn-ia-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Information accessibility, Geographical Names' started
+Test Case 'Code lists' started
+Test Assertion 'gn-ia.a.1: Code list extensions accessible': PASSED - 0 ms
+Test Case 'Code lists' finished: PASSED
+Test Case 'Feature references' started
+Test Assertion 'gn-ia.b.1: referenced features retrievable': PASSED - 0 ms
+Test Case 'Feature references' finished: PASSED
+Test Suite 'Conformance class: Information accessibility, Geographical Names' finished: PASSED
