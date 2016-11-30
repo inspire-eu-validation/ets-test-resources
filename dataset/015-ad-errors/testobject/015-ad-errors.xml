@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<gml:FeatureCollection gml:id="ES.SDGC.AD" xmlns:GN="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns:gml="http://www.opengis.net/gml/3.2"  xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:x-inspire:specification:gmlas:Addresses:3.0 http://inspire.ec.europa.eu/schemas/ad/3.0/Addresses.xsd">
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.1.9910210WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.1.9910210WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.1.9910210WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519829.079 4110820.2295</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:status xlink:href="http://inspire.ec.europa.eu/codelist/StatusValue/proposed"/>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>1</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/siteName"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+				<ad:withinScopeOf xlink:href="#ES.SDGC.AU.04.001"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:parcel xsi:nil="true" />
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.AD.04.001.1.10.9910908WG1191S" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.10.9910908WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.10.9910908WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.10.9910908WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519816.539 4110838.3695</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:status xlink:href="http://inspire.ec.europa.eu/codelist/StatusValue/current"/>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>10</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/site"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+				<ad:withinScopeOf xlink:href="#ES.SDGC.AD.04.001.1.11.9910205WG1191S"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:parcel xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.11.9910205WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.11.9910205WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.11.9910205WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519802.699 4110841.8895</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.11.9910205WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519802.699 4110841.8895</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>11</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:name xsi:nil="true"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.12.9910909WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.12.9910909WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.12.9910909WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519806.279 4110844.2995</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.11.9910205WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519802.699 4110841.8895</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/thoroughfareAccess"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>false</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:status xlink:href="http://inspire.ec.europa.eu/codelist/StatusValue/curr"/>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator xsi:nil="true"/>
+				<ad:name xsi:nil="true"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:parentAddress xlink:href="#ES.SDGC.AU.04.001" />
+		<ad:building xsi:nil="true" />
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.13.9910204WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.13.9910204WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.13.9910204WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519796.619 4110843.48</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.11.9910205WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519802.699 4110841.8895</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>13</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:parentAddress xlink:href="#ES.SDGC.AD.04.001.1.14.9910910WG1191S" />
+		<ad:building xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.14.9910910WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.14.9910910WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.14.9910910WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519796.529 4110849.64</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator xsi:nil="true"/>
+				<ad:name xsi:nil="true"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.002" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.15.9810403WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.15.9810403WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.15.9810403WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519756.289 4110874.2405</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>15</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.16.9910901WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.16.9910901WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.16.9910901WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519789.889 4110853.84</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>16</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.18.9810510WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.18.9810510WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.18.9810510WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519780.949 4110860.47</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/Entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>18</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.19.9810402WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.19.9810402WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.19.9810402WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519744.519 4110884.9505</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>19</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.2.9910904WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.2.9910904WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.2.9910904WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519838.919 4110815.8195</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/Feature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>2</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.20.9810511WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.20.9810511WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.20.9810511WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519771.419 4110867.69</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byAdmin"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>20</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.21.9810401WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.21.9810401WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.21.9810401WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519739.729 4110889.8305</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>21</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.22.9810501WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.22.9810501WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.22.9810501WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519751.629 4110886.6505</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>22</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/address"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:Address gml:id="ES.SDGC.AD.04.001.1.24.9810502WG1191S">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001.1.24.9810502WG1191S</base:localId>
+				<base:namespace>ES.SDGC.AD</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:position>
+			<ad:GeographicPosition>
+				<ad:geometry>
+					<gml:Point gml:id="ES.SDGC.AD.04.001.1.24.9810502WG1191S_P" srsName="urn:ogc:def:crs:EPSG::25830">
+						<gml:pos>519753.359 4110884.9805</gml:pos> 
+					</gml:Point>
+				</ad:geometry>
+				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:default>true</ad:default>
+			</ad:GeographicPosition>
+		</ad:position>
+		<ad:locator>
+			<ad:AddressLocator>
+				<ad:designator>
+					<ad:LocatorDesignator>
+						<ad:designator>24</ad:designator>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
+					</ad:LocatorDesignator>
+				</ad:designator>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+			</ad:AddressLocator>
+		</ad:locator>
+		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
+		<ad:beginLifespanVersion>2005-09-22T00:00:00</ad:beginLifespanVersion>
+		<ad:component xlink:href="#ES.SDGC.PD.04.001.4510" />
+		<ad:component xlink:href="#ES.SDGC.TN.04.001.1" />
+		<ad:component xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:Address>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.1">
+	<ad:alternativeIdentifier>1</ad:alternativeIdentifier>
+	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:name>
+	<ad:ThoroughfareNameValue>
+		<ad:name>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness>Endonym</GN:nativeness>
+				<GN:nameStatus>Official</GN:nameStatus>
+				<GN:sourceOfName>Catastro</GN:sourceOfName>
+				<GN:pronunciation>
+					<GN:PronunciationOfName />
+				</GN:pronunciation>
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text> CL ADOLFO MARTINEZ S</GN:text>
+						<GN:script>Latn</GN:script>
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:name>
+		<ad:nameParts>
+			<ad:PartOfName>
+				<ad:part>
+				</ad:part>
+				<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+			</ad:PartOfName>
+			<ad:PartOfName>
+				<ad:part>
+				</ad:part>
+				<ad:type xsi:nil="true"/>
+			</ad:PartOfName>
+		</ad:nameParts>
+	</ad:ThoroughfareNameValue>
+	</ad:name>
+	</ad:ThoroughfareName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.2">
+	<ad:alternativeIdentifier>2</ad:alternativeIdentifier>
+	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:name>
+	<ad:ThoroughfareNameValue>
+		<ad:name>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness>Endonym</GN:nativeness>
+				<GN:nameStatus>Official</GN:nameStatus>
+				<GN:sourceOfName>Catastro</GN:sourceOfName>
+				<GN:pronunciation>
+					<GN:PronunciationOfName />
+				</GN:pronunciation>
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text> CL AGUA</GN:text>
+						<GN:script>Latn</GN:script>
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:name>
+	</ad:ThoroughfareNameValue>
+	</ad:name>
+	</ad:ThoroughfareName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.3">
+	<ad:alternativeIdentifier>3</ad:alternativeIdentifier>
+	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:name>
+	<ad:ThoroughfareNameValue>
+		<ad:name>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness>Endonym</GN:nativeness>
+				<GN:nameStatus>Official</GN:nameStatus>
+				<GN:sourceOfName>Catastro</GN:sourceOfName>
+				<GN:pronunciation>
+					<GN:PronunciationOfName />
+				</GN:pronunciation>
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text> CL AIRE</GN:text>
+						<GN:script>Latn</GN:script>
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:name>
+	</ad:ThoroughfareNameValue>
+	</ad:name>
+	</ad:ThoroughfareName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.4">
+	<ad:alternativeIdentifier>4</ad:alternativeIdentifier>
+	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:name>
+		<ad:ThoroughfareNameValue>
+			<ad:name>
+				<GN:GeographicalName>
+					<GN:language>esp</GN:language>
+					<GN:nativeness>Endonym</GN:nativeness>
+					<GN:nameStatus>Official</GN:nameStatus>
+					<GN:sourceOfName>Catastro</GN:sourceOfName>
+					<GN:pronunciation>
+						<GN:PronunciationOfName />
+					</GN:pronunciation>
+					<GN:spelling>
+						<GN:SpellingOfName>
+							<GN:text> CL ALBAICIN</GN:text>
+							<GN:script>Latn</GN:script>
+						</GN:SpellingOfName>
+					</GN:spelling>
+				</GN:GeographicalName>
+			</ad:name>
+			<ad:nameParts>
+				<ad:PartOfName>
+					<ad:part>
+					</ad:part>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+				</ad:PartOfName>
+				<ad:PartOfName>
+					<ad:part>
+					</ad:part>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/building"/>
+				</ad:PartOfName>
+			</ad:nameParts>
+		</ad:ThoroughfareNameValue>
+	</ad:name>
+	<ad:transportLink xlink:href="#ES.SDGC.TN.04.001.5"/>
+	</ad:ThoroughfareName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.5">
+	<ad:alternativeIdentifier>5</ad:alternativeIdentifier>
+	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+	<ad:name>
+		<ad:ThoroughfareNameValue>
+			<ad:name>
+				<GN:GeographicalName>
+					<GN:language>esp</GN:language>
+					<GN:nativeness>Endonym</GN:nativeness>
+					<GN:nameStatus>Official</GN:nameStatus>
+					<GN:sourceOfName>Catastro</GN:sourceOfName>
+					<GN:pronunciation>
+						<GN:PronunciationOfName />
+					</GN:pronunciation>
+					<GN:spelling>
+						<GN:SpellingOfName>
+							<GN:text> CL SALITRE</GN:text>
+							<GN:script>Latn</GN:script>
+						</GN:SpellingOfName>
+					</GN:spelling>
+				</GN:GeographicalName>
+			</ad:name>
+			<ad:nameParts>
+				<ad:PartOfName>
+					<ad:part>
+					</ad:part>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/builName"/>
+				</ad:PartOfName>
+				<ad:PartOfName>
+					<ad:part>
+					</ad:part>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/builName"/>
+				</ad:PartOfName>
+			</ad:nameParts>
+		</ad:ThoroughfareNameValue>
+	</ad:name>
+	<ad:transportLink xsi:nil="true"/>
+	</ad:ThoroughfareName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:PostalDescriptor gml:id="ES.SDGC.PD.04.001.4510">
+		<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:postName>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness>Endonym</GN:nativeness>
+				<GN:nameStatus>Official</GN:nameStatus>
+				<GN:sourceOfName>Catastro</GN:sourceOfName> 
+				<GN:pronunciation>
+					<GN:PronunciationOfName /> 
+				</GN:pronunciation>
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text /> 
+						<GN:script>Latn</GN:script> 
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:postName>
+			<ad:postCode>4510</ad:postCode>
+	</ad:PostalDescriptor>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:PostalDescriptor gml:id="ES.SDGC.PD.04.001.4533">
+		<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:postName xsi:nil="true"/>
+		<ad:postCode xsi:nil="true"/>
+	</ad:PostalDescriptor>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AdminUnitName gml:id="ES.SDGC.AU.04.001">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.001</base:localId>
+				<base:namespace>ES.SDGC.AU</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:alternativeIdentifier>04.001</ad:alternativeIdentifier>
+		<ad:beginLifespanVersion nilReason="missing" xsi:nil="true" />
+		<ad:status nilReason="missing" xsi:nil="true" />
+		<ad:validFrom nilReason="missing" xsi:nil="true" />
+		<ad:situatedWithin xlink:href="#ES.SDGC.PD.04.001.4533"/>
+		<ad:name>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness nilReason="missing" xsi:nil="true" />
+				<GN:nameStatus nilReason="missing" xsi:nil="true" />
+				<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+				<GN:pronunciation nilReason="missing" xsi:nil="true" />
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text>ABLA</GN:text>
+						<GN:script>latn</GN:script>
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:name>
+		<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder"/>
+		<ad:adminUnit xlink:href="#ES.SDGC.AD.04.001.1.12.9910909WG1191S" />
+	</ad:AdminUnitName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AdminUnitName gml:id="ES.SDGC.AU.04.002">
+		<ad:inspireId>
+			<base:Identifier>
+			<base:localId>04.002</base:localId>
+				<base:namespace>ES.SDGC.AU</base:namespace>
+			</base:Identifier>
+		</ad:inspireId>
+		<ad:alternativeIdentifier>04.002</ad:alternativeIdentifier>
+		<ad:beginLifespanVersion nilReason="missing" xsi:nil="true" />
+		<ad:status nilReason="missing" xsi:nil="true" />
+		<ad:validFrom nilReason="missing" xsi:nil="true" />
+		<ad:situatedWithin xlink:href="#ES.SDGC.AD.04.001.1.12.9910909WG1191S"/>
+		<ad:name>
+			<GN:GeographicalName>
+				<GN:language>esp</GN:language>
+				<GN:nativeness nilReason="missing" xsi:nil="true" />
+				<GN:nameStatus nilReason="missing" xsi:nil="true" />
+				<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+				<GN:pronunciation nilReason="missing" xsi:nil="true" />
+				<GN:spelling>
+					<GN:SpellingOfName>
+						<GN:text>ABLB</GN:text>
+						<GN:script>latn</GN:script>
+					</GN:SpellingOfName>
+				</GN:spelling>
+			</GN:GeographicalName>
+		</ad:name>
+		<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder"/>
+		<ad:adminUnit nilReason="missing" xsi:nil="true" />
+	</ad:AdminUnitName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AddressAreaName gml:id="AAN.001">
+		<ad:namedPlace xlink:href="#ES.SDGC.AU.04.001" />
+	</ad:AddressAreaName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AddressAreaName gml:id="AAN.002">
+		<ad:namedPlace xsi:nil="true" />
+	</ad:AddressAreaName>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AddressRepresentation gml:id="AR.001">
+		<ad:addressFeature xlink:href="#ES.SDGC.AU.04.002" />
+	</ad:AddressRepresentation>
+</gml:featureMember>
+<gml:featureMember>
+	<ad:AddressRepresentation gml:id="AR.002">
+		<ad:addressFeature xlink:href="#ES.SDGC.AD.04.001.1.15.9810403WG1191S" />
+	</ad:AddressRepresentation>
+</gml:featureMember>
+</gml:FeatureCollection>
