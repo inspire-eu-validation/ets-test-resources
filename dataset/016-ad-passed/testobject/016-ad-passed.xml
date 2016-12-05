@@ -348,7 +348,26 @@
 		<ad:locator>
 			<ad:AddressLocator>
 				<ad:designator xsi:nil="true"/>
-				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+				<ad:name>
+					<ad:LocatorName>
+						<ad:name>
+							<GN:GeographicalName>
+								<GN:language>esp</GN:language>
+								<GN:nativeness nilReason="missing" xsi:nil="true" />
+								<GN:nameStatus nilReason="missing" xsi:nil="true" />
+								<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+								<GN:pronunciation nilReason="missing" xsi:nil="true" />
+								<GN:spelling>
+									<GN:SpellingOfName>
+										<GN:text>ABLB</GN:text>
+										<GN:script>latn</GN:script>
+									</GN:SpellingOfName>
+								</GN:spelling>
+							</GN:GeographicalName>
+						</ad:name>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					</ad:LocatorName>
+				</ad:name>						 
 				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
 			</ad:AddressLocator>
 		</ad:locator>
@@ -539,7 +558,26 @@
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
-				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/siteName"/>
+				<ad:name>
+					<ad:LocatorName>
+						<ad:name>
+							<GN:GeographicalName>
+								<GN:language>esp</GN:language>
+								<GN:nativeness nilReason="missing" xsi:nil="true" />
+								<GN:nameStatus nilReason="missing" xsi:nil="true" />
+								<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+								<GN:pronunciation nilReason="missing" xsi:nil="true" />
+								<GN:spelling>
+									<GN:SpellingOfName>
+										<GN:text>ABLB</GN:text>
+										<GN:script>latn</GN:script>
+									</GN:SpellingOfName>
+								</GN:spelling>
+							</GN:GeographicalName>
+						</ad:name>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/siteName"/>
+					</ad:LocatorName>
+				</ad:name>	
 				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
 			</ad:AddressLocator>
 		</ad:locator>
@@ -578,7 +616,26 @@
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
-				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>	
+				<ad:name>
+					<ad:LocatorName>
+						<ad:name>
+							<GN:GeographicalName>
+								<GN:language>esp</GN:language>
+								<GN:nativeness nilReason="missing" xsi:nil="true" />
+								<GN:nameStatus nilReason="missing" xsi:nil="true" />
+								<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+								<GN:pronunciation nilReason="missing" xsi:nil="true" />
+								<GN:spelling>
+									<GN:SpellingOfName>
+										<GN:text>ABLB</GN:text>
+										<GN:script>latn</GN:script>
+									</GN:SpellingOfName>
+								</GN:spelling>
+							</GN:GeographicalName>
+						</ad:name>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					</ad:LocatorName>
+				</ad:name>	
 				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
 			</ad:AddressLocator>
 		</ad:locator>

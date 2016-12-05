@@ -29,7 +29,26 @@
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
-				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/siteName"/>
+				<ad:name>
+					<ad:LocatorName>
+						<ad:name>
+							<GN:GeographicalName>
+								<GN:language>esp</GN:language>
+								<GN:nativeness nilReason="missing" xsi:nil="true" />
+								<GN:nameStatus nilReason="missing" xsi:nil="true" />
+								<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+								<GN:pronunciation nilReason="missing" xsi:nil="true" />
+								<GN:spelling>
+									<GN:SpellingOfName>
+										<GN:text>ABLB</GN:text>
+										<GN:script>latn</GN:script>
+									</GN:SpellingOfName>
+								</GN:spelling>
+							</GN:GeographicalName>
+						</ad:name>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					</ad:LocatorName>
+				</ad:name>	
 				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
 				<ad:withinScopeOf xlink:href="#ES.SDGC.AU.04.001"/>
 			</ad:AddressLocator>
@@ -71,7 +90,26 @@
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
-				<ad:name xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/site"/>
+				<ad:name>
+					<ad:LocatorName>
+						<ad:name>
+							<GN:GeographicalName>
+								<GN:language>esp</GN:language>
+								<GN:nativeness nilReason="missing" xsi:nil="true" />
+								<GN:nameStatus nilReason="missing" xsi:nil="true" />
+								<GN:sourceOfName nilReason="missing" xsi:nil="true" />
+								<GN:pronunciation nilReason="missing" xsi:nil="true" />
+								<GN:spelling>
+									<GN:SpellingOfName>
+										<GN:text>ABLB</GN:text>
+										<GN:script>latn</GN:script>
+									</GN:SpellingOfName>
+								</GN:spelling>
+							</GN:GeographicalName>
+						</ad:name>
+						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/site"/>
+					</ad:LocatorName>
+				</ad:name>	
 				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
 				<ad:withinScopeOf xlink:href="#ES.SDGC.AD.04.001.1.11.9910205WG1191S"/>
 			</ad:AddressLocator>
@@ -641,7 +679,7 @@
 			<ad:PartOfName>
 				<ad:part>
 				</ad:part>
-				<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+				<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/namePrefix"/>
 			</ad:PartOfName>
 			<ad:PartOfName>
 				<ad:part>
@@ -743,12 +781,12 @@
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/t"/>
 				</ad:PartOfName>
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/building"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/type"/>
 				</ad:PartOfName>
 			</ad:nameParts>
 		</ad:ThoroughfareNameValue>
