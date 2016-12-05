@@ -775,7 +775,7 @@
 				</GN:spelling>
 			</GN:GeographicalName>
 		</ad:postName>
-			<ad:postCode></ad:postCode>
+		<ad:postCode xsi:nil="true"/>
 	</ad:PostalDescriptor>
 </gml:featureMember>
 <gml:featureMember>
