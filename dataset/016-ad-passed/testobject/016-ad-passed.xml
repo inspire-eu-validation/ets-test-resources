@@ -681,32 +681,32 @@
 </gml:featureMember>
 <gml:featureMember>
 	<ad:ThoroughfareName gml:id="ES.SDGC.TN.04.001.4">
-	<ad:alternativeIdentifier>4</ad:alternativeIdentifier>
-	<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
-	<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
-	<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
-	<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
-	<ad:name>
-	<ad:ThoroughfareNameValue>
+		<ad:alternativeIdentifier>4</ad:alternativeIdentifier>
+		<ad:beginLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:endLifespanVersion xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validFrom xsi:nil="true" nilReason="UNKNOWN" />
+		<ad:validTo xsi:nil="true" nilReason="UNKNOWN" />
 		<ad:name>
-			<GN:GeographicalName>
-				<GN:language>esp</GN:language>
-				<GN:nativeness>Endonym</GN:nativeness>
-				<GN:nameStatus>Official</GN:nameStatus>
-				<GN:sourceOfName>Catastro</GN:sourceOfName>
-				<GN:pronunciation>
-					<GN:PronunciationOfName />
-				</GN:pronunciation>
-				<GN:spelling>
-					<GN:SpellingOfName>
-						<GN:text> CL ALBAICIN</GN:text>
-						<GN:script>Latn</GN:script>
-					</GN:SpellingOfName>
-				</GN:spelling>
-			</GN:GeographicalName>
+			<ad:ThoroughfareNameValue>
+				<ad:name>
+					<GN:GeographicalName>
+						<GN:language>esp</GN:language>
+						<GN:nativeness>Endonym</GN:nativeness>
+						<GN:nameStatus>Official</GN:nameStatus>
+						<GN:sourceOfName>Catastro</GN:sourceOfName>
+						<GN:pronunciation>
+							<GN:PronunciationOfName />
+						</GN:pronunciation>
+						<GN:spelling>
+							<GN:SpellingOfName>
+								<GN:text> CL ALBAICIN</GN:text>
+								<GN:script>Latn</GN:script>
+							</GN:SpellingOfName>
+						</GN:spelling>
+					</GN:GeographicalName>
+				</ad:name>
+			</ad:ThoroughfareNameValue>
 		</ad:name>
-	</ad:ThoroughfareNameValue>
-	</ad:name>
 	</ad:ThoroughfareName>
 </gml:featureMember>
 <gml:featureMember>
@@ -739,12 +739,12 @@
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/qualifier"/>
 				</ad:PartOfName>
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/buildingName"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/type"/>
 				</ad:PartOfName>
 			</ad:nameParts>
 		</ad:ThoroughfareNameValue>

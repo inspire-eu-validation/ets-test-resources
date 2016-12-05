@@ -399,7 +399,7 @@
 					</gml:Point>
 				</ad:geometry>
 				<ad:specification xlink:href="http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance"/>
-				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromFeature"/>
+				<ad:method xlink:href="http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromture"/>
 				<ad:default>true</ad:default>
 			</ad:GeographicPosition>
 		</ad:position>
@@ -601,7 +601,7 @@
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
-				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/siteLevel"/>
+				<ad:level xlink:href="http://inspire.ec.europa.eu/codelist/LocatorLevelValue/site"/>
 			</ad:AddressLocator>
 		</ad:locator>
 		<ad:validFrom xsi:nil="true" nilReason="other:unpopulated"></ad:validFrom>
@@ -786,12 +786,12 @@
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/builName"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/qualifier"/>
 				</ad:PartOfName>
 				<ad:PartOfName>
 					<ad:part>
 					</ad:part>
-					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/builName"/>
+					<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/PartTypeValue/qual"/>
 				</ad:PartOfName>
 			</ad:nameParts>
 		</ad:ThoroughfareNameValue>
