@@ -369,7 +369,7 @@
 			<ad:AddressLocator>
 				<ad:designator>
 					<ad:LocatorDesignator>
-						<ad:designator>16</ad:designator>
+						<ad:designator>19</ad:designator>
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
@@ -483,7 +483,7 @@
 			<ad:AddressLocator>
 				<ad:designator>
 					<ad:LocatorDesignator>
-						<ad:designator>2</ad:designator>
+						<ad:designator>19</ad:designator>
 						<ad:type xlink:href="http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/addressNumber"/>
 					</ad:LocatorDesignator>
 				</ad:designator>
