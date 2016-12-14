@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-ro/4.0 http://inspire.ec.europa.eu/schemas/tn-ro/4.0/RoadTransportNetwork.xsd">
+	<gml:featureMember>
+		<tn:MarkerPost gml:id="MarkerPost_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>MP_1</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn:route xlink:href="#MarkerPost_02"/>
+		</tn:MarkerPost>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:MarkerPost gml:id="MarkerPost_02">
+			<net:inspireId xsi:nil="true"/>
+			<tn:route xlink:href="#AccessRestriction_01"/>
+		</tn:MarkerPost>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:AccessRestriction gml:id="AccessRestriction_01">
+			<net:inspireID xsi:nil="true"/>
+			<tn:restriction xlink:href="http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasonal"/>
+		</tn:AccessRestriction>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:AccessRestriction gml:id="AccessRestriction_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>AR_1</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn:restriction xlink:href="http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasal"/>
+		</tn:AccessRestriction>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:RestrictionForVehicles gml:id="RestrictionForVehicles_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RFV_1</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn:restrictionType xlink:href="http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasal"/>
+		</tn:RestrictionForVehicles>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:RestrictionForVehicles gml:id="RestrictionForVehicles_02">
+			<net:inspireID xsi:nil="true"/>
+			<tn:restrictionType xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumWidth"/>
+		</tn:RestrictionForVehicles>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:TrafficFlowDirection gml:id="TrafficFlowDirection_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>TFD_1</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RoadLink_12345"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RestrictionForVehicles_02"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn:TrafficFlowDirection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:TrafficFlowDirection gml:id="TrafficFlowDirection_02">
+			<net:inspireID xsi:nil="true"/>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xsi:nil="true"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xsi:nil="true"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn:TrafficFlowDirection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn:TrafficFlowDirection gml:id="TrafficFlowDirection_03">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>TFD_3</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xsi:nil="true"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RestrictionForVehicles_02"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn:TrafficFlowDirection>
+	</gml:featureMember>
+</gml:FeatureCollection>
