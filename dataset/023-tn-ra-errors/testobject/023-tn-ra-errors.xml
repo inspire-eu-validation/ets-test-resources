@@ -44,13 +44,13 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:inNetwork xlink:href="#NetworkTwo"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ra:RailwayLink>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ra:RailwayLink gml:id="RailwayLink_02">
 			<net:inspireId xsi:nil="true"/>
-			<net:inNetwork xlink:href="#NetworkOne"/>
+			<net:inNetwork xlink:href="#NetworkTwo"/>
 		</tn-ra:RailwayLink>
 	</gml:featureMember>
 	<gml:featureMember>
