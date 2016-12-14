@@ -1,0 +1,244 @@
+<?xml version="1.0" ?>
+<gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:tn-a="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-a/4.0 http://inspire.ec.europa.eu/schemas/tn-a/4.0/AirTransportNetwork.xsd">
+	<gml:featureMember>
+		<tn-a:AirRouteLink gml:id="AirRouteLink_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>ARL_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-a:airRouteLinkClass xlink:href="http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/TACAN"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-a:AirRouteLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AirRoute gml:id="AirRoute_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>AR_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn:post xsi:nil="true"/>
+			<tn-a:airRouteType xlink:href="http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/NAT"/>
+			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-a:AirRoute>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AirLinkSequence gml:id="AirLinkSequence_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>ALS_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-a:AirLinkSequence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AirspaceArea gml:id="AirspaceArea_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>ASA_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-a:AirspaceAreaType xlink:href="http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/FIR"/>
+		</tn-a:AirspaceArea>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:TouchDownLiftOff gml:id="TouchDownLiftOff_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>TDLO_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+		</tn-a:TouchDownLiftOff>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:FieldElevation gml:id="FieldElevation_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>FE_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AerodromeArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-a:FieldElevation>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AerodromeCategory gml:id="AerodromeCategory_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>AC_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AerodromeArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-a:aerodromeCategory xlink:href="http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue/domesticRegional"/>
+		</tn-a:AerodromeCategory>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AerodromeType gml:id="AerodromeType_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>AT_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AerodromeArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-a:aerodromeType xlink:href="http://inspire.ec.europa.eu/codelist/AerodromeTypeValue/heliportOnly"/>
+		</tn-a:AerodromeType>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:UseRestriction gml:id="useRestriction_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>UR_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AirRoute_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-a:restriction xlink:href="http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/temporalRestrictions"/>
+		</tn-a:UseRestriction>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:Navaid gml:id="Navaid_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NID_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-a:navaidType xlink:href="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS"/>
+		</tn-a:Navaid>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:RunwayCentrelinePoint gml:id="RunwayCentrelinePoint_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RCP_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-a:pointRole xlink:href="http://inspire.ec.europa.eu/codelist/PointRoleValue/end"/>
+		</tn-a:RunwayCentrelinePoint>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:RunwayArea gml:id="RunwayArea_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RA_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-a:runwayType xlink:href="http://inspire.ec.europa.eu/codelist/RunwayTypeValue/runway"/>
+		</tn-a:RunwayArea>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:SurfaceComposition gml:id="SurfaceComposition_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>SC_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RunwayArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-a:runwayType xlink:href="http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/concrete"/>
+		</tn-a:SurfaceComposition>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:AerodromeArea gml:id="AerodromeArea_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>AA_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+		</tn-a:AerodromeArea>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:ConditionOfAirFacility gml:id="ConditionOfAirFacility_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>COAF_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AerodromeArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-a:ConditionOfAirFacility>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:ElementLength gml:id="ElementLength_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>EL_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RunwayArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-a:ElementLength>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:LowerAltitudeLimit gml:id="LowerAltitudeLimit_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>LAL_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AirspaceArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-a:LowerAltitudeLimit>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:UpperAltitudeLimit gml:id="UpperAltitudeLimit_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>UAL_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#AirspaceArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-a:UpperAltitudeLimit>
+	</gml:featureMember>
+</gml:FeatureCollection>

@@ -9,8 +9,8 @@
 				</base:Identifier>
 			</net:inspireId>
 			<tn:post xlink:href="MarineWaterway_02"/>
-			<net:link xlink:href="#WaterLink_01"/>
-			<net:link xlink:href="#WaterLink_02"/>
+			<net:link xlink:href="#WaterwayLink_01"/>
+			<net:link xlink:href="#WaterwayLink_02"/>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-w:MarineWaterway>
 	</gml:featureMember>
@@ -18,7 +18,7 @@
 		<tn-w:MarineWaterway gml:id="MarineWaterway_02">
 			<net:inspireId xsi:nil="true"/>
 			<tn:post xsi:nil="true"/>
-			<net:link xlink:href="#WaterLink_01"/>
+			<net:link xlink:href="#WaterwayLink_01"/>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-w:MarineWaterway>
 	</gml:featureMember>
