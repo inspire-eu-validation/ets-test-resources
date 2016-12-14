@@ -89,7 +89,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:measuredRoadPart xlink:href="http://inspire.ec.europa.eu/codelist/RoadPartValue/carriageway"/>
@@ -105,7 +105,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:formOfWay xlink:href="http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycleRoad"/>
@@ -171,7 +171,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:areaCondition xlink:href="http://inspire.ec.europa.eu/codelist/AreaConditionValue/inNationalPark"/>

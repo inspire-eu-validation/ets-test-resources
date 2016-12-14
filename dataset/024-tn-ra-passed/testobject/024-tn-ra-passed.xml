@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:tn-ra="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-ro/4.0 http://inspire.ec.europa.eu/schemas/tn-ro/4.0/RoadTransportNetwork.xsd">
+	<gml:featureMember>
+		<tn-ra:RailwayLine gml:id="RailwayLine_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RLINE_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn:post xsi:nil="true"/>
+			<net:link xlink:href="#RailwayLink_01"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-ra:RailwayLine>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayArea gml:id="RailwayArea_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RA_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+		</tn-ra:RailwayArea>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayLink gml:id="RailwayLink_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RLINK_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-ra:RailwayLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayLinkSequence gml:id="RailwayLinkSequence_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RLS_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:link xlink:href="#RailwayLink_01"/>
+			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-ra:RailwayLinkSequence>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayStationNode gml:id="RailwayStationNode_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RSN_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop"/>
+		</tn-ra:RailwayStationNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayYardNode gml:id="RailwayYardNode_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RYN_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop"/>
+		</tn-ra:RailwayYardNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayUse gml:id="RailwayUse_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RU_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ra:use xlink:href="http://inspire.ec.europa.eu/codelist/RailwayUseValue/cargo"/>
+		</tn-ra:RailwayUse>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayType gml:id="RailwayType_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RT_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ra:type xlink:href="http://inspire.ec.europa.eu/codelist/RailwayTypeValue/metro"/>
+		</tn-ra:RailwayType>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:DesignSpeed gml:id="DesignSpeed_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>DS_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:DesignSpeed>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:NominalTrackGauge gml:id="NominalTrackGauge_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NTG_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:NominalTrackGauge>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:NumberOfTracks gml:id="NumberOfTracks_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NOT_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:NumberOfTracks>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayElectrification gml:id="RailwayElectrification_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RE_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:RailwayElectrification>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayStationCode gml:id="RailwayStationCode_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RSC_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:RailwayStationCode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayType gml:id="RailwayType_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RT_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:RailwayType>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayUse gml:id="RailwayUse_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RT_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#RailwayLinkSequence_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-ra:RailwayUse>
+	</gml:featureMember>
+</gml:FeatureCollection>

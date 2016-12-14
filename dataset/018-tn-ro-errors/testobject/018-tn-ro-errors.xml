@@ -173,7 +173,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<net:networkRef>
@@ -194,7 +194,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:measuredRoadPart xlink:href="http://inspire.ec.europa.eu/codelist/RoadPartValue/paved"/>
@@ -210,7 +210,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<net:networkRef>
@@ -231,7 +231,7 @@
 			</net:inspireId>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:formOfWay xlink:href="http://inspire.ec.europa.eu/codelist/FormOfWayValue/bicycd"/>
@@ -343,7 +343,7 @@
 			</net:networkRef>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:areaCondition xlink:href="http://inspire.ec.europa.eu/codelist/AreaConditionValue/inPark"/>
@@ -358,7 +358,7 @@
 			<net:inspireId xsi:nil="true"/>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#RoadLink_01"/>
+					<net:element xlink:href="#RL_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-ro:areaCondition xlink:href="http://inspire.ec.europa.eu/codelist/AreaConditionValue/inNationalPark"/>
