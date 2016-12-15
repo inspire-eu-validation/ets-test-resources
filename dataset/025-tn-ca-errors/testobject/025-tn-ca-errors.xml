@@ -9,8 +9,18 @@
 				</base:Identifier>
 			</net:inspireId>
 			<tn:post xlink:href="#CablewayLine_02"/>
-			<net:link xlink:href="#CablewayLink_01"/>
-			<net:link xlink:href="#CablewayLink_02"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_02"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ca:CablewayLinkSet>
 	</gml:featureMember>
@@ -18,7 +28,12 @@
 		<tn-ca:CablewayLinkSet gml:id="CablewayLinkSet_02">
 			<net:inspireId xsi:nil="true"/>
 			<tn:post xsi:nil="true"/>
-			<net:link xlink:href="#CablewayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ca:CablewayLinkSet>
 	</gml:featureMember>
@@ -49,15 +64,30 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#CablewayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			</tn-ca:CablewayLinkSequence>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ca:CablewayLinkSequence gml:id="CablewayLinkSequence_02">
 			<net:inspireId xsi:nil="true"/>
-			<net:link xlink:href="#CablewayLink_01"/>
-			<net:link xlink:href="#CablewayLink_02"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_02"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ca:CablewayLinkSequence>
 	</gml:featureMember>

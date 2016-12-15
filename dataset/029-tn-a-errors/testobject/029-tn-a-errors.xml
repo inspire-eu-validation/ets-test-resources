@@ -29,8 +29,18 @@
 			</net:inspireId>
 			<tn:post xlink:href="AirRoute_01"/>
 			<tn-a:airRouteType xlink:href="http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/N"/>
-			<net:link xlink:href="#AirRouteLink_01"/>
-			<net:link xlink:href="#AirRouteLink_02"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_02"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirRoute>
 	</gml:featureMember>
@@ -39,7 +49,12 @@
 			<net:inspireId xsi:nil="true"/>
 			<tn:post xsi:nil="true"/>
 			<tn-a:airRouteType xlink:href="http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/NAT"/>
-			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirRoute>
 	</gml:featureMember>
@@ -51,15 +66,30 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirLinkSequence>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-a:AirLinkSequence gml:id="AirLinkSequence_02">
 			<net:inspireId xsi:nil="true"/>
-			<net:link xlink:href="#AirRouteLink_01"/>
-			<net:link xlink:href="#AirRouteLink_02"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#AirRouteLink_02"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirLinkSequence>
 	</gml:featureMember>

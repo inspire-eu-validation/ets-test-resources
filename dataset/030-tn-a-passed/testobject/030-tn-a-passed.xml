@@ -22,7 +22,12 @@
 			</net:inspireId>
 			<tn:post xsi:nil="true"/>
 			<tn-a:airRouteType xlink:href="http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/NAT"/>
-			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirRoute>
 	</gml:featureMember>
@@ -34,7 +39,12 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#AirRouteLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>
+					<net:link xlink:href="#AirRouteLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-a:AirLinkSequence>
 	</gml:featureMember>

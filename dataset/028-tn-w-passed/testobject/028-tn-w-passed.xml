@@ -9,7 +9,12 @@
 				</base:Identifier>
 			</net:inspireId>
 			<tn:post xsi:nil="true"/>
-			<net:link xlink:href="#WaterwayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>
+					<net:link xlink:href="#WaterwayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-w:MarineWaterway>
 	</gml:featureMember>
@@ -32,7 +37,12 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#WaterwayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>
+					<net:link xlink:href="#WaterwayLink_01"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-w:WaterLinkSequence>
 	</gml:featureMember>

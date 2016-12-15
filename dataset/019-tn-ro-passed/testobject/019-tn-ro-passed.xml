@@ -131,9 +131,24 @@
 				</base:Identifier>
 			</net:inspireId>
 			<tn:post xsi:nil="true">
-			<net:link xlink:href="#RL_1"/>
-			<net:link xlink:href="#RL_2"/>
-			<net:link xlink:href="#RL_3"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_1"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_2"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_3"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ro:Road>
 	</gml:featureMember>
@@ -155,9 +170,24 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#RL_1"/>
-			<net:link xlink:href="#RL_2"/>
-			<net:link xlink:href="#RL_3"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_1"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_2"/>
+				</net:DirectedLink>
+			</net:link>	
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#RL_3"/>
+				</net:DirectedLink>
+			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ro:RoadLinkSequence>
 	</gml:featureMember>

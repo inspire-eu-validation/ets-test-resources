@@ -9,7 +9,12 @@
 				</base:Identifier>
 			</net:inspireId>
 			<tn:post xsi:nil="true"/>
-			<net:link xlink:href="#CablewayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ca:CablewayLinkSet>
 	</gml:featureMember>
@@ -33,7 +38,12 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<net:link xlink:href="#CablewayLink_01"/>
+			<net:link>
+				<net:DirectedLink>
+					<net:direction>+</net:direction>		
+					<net:link xlink:href="#CablewayLink_01"/>
+				</net:DirectedLink>
+			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 		</tn-ca:CablewayLinkSequence>
 	</gml:featureMember>
