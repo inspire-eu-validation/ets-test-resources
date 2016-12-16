@@ -171,6 +171,43 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_roadnode1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>12 8</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<tn-ro:formOfRoadNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/roundabout"/>
+		</tn-ro:RoadNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ro:RoadNode gml:id="RoadNode_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RN_2</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_roadnode2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
+			<tn-ro:formOfRoadNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/roundabout"/>
+		</tn-ro:RoadNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ro:RoadNode gml:id="RoadNode_03">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RN_3</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_roadnode3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-ro:formOfRoadNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/roundabout"/>
 		</tn-ro:RoadNode>
 	</gml:featureMember>
@@ -276,7 +313,7 @@
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_2b8b02ed-5b45-4419-9323-b362323ea125" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
-					<gml:posList>3968701.3820164762 456260.14062018925 3968693.184814776 456271.462424524 3968687.474442819 456280.12511288427 3968672.4911590866 456295.31011993985 3968663.29922634 456304.20544341934 3968651.4028212368 456313.1713734648 3968638.095456557 456323.7755903269 3968612.083455419 456338.03565805673 3968596.14526418 456346.98802571365 3968533.3134117904 456384.7983187929 3968407.3304260825 456461.79869950924 3968309.5096772765 456520.2852808949 3968170.1305317837 456604.06113243406 3968036.6824634694 456684.13017402333 3967972.417896134 456724.36814073473 3967880.2515209154 456831.6644616973 3967855.8872607783 456858.6897287958 3967846.290965768 456866.01946864574 3967821.884908893 456881.81521563244 3967804.9096406 456892.8016053625 3967769.039296074 456911.59344721516 3967759.5702391383 456915.99576682964</gml:posList>
+					<gml:posList>3 4 7 9 12 8</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
 			<net:fictitious>false</net:fictitious>
@@ -311,7 +348,7 @@
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_9ffc5fd0-657c-4ae0-b7f5-201d254f0cac" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
-					<gml:posList>3989174.363018741 431635.45154655987 3989167.783700358 431659.90591505915 3989161.6145847347 431681.46386522875 3989150.518869731 431722.51450982696 3989143.351322466 431742.70917407365 3989136.8155462747 431763.11706182885 3989080.278025984 431922.1585188182 3989023.4200892784 432081.0858696953 3989008.803253514 432219.1343486648 3989005.7946772245 432232.7665439226 3989003.525003916 432246.54102638713 3988997.0150820683 432263.49641510803 3988991.0396738127 432280.6472983463 3988981.928575602 432297.9400297046 3988973.47905363 432315.56536585244 3988973.363879106 432315.7135702357</gml:posList>
+					<gml:posList>2 1 2 4 3 7</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
 			<net:fictitious>false</net:fictitious>
@@ -346,7 +383,7 @@
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_edebc033-6c15-43f6-89ec-edcaafdc2280" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
-					<gml:posList>3988876.4629356936 432417.5512244152 3988872.278062522 432429.08513466653 3988866.9380494254 432447.184387387 3988859.5865654163 432473.726230124 3988828.104308261 432576.5685952669 3988807.1708620368 432647.2504567616 3988789.434205974 432717.40852299274 3988785.886801595 432743.0281886069 3988787.463390675 432787.96098901477 3988787.069410331 432808.85069884016 3988784.70435574 432825.7991782263 3988774.8506852505 432856.5426801497 3988755.931751007 432892.4101346413 3988727.9473281684 432942.07264338766 3988701.5394821553 432993.31181330915 3988699.208039626 432999.61780845706 3988694.8388375114 433016.5663298323 3988694.505680172 433024.49027897575</gml:posList>
+					<gml:posList>7 14 13 15 14 12 10 11</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
 			<net:fictitious>false</net:fictitious>

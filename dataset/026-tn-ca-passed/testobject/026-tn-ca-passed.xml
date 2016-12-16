@@ -80,6 +80,11 @@
 			</net:inspireId>
 			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkOne"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="_link1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:posList>3 4 7 9 12 8</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
 		</tn-ca:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -92,6 +97,11 @@
 			</net:inspireId>
 			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkTwo"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="_link2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:posList>2 1 2 4 3 7</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
 		</tn-ca:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -104,6 +114,11 @@
 			</net:inspireId>
 			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkTwo"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="_link3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:posList>7 14 13 15 14 12 10 11</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
 		</tn-ca:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -131,6 +146,41 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>12 8</gml:pos>
+				</gml:Point>
+			</net:geometry>
+		</tn-ca:CablewayNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ca:CablewayNode gml:id="CablewayNode_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CWN_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
+		</tn-ca:CablewayNode>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ca:CablewayNode gml:id="CablewayNode_03">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CWN_03</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 		</tn-ca:CablewayNode>
 	</gml:featureMember>
 </gml:FeatureCollection>
