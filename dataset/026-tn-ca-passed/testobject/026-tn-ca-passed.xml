@@ -1,6 +1,58 @@
 <?xml version="1.0" ?>
 <gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:tn-ca="http://inspire.ec.europa.eu/schemas/tn-ca/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-ca/4.0 http://inspire.ec.europa.eu/schemas/tn-ca/4.0/CableTransportNetwork.xsd">
 	<gml:featureMember>
+		<net:NetworkConnection gml:id="NetworkConnection_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NetworkConnection_1</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal"/>
+			<net:element xlink:href="#CablewayLink_01"/>
+			<net:element xlink:href="#CablewayLink_02"/>
+		</net:NetworkConnection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<net:NetworkConnection gml:id="NetworkConnection_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NetworkConnection_2</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal"/>
+			<net:element xlink:href="#CablewayLink_01"/>
+			<net:element xlink:href="#CablewayLink_03"/>
+		</net:NetworkConnection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<net:NetworkConnection gml:id="NetworkConnection_03">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NetworkConnection_3</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical"/>
+			<net:element xlink:href="#CablewayLink_01"/>
+			<net:element xlink:href="#CablewayLink_02"/>
+		</net:NetworkConnection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<net:NetworkConnection gml:id="NetworkConnection_04">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>NetworkConnection_4</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical"/>
+			<net:element xlink:href="#CablewayLink_03"/>
+			<net:element xlink:href="#CablewayLink_02"/>
+		</net:NetworkConnection>
+	</gml:featureMember>
+	<gml:featureMember>
 		<tn-ca:CablewayLinkSet gml:id="CablewayLinkSet_01">
 			<net:inspireId>
 				<base:Identifier>
@@ -28,6 +80,30 @@
 			</net:inspireId>
 			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkOne"/>
+		</tn-ca:CablewayLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ca:CablewayLink gml:id="CablewayLink_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CL_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
+			<net:inNetwork xlink:href="#NetworkTwo"/>
+		</tn-ca:CablewayLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ca:CablewayLink gml:id="CablewayLink_03">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CL_03</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
+			<net:inNetwork xlink:href="#NetworkTwo"/>
 		</tn-ca:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
