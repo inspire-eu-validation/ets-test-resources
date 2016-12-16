@@ -182,7 +182,7 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn:post xsi:nil="true">
+			<tn:post xsi:nil="true"/>
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		

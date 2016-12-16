@@ -314,7 +314,7 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn:post xlink:href="#RL_1">
+			<tn:post xlink:href="#RL_1"/>
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
@@ -339,7 +339,7 @@
 	<gml:featureMember>
 		<tn-ro:Road gml:id="Road_02">
 			<net:inspireId xsi:nil="true"/>
-			<tn:post xsi:nil="true">
+			<tn:post xsi:nil="true"/>
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
