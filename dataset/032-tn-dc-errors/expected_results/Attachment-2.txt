@@ -1,0 +1,20 @@
+Testing 2 features
+
+Indexing features (parsing errors: 0): 5 ms
+
+Executing Test Suite: \0 PROJECTS TC\ARE3NA2\ets-repository\data-tn\tn-dc\ets-tn-dc-bsxets.xml
+
+Statistics table: 4 ms
+
+Test Suite 'Conformance class: Data consistency, Transport Networks' started
+
+Test Case 'Spatial consistency' started
+
+Test Assertion 'hy-dc.a.1: Each Tansport Network Link or Node geometry is within a Network Area geometry': FAILED - 2 ms
+
+Test Assertion 'tn-dc.a.2: Manual review': PASSED_MANUAL
+
+Test Case 'Spatial consistency' finished: FAILED
+
+Test Suite 'Conformance class: Data consistency, Transport Networks' finished: FAILED
+

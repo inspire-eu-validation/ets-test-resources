@@ -5161,4 +5161,33 @@
 			<tn:validFrom nilReason="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated" xsi:nil="true"/>
 		</tn-ro:RoadLink>
 	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ro:RoadServiceArea gml:id="RSA_1">
+			<net:beginLifespanVersion>2016-07-28T23:49:07Z</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RSA_1</base:localId>
+					<base:namespace>CZ-00025712-CUZK_TN</base:namespace>
+					<base:versionId xsi:nil="true" nilReason="unpopulated"/>
+				</base:Identifier>
+			</net:inspireId>
+			<net:endLifespanVersion xsi:nil="true" nilReason="unpopulated"/>
+			<net:inNetwork xsi:nil="true" nilReason="unpopulated"/>
+			<net:geometry>
+				<gml:CompositeSurface gml:id="RSA_1" srsName="urn:ogc:def:crs:EPSG::3045">
+					<gml:surfaceMember>
+						<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1">
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList srsDimension="2"></gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+					</gml:surfaceMember>
+				</gml:CompositeSurface>
+			</net:geometry>
+			<tn:validFrom xsi:nil="true" nilReason="unpopulated"/>
+			<tn:validTo xsi:nil="true" nilReason="unpopulated"/>
+		</tn-ro:RoadServiceArea>
+	</gml:featureMember>
 </gml:FeatureCollection>
