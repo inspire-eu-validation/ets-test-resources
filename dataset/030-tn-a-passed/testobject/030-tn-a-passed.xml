@@ -359,7 +359,12 @@
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-a:DesignatedPoint gml:id="DesignatedPoint_01">
-			<net:inspireId xsi:nil="true"/>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>DP_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
 			<net:geometry>
 				<gml:Point gml:id="_node1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:pos>12 8</gml:pos>
