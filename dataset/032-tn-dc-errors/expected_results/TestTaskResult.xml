@@ -62,19 +62,13 @@
       <label>Log file</label>
       <encoding>UTF-8</encoding>
       <mimeType>text/plain</mimeType>
-      <referencedData href="file:///C:/0%20PROJECTS%20TC/ARE3NA2/ets-repository/tmp/EIDe73763b5-87ec-4d17-9644-1d53b8e4b9ee-log.txt"/>
+      <referencedData href="Attachment-2.txt"/>
     </Attachment>
     <Attachment type="StatisticalReport" id="EID45984443-a351-47da-aa69-6b83d7ede823">
       <label>Feature statistics</label>
       <encoding>UTF-8</encoding>
       <mimeType>application/xml</mimeType>
-      <referencedData href="file:///C:/0%20PROJECTS%20TC/ARE3NA2/ets-repository/tmp/EIDe73763b5-87ec-4d17-9644-1d53b8e4b9ee-stat.xml"/>
-    </Attachment>
-    <Attachment type="Query" id="EID53922230-5bc6-41b6-8e62-9e5739a8cf9a">
-      <label>XQuery executed against the dataset</label>
-      <encoding>UTF-8</encoding>
-      <mimeType>text/plain</mimeType>
-      <referencedData href="file:///C:/0%20PROJECTS%20TC/ARE3NA2/ets-repository/tmp/EIDe73763b5-87ec-4d17-9644-1d53b8e4b9ee-query.xq"/>
+      <referencedData href="Attachment-1.xml"/>
     </Attachment>
   </attachments>
   <resultedFrom ref="EID733af9a0-312b-4f71-9aa2-977cd2134d23"/>
