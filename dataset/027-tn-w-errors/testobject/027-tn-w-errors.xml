@@ -142,7 +142,7 @@
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
-			</tn-w:WaterLinkSequence>
+		</tn-w:WaterLinkSequence>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-w:WaterLinkSequence gml:id="WaterLinkSequence_02">
@@ -170,12 +170,22 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#WaterwayLink_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
 			<tn:restrictionType xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumWidth"/>
 		</tn-w:RestrictionForWaterVehicles>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-w:RestrictionForWaterVehicles gml:id="RestrictionForWaterVehicles_02">
 			<net:inspireId xsi:nil="true"/>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#InlandWaterway_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
 			<tn:restrictionType xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximum"/>
 		</tn-w:RestrictionForWaterVehicles>
 	</gml:featureMember>
@@ -257,6 +267,7 @@
 					<gml:pos>2 4</gml:pos>
 				</gml:Point>
 			</net:geometry>
+			<tn-w:formOfWaterwayNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/ship"/>
 		</tn-w:WaterwayNode>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -272,6 +283,7 @@
 					<gml:pos>10 12</gml:pos>
 				</gml:Point>
 			</net:geometry>
+			<tn-w:formOfWaterwayNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/shipLift"/>
 		</tn-w:WaterwayNode>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -303,5 +315,117 @@
 				</net:NetworkReference>
 			</net:networkRef>
 		</tn-w:WaterTrafficFlowDirection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:FerryUse gml:id="FerryUse_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>FU_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#InlandWaterway_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-w:ferryUse xlink:href="http://inspire.ec.europa.eu/codelist/FerryUseValue/cars"/>
+		</tn-w:FerryUse>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:FerryUse gml:id="FerryUse_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>FU_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#FerryCrossing_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+			<tn-w:ferryUse xlink:href="http://inspire.ec.europa.eu/codelist/FerryUseValue/car"/>
+		</tn-w:FerryUse>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:CEMTClass gml:id="CEMTClass_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CEMTC_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#WaterwayNode_03"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:CEMTClass>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:CEMTClass gml:id="CEMTClass_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>CEMTC_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#InlandWaterway_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:CEMTClass>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:InlandWaterway gml:id="InlandWaterway_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>IWW_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+		</tn-w:InlandWaterway>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:ConditionOfWaterFacility gml:id="ConditionOfWaterFacility_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>COWF_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#PortArea_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:ConditionOfWaterFacility>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:ConditionOfWaterFacility gml:id="ConditionOfWaterFacility_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>COWF_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#InlandWaterway_01"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:ConditionOfWaterFacility>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:FerryCrossing gml:id="FerryCrossing_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>FC_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+		</tn-w:FerryCrossing>
 	</gml:featureMember>
 </gml:FeatureCollection>
