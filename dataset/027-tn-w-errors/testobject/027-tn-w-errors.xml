@@ -175,8 +175,7 @@
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-w:RestrictionForWaterVehicles gml:id="RestrictionForWaterVehicles_02">
-			<net:inspireId>
-				<base:Identifier xsi:nil="true"/>
+			<net:inspireId xsi:nil="true"/>
 			<tn:restrictionType xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximum"/>
 		</tn-w:RestrictionForWaterVehicles>
 	</gml:featureMember>
@@ -203,11 +202,21 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>12 8</gml:pos>
+				</gml:Point>
+			</net:geometry>
 		</tn-w:PortNode>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-w:PortNode gml:id="PortNode_02">
 			<net:inspireId xsi:nil="true"/>
+			<net:geometry>
+				<gml:Point gml:id="_node2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
 		</tn-w:PortNode>
 	</gml:featureMember>
 	<gml:featureMember>

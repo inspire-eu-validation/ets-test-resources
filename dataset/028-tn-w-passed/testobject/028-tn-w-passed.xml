@@ -164,6 +164,11 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>12 8</gml:pos>
+				</gml:Point>
+			</net:geometry>
 		</tn-w:PortNode>
 	</gml:featureMember>
 	<gml:featureMember>
