@@ -284,7 +284,7 @@
 					<net:element xlink:href="#RunwayArea_01"/>
 				</net:NetworkReference>
 			</net:networkRef>
-			<tn-a:runwayType xlink:href="http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/concrete"/>
+			<tn-a:surfaceComposition xlink:href="http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/concrete"/>
 		</tn-a:SurfaceComposition>
 	</gml:featureMember>
 	<gml:featureMember>
