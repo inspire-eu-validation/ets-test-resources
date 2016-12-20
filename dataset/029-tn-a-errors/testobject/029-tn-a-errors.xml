@@ -318,7 +318,7 @@
 			</net:networkRef>
 			<net:networkRef>
 				<net:NetworkReference>
-					<net:element xlink:href="#AirRoute_01"/>
+					<net:element xlink:href="#useRestriction_02"/>
 				</net:NetworkReference>
 			</net:networkRef>
 			<tn-a:restriction xlink:href="http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/temporalRestrictions"/>
