@@ -274,4 +274,34 @@
 			</net:geometry>
 		</tn-w:WaterwayNode>
 	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:WaterTrafficFlowDirection gml:id="WaterTrafficFlowDirection_01">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>WTFD_01</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#WaterLinkSequence_02"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:WaterTrafficFlowDirection>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-w:WaterTrafficFlowDirection gml:id="WaterTrafficFlowDirection_02">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>WTFD_02</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:networkRef>
+				<net:NetworkReference>
+					<net:element xlink:href="#WaterwayNode_03"/>
+				</net:NetworkReference>
+			</net:networkRef>
+		</tn-w:WaterTrafficFlowDirection>
+	</gml:featureMember>
 </gml:FeatureCollection>
