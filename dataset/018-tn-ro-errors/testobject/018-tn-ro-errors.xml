@@ -9,8 +9,8 @@
 				</base:Identifier>
 			</net:inspireId>
 			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal"/>
-			<net:element xlink:href="#RL_1"/>
-			<net:element xlink:href="#RL_4"/>
+			<net:element xlink:href="#RL_01"/>
+			<net:element xlink:href="#RL_04"/>
 		</net:NetworkConnection>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -22,8 +22,8 @@
 				</base:Identifier>
 			</net:inspireId>
 			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal"/>
-			<net:element xlink:href="#RL_1"/>
-			<net:element xlink:href="#RL_2"/>
+			<net:element xlink:href="#RL_01"/>
+			<net:element xlink:href="#RL_02"/>
 		</net:NetworkConnection>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -35,8 +35,8 @@
 				</base:Identifier>
 			</net:inspireId>
 			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical"/>
-			<net:element xlink:href="#RL_1"/>
-			<net:element xlink:href="#RL_2"/>
+			<net:element xlink:href="#RL_01"/>
+			<net:element xlink:href="#RL_02"/>
 		</net:NetworkConnection>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -48,8 +48,8 @@
 				</base:Identifier>
 			</net:inspireId>
 			<net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/crossBorderIdentical"/>
-			<net:element xlink:href="#RL_1"/>
-			<net:element xlink:href="#RL_4"/>
+			<net:element xlink:href="#RL_01"/>
+			<net:element xlink:href="#RL_04"/>
 		</net:NetworkConnection>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -340,23 +340,23 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn:post xlink:href="#RL_1"/>
+			<tn:post xlink:href="#RL_01"/>
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_1"/>
+					<net:link xlink:href="#RL_01"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_2"/>
+					<net:link xlink:href="#RL_02"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_3"/>
+					<net:link xlink:href="#RL_03"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
@@ -369,25 +369,25 @@
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_1"/>
+					<net:link xlink:href="#RL_01"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_2"/>
+					<net:link xlink:href="#RL_02"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_3"/>
+					<net:link xlink:href="#RL_03"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_4"/>
+					<net:link xlink:href="#RL_04"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
@@ -419,19 +419,19 @@
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_1"/>
+					<net:link xlink:href="#RL_01"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_2"/>
+					<net:link xlink:href="#RL_02"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_3"/>
+					<net:link xlink:href="#RL_03"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
@@ -443,49 +443,49 @@
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_1"/>
+					<net:link xlink:href="#RL_01"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_2"/>
+					<net:link xlink:href="#RL_02"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_3"/>
+					<net:link xlink:href="#RL_03"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkTwo"/>
 		</tn-ro:RoadLinkSequence>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLinkSequence gml:id="RoadLinkSequence_02">
+		<tn-ro:RoadLinkSequence gml:id="RoadLinkSequence_03">
 			<net:inspireId xsi:nil="true"/>
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_1"/>
+					<net:link xlink:href="#RL_01"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_2"/>
+					<net:link xlink:href="#RL_02"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_3"/>
+					<net:link xlink:href="#RL_03"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:link>
 				<net:DirectedLink>
 					<net:direction>+</net:direction>		
-					<net:link xlink:href="#RL_4"/>
+					<net:link xlink:href="#RL_04"/>
 				</net:DirectedLink>
 			</net:link>	
 			<net:inNetwork xlink:href="#NetworkOne"/>
@@ -532,7 +532,7 @@
 		</tn-ro:SpeedLimit>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_1">
+		<tn-ro:RoadLink gml:id="RL_01">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_1</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -567,7 +567,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_2">
+		<tn-ro:RoadLink gml:id="RL_02">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_2</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -602,9 +602,15 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_3">
+		<tn-ro:RoadLink gml:id="RL_03">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_3</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>RL_3</base:localId>
+					<base:namespace>Ten-TRoadNetwork</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_edebc033-6c15-43f6-89ec-edcaafdc2280" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
@@ -631,12 +637,12 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_4">
-			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_0</gml:identifier>
+		<tn-ro:RoadLink gml:id="RL_04">
+			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
 				<base:Identifier>
-					<base:localId>RL_0</base:localId>
+					<base:localId>RL_</base:localId>
 					<base:namespace>Ten-TRoadNetwork</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
@@ -666,7 +672,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_5">
+		<tn-ro:RoadLink gml:id="RL_05">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_5</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -701,42 +707,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_4">
-			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_4</gml:identifier>
-			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
-			<net:inspireId>
-				<base:Identifier>
-					<base:localId>RL_4</base:localId>
-					<base:namespace>Ten-TRoadNetwork</base:namespace>
-				</base:Identifier>
-			</net:inspireId>
-			<net:inNetwork xsi:nil="true"/>
-			<net:geometry>
-				<gml:LineString gml:id="_8e2bf819-773a-4f77-a955-e9832ce9b7a7" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
-					<gml:posList>3972188.861200745 450961.10984876717 3972201.1052335813 450949.71014302375 3972213.349173965 450923.95558618405 3972234.8088136716 450893.1554515279 3972243.7999743978 450839.2076656099 3972259.755089758 450734.74016485934 3972259.6123152566 450698.7571591194 3972244.2616760875 450563.6105936878 3972241.7583598094 450545.8861013967 3972238.007283573 450507.9712829669 3972224.4531471427 450429.00777519296</gml:posList>
-				</gml:LineString>
-			</net:geometry>
-			<net:fictitious>false</net:fictitious>
-			<tn:geographicalName>
-				<gn:GeographicalName>
-					<gn:language>mlt</gn:language>
-					<gn:nativeness xsi:nil="true"/>
-					<gn:nameStatus xsi:nil="true"/>
-					<gn:sourceOfName xsi:nil="true"/>
-					<gn:pronunciation xsi:nil="true"/>
-					<gn:spelling>
-						<gn:SpellingOfName>
-							<gn:text>Triq San Anard</gn:text>
-							<gn:script>Latn</gn:script>
-						</gn:SpellingOfName>
-					</gn:spelling>
-				</gn:GeographicalName>
-			</tn:geographicalName>
-			<tn:validFrom nilReason="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated" xsi:nil="true"/>
-		</tn-ro:RoadLink>
-	</gml:featureMember>
-	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_7">
+		<tn-ro:RoadLink gml:id="RL_07">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_7</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -767,7 +738,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_6">
+		<tn-ro:RoadLink gml:id="RL_06">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_6</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -802,7 +773,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_9">
+		<tn-ro:RoadLink gml:id="RL_09">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_9</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -837,7 +808,7 @@
 		</tn-ro:RoadLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ro:RoadLink gml:id="RL_8">
+		<tn-ro:RoadLink gml:id="RL_08">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_8</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
 			<net:inspireId>
@@ -5005,12 +4976,7 @@
 		<tn-ro:RoadLink gml:id="RL_129">
 			<gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">https://msdi.data.gov.mt/so/tn/RoadLink/Ten-TRoadNetwork/RL_129</gml:identifier>
 			<net:beginLifespanVersion>2016-06-17T00:00:00+02:00</net:beginLifespanVersion>
-			<net:inspireId>
-				<base:Identifier>
-					<base:localId>RL_129</base:localId>
-					<base:namespace>Ten-TRoadNetwork</base:namespace>
-				</base:Identifier>
-			</net:inspireId>
+			<net:inspireId xsi:nil="true"/>
 			<net:inNetwork xsi:nil="true"/>
 			<net:geometry>
 				<gml:LineString gml:id="_8cf8ff47-1e10-40a0-a228-9b9fa992053f" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
