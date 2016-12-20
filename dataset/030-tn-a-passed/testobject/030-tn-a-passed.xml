@@ -158,6 +158,11 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
 		</tn-a:TouchDownLiftOff>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -231,6 +236,11 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-a:navaidType xlink:href="http://inspire.ec.europa.eu/codelist/NavaidTypeValue/MLS"/>
 		</tn-a:Navaid>
 	</gml:featureMember>
@@ -242,6 +252,11 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>2 1</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-a:pointRole xlink:href="http://inspire.ec.europa.eu/codelist/PointRoleValue/end"/>
 		</tn-a:RunwayCentrelinePoint>
 	</gml:featureMember>
