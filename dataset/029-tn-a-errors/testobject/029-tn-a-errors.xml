@@ -466,6 +466,19 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:CompositeSurface gml:id="RSA_1" srsName="urn:ogc:def:crs:EPSG::3045">
+					<gml:surfaceMember>
+						<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1" srsDimension="2">
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList>1 0 1 9 6 16 15 16 16 6 1 0</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+					</gml:surfaceMember>
+				</gml:CompositeSurface>
+			</net:geometry>
 		</tn-a:AerodromeArea>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -654,6 +667,21 @@
 			<net:geometry>
 				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:pos>10 12</gml:pos>
+				</gml:Point>
+			</net:geometry>
+		</tn-a:DesignatedPoint>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-a:DesignatedPoint gml:id="DesignatedPoint_04">
+			<net:inspireId>
+				<base:Identifier>
+					<base:localId>DP_04</base:localId>
+					<base:namespace>xxx</base:namespace>
+				</base:Identifier>
+			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node4" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>11 2</gml:pos>
 				</gml:Point>
 			</net:geometry>
 		</tn-a:DesignatedPoint>

@@ -147,6 +147,19 @@
 	<gml:featureMember>
 		<tn-ra:RailwayArea gml:id="RailwayArea_02">
 			<net:inspireId xsi:nil="true"/>
+			<net:geometry>
+				<gml:CompositeSurface gml:id="RWA_1" srsName="urn:ogc:def:crs:EPSG::3045">
+					<gml:surfaceMember>
+						<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1" srsDimension="2">
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList>1 0 1 9 6 16 15 16 16 6 1 0</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+					</gml:surfaceMember>
+				</gml:CompositeSurface>
+			</net:geometry>
 		</tn-ra:RailwayArea>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -183,6 +196,17 @@
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_edebc033-6c15-43f6-89ec-edcaafdc2280" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:posList>7 14 13 15 14 12 10 11</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
+		</tn-ra:RailwayLink>
+	</gml:featureMember>
+	<gml:featureMember>
+		<tn-ra:RailwayLink gml:id="RailwayLink_04">
+			<net:inspireId xsi:nil="true"/>
+			<net:inNetwork xlink:href="#NetworkTwo"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="_link4" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:posList>11 1 12 2</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
 		</tn-ra:RailwayLink>

@@ -128,6 +128,17 @@
 		</tn-w:WaterwayLink>
 	</gml:featureMember>
 	<gml:featureMember>
+		<tn-w:WaterwayLink gml:id="WaterwayLink_04">
+			<net:inspireId xsi:nil="true"/>
+			<net:inNetwork xlink:href="#NetworkTwo"/>
+			<net:centrelineGeometry>
+				<gml:LineString gml:id="_link4" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:posList>11 1 12 2</gml:posList>
+				</gml:LineString>
+			</net:centrelineGeometry>
+		</tn-w:WaterwayLink>
+	</gml:featureMember>
+	<gml:featureMember>
 		<tn-w:WaterLinkSequence gml:id="WaterLinkSequence_01">
 			<net:inspireId>
 				<base:Identifier>
@@ -202,6 +213,19 @@
 	<gml:featureMember>
 		<tn-w:PortArea gml:id="PortArea_02">
 			<net:inspireId xsi:nil="true"/>
+			<net:geometry>
+				<gml:CompositeSurface gml:id="PA_1" srsName="urn:ogc:def:crs:EPSG::3045">
+					<gml:surfaceMember>
+						<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1" srsDimension="2">
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList>1 0 1 9 6 16 15 16 16 6 1 0</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+					</gml:surfaceMember>
+				</gml:CompositeSurface>
+			</net:geometry>
 		</tn-w:PortArea>
 	</gml:featureMember>
 	<gml:featureMember>
