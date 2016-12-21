@@ -13,7 +13,7 @@
 					<gml:pos>12 8</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</net:RailwayNode>
+		</tn-ra:RailwayNode>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ra:RailwayNode gml:id="RailwayNode_02">
@@ -28,7 +28,7 @@
 					<gml:pos>2 4</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</net:RailwayNode>
+		</tn-ra:RailwayNode>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ra:RailwayNode gml:id="RailwayNode_03">
@@ -43,7 +43,7 @@
 					<gml:pos>10 13</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</net:RailwayNode>
+		</tn-ra:RailwayNode>
 	</gml:featureMember>
 	<gml:featureMember>
 		<net:NetworkConnection gml:id="NetworkConnection_01">
@@ -146,6 +146,7 @@
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ra:RailwayArea gml:id="RailwayArea_02">
+			<net:inspireId xsi:nil="true"/>
 		</tn-ra:RailwayArea>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -224,6 +225,11 @@
 	<gml:featureMember>
 		<tn-ra:RailwayStationNode gml:id="RailwayStationNode_01">
 			<net:inspireId xsi:nil="true"/>
+			<net:geometry>
+				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railway"/>
 			</tn-ra:RailwayStationNode>
 	</gml:featureMember>
@@ -235,12 +241,22 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop"/>
 		</tn-ra:RailwayStationNode>
 	</gml:featureMember>
 	<gml:featureMember>
 		<tn-ra:RailwayYardNode gml:id="RailwayYardNode_01">
 			<net:inspireId xsi:nil="true"/>
+			<net:geometry>
+				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railway"/>
 			</tn-ra:RailwayYardNode>
 	</gml:featureMember>
@@ -252,6 +268,11 @@
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
+			<net:geometry>
+				<gml:Point gml:id="_node3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
+					<gml:pos>10 11</gml:pos>
+				</gml:Point>
+			</net:geometry>
 			<tn-ra:formOfNode xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railwayStop"/>
 		</tn-ra:RailwayYardNode>
 	</gml:featureMember>
