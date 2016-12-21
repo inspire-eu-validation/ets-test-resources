@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:tn-ca="http://inspire.ec.europa.eu/schemas/tn-ca/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-ca/4.0 http://inspire.ec.europa.eu/schemas/tn-ca/4.0/CableTransportNetwork.xsd">
+<gml:FeatureCollection xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:tn-c="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="_e11ec99f-7a01-4659-8327-ee0f1ba6e737" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/tn-c/4.0 http://inspire.ec.europa.eu/schemas/tn-c/4.0/CableTransportNetwork.xsd">
 	<gml:featureMember>
 		<net:NetworkConnection gml:id="NetworkConnection_01">
 			<net:inspireId>
@@ -53,7 +53,7 @@
 		</net:NetworkConnection>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayLinkSet gml:id="CablewayLinkSet_01">
+		<tn-c:CablewayLinkSet gml:id="CablewayLinkSet_01">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CLS_01</base:localId>
@@ -68,61 +68,61 @@
 				</net:DirectedLink>
 			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
-		</tn-ca:CablewayLinkSet>
+		</tn-c:CablewayLinkSet>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayLink gml:id="CablewayLink_01">
+		<tn-c:CablewayLink gml:id="CablewayLink_01">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CL_01</base:localId>
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
+			<tn-c:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkOne"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_link1" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:posList>3 4 7 9 12 8</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
-		</tn-ca:CablewayLink>
+		</tn-c:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayLink gml:id="CablewayLink_02">
+		<tn-c:CablewayLink gml:id="CablewayLink_02">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CL_02</base:localId>
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
+			<tn-c:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkTwo"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_link2" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:posList>2 1 2 4 3 7</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
-		</tn-ca:CablewayLink>
+		</tn-c:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayLink gml:id="CablewayLink_03">
+		<tn-c:CablewayLink gml:id="CablewayLink_03">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CL_03</base:localId>
 					<base:namespace>xxx</base:namespace>
 				</base:Identifier>
 			</net:inspireId>
-			<tn-ca:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
+			<tn-c:cablewayType xlink:href="http://inspire.ec.europa.eu/codelist/CablewayTypeValue/skiTow"/>
 			<net:inNetwork xlink:href="#NetworkTwo"/>
 			<net:centrelineGeometry>
 				<gml:LineString gml:id="_link3" srsName="urn:ogc:def:crs:EPSG::3045" srsDimension="2">
 					<gml:posList>7 14 13 15 14 12 10 11</gml:posList>
 				</gml:LineString>
 			</net:centrelineGeometry>
-		</tn-ca:CablewayLink>
+		</tn-c:CablewayLink>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayLinkSequence gml:id="CablewayLinkSequence_01">
+		<tn-c:CablewayLinkSequence gml:id="CablewayLinkSequence_01">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CLS_01</base:localId>
@@ -136,10 +136,10 @@
 				</net:DirectedLink>
 			</net:link>
 			<net:inNetwork xlink:href="#NetworkOne"/>
-		</tn-ca:CablewayLinkSequence>
+		</tn-c:CablewayLinkSequence>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayNode gml:id="CablewayNode_01">
+		<tn-c:CablewayNode gml:id="CablewayNode_01">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CWN_01</base:localId>
@@ -151,10 +151,10 @@
 					<gml:pos>12 8</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</tn-ca:CablewayNode>
+		</tn-c:CablewayNode>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayNode gml:id="CablewayNode_02">
+		<tn-c:CablewayNode gml:id="CablewayNode_02">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CWN_02</base:localId>
@@ -166,10 +166,10 @@
 					<gml:pos>2 1</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</tn-ca:CablewayNode>
+		</tn-c:CablewayNode>
 	</gml:featureMember>
 	<gml:featureMember>
-		<tn-ca:CablewayNode gml:id="CablewayNode_03">
+		<tn-c:CablewayNode gml:id="CablewayNode_03">
 			<net:inspireId>
 				<base:Identifier>
 					<base:localId>CWN_03</base:localId>
@@ -181,6 +181,6 @@
 					<gml:pos>10 11</gml:pos>
 				</gml:Point>
 			</net:geometry>
-		</tn-ca:CablewayNode>
+		</tn-c:CablewayNode>
 	</gml:featureMember>
 </gml:FeatureCollection>
