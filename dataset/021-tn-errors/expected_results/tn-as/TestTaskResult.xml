@@ -1,0 +1,375 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID3e935946-745a-4612-a812-c8b2a24e26d1">
+  <testObject ref="EIDb5acd116-65dd-4689-87c7-1061e82750f6"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341">
+      <testCaseResults>
+        <TestCaseResult id="EID3e247488-1178-41d2-b464-b4f378daae01">
+          <testStepResults>
+            <TestStepResult id="EIDe038230b-a5da-478a-9da3-2b8046d96c2e">
+              <testAssertionResults>
+                <TestAssertionResult id="EID043e91d5-4a22-4cf6-8cdb-c2925604ec94">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AccessRestriction_02</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AccessRestrictionValue</argument>
+                        <argument token="featureType">AccessRestriction</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasal</argument>
+                        <argument token="property">restriction</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe038230b-a5da-478a-9da3-2b8046d96c2e"/>
+                  <resultedFrom ref="EID28a341d3-c1cb-47fd-a2f4-1148cdffcde4"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>110</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID9280b13e-61ea-45e7-b95a-2d05643ac664">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RestrictionForVehicles_01</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/RestrictionTypeValue</argument>
+                        <argument token="featureType">RestrictionForVehicles</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/seasal</argument>
+                        <argument token="property">restrictionType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe038230b-a5da-478a-9da3-2b8046d96c2e"/>
+                  <resultedFrom ref="EID1a33615b-0723-4d4f-9bc3-69f0bac3572a"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>47</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID3e247488-1178-41d2-b464-b4f378daae01"/>
+              <resultedFrom ref="EID21c7382b-8890-46b5-869d-756c1fcfad57"/>
+              <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+              <duration>157</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341"/>
+          <resultedFrom ref="EID14b1c9d9-59fe-4983-9e91-b5ec14d743a6"/>
+          <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+          <duration>157</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID9fb1d8c9-2992-4892-99c8-5e6f68acc5c8">
+          <testStepResults>
+            <TestStepResult id="EIDf8a3196e-6b11-4491-bbdb-480452753363">
+              <testAssertionResults>
+                <TestAssertionResult id="EID97c91e8a-2969-4c62-ba12-eddcc5029252">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.idNotFound2">
+                      <translationArguments>
+                        <argument token="gmlid">TrafficFlowDirection_01</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="url">#RoadLink_12345</argument>
+                        <argument token="featureType">TrafficFlowDirection</argument>
+                        <argument token="property">networkRef.element</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">TrafficFlowDirection_01</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="elementName">RestrictionForVehicles</argument>
+                        <argument token="url">#RestrictionForVehicles_02</argument>
+                        <argument token="featureType">TrafficFlowDirection</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn/4.0</argument>
+                        <argument token="elementNameExpected">Link or LinkSequence</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">TrafficFlowDirection_03</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="elementName">RestrictionForVehicles</argument>
+                        <argument token="url">#RestrictionForVehicles_02</argument>
+                        <argument token="featureType">TrafficFlowDirection</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn/4.0</argument>
+                        <argument token="elementNameExpected">Link or LinkSequence</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EIDfb2ed162-a2ef-4881-bb05-e261c2e316ae"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID8907c39a-4c3a-44c5-9ddb-f5c90f4f013f">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EIDb7daf317-fad9-4d41-818f-1b43b52cb76a"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>8</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID8e93a122-bcfd-4b57-86b1-965e5d084750">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EID2164f7e3-ca11-4958-a11e-c9482c0541d9"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID902686b0-ba98-4c61-a5ee-2e0ca7bd6ad9">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EIDe31f1598-98ec-4d1c-9ad8-7abca5a21214"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb54d24d9-8b5f-4e97-923a-6e2b673aa4b2">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EID8a716b73-cfef-4bc7-b2a0-496059c55136"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID38b49a7f-aad0-49ae-aaef-5a7c59449006">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EID6071c2b7-d4d3-4dcc-a3df-5d24e7739816"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb72e1671-4bfb-48f5-ac0d-b81e8c9d4643">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">MarkerPost_02</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="featureType">MarkerPost</argument>
+                        <argument token="constraint">All transport points have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EID89792a2f-f3b7-4008-a1c6-eedfc6909bfc"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>4</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID627a554f-0a23-4deb-b890-03d17640f035">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">3</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">AccessRestriction_01</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="featureType">AccessRestriction</argument>
+                        <argument token="constraint">All transport properties have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RestrictionForVehicles_02</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="featureType">RestrictionForVehicles</argument>
+                        <argument token="constraint">All transport properties have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">TrafficFlowDirection_02</argument>
+                        <argument token="filename">021-tn-errors.xml</argument>
+                        <argument token="featureType">TrafficFlowDirection</argument>
+                        <argument token="constraint">All transport properties have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EIDe4cb76d6-b8a6-4d90-ae4f-f2bed0ae26ad"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>3</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID97570e78-5ae1-4593-947d-3a6738746bc7">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EID8e5faabd-a733-4600-b519-18e53af211f4"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDbc7af659-e157-455e-b4eb-2900b60f6e13">
+                  <parent ref="EIDf8a3196e-6b11-4491-bbdb-480452753363"/>
+                  <resultedFrom ref="EIDf56cfea3-56e6-4afd-b136-2fe78faacec1"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID9fb1d8c9-2992-4892-99c8-5e6f68acc5c8"/>
+              <resultedFrom ref="EID6bb73535-1e46-4a58-9cb1-f9d4acc653eb"/>
+              <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+              <duration>20</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341"/>
+          <resultedFrom ref="EIDaf5b50fc-96a3-49e9-b015-d1400736687b"/>
+          <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+          <duration>20</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDc9b2f509-bc1a-4e8a-a664-dc4095d9eff8">
+          <testStepResults>
+            <TestStepResult id="EIDd0aede61-7022-497b-b979-0addf2c5a09e">
+              <testAssertionResults>
+                <TestAssertionResult id="EID754e6c38-c5b1-413e-866b-586b91106b70">
+                  <parent ref="EIDd0aede61-7022-497b-b979-0addf2c5a09e"/>
+                  <resultedFrom ref="EIDd6fa7b64-9a2a-490e-aebe-7411a4610407"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID2dcabf86-3b17-42a0-8556-273a4aa5c0d6">
+                  <parent ref="EIDd0aede61-7022-497b-b979-0addf2c5a09e"/>
+                  <resultedFrom ref="EID4e0e2598-8103-4b18-a98a-673910214c91"/>
+                  <startTimestamp>2017-01-23T11:49:37.797+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDc9b2f509-bc1a-4e8a-a664-dc4095d9eff8"/>
+              <resultedFrom ref="EIDa0ccae1d-2917-417e-b29c-6553854c5d78"/>
+              <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341"/>
+          <resultedFrom ref="EIDc1219880-f263-4459-9c87-c6b9377458c0"/>
+          <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID331d627f-8df3-487f-9311-21afd81a8eb9">
+          <testStepResults>
+            <TestStepResult id="EID2473d5e4-bcb5-4c45-83aa-fadc2b449049">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDb5849ca7-e6f1-41b0-a118-e82280e8fd66">
+                  <parent ref="EID2473d5e4-bcb5-4c45-83aa-fadc2b449049"/>
+                  <resultedFrom ref="EID11d618c8-56b1-4405-92ec-99b3c89bb36a"/>
+                  <startTimestamp>2017-01-23T11:49:37.797+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDc48d47d5-716c-4d71-8a76-fe7c86c0eff5">
+                  <parent ref="EID2473d5e4-bcb5-4c45-83aa-fadc2b449049"/>
+                  <resultedFrom ref="EID87866a02-fa9c-428a-bb9b-c22a7e80fa7e"/>
+                  <startTimestamp>2017-01-23T11:49:37.797+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDa10f2545-6130-4327-974f-5906ab002bc7">
+                  <parent ref="EID2473d5e4-bcb5-4c45-83aa-fadc2b449049"/>
+                  <resultedFrom ref="EID8ac3d9de-d077-424e-a327-70663cb50801"/>
+                  <startTimestamp>2017-01-23T11:49:37.797+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID331d627f-8df3-487f-9311-21afd81a8eb9"/>
+              <resultedFrom ref="EID39e3afa5-cccc-4856-8329-4e9d57ee41b2"/>
+              <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341"/>
+          <resultedFrom ref="EIDa85e3c90-3e4f-4c7a-a6a2-8e38671d6556"/>
+          <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID77e61b54-f4f4-428e-994a-e2e7c6aba56d">
+          <testStepResults>
+            <TestStepResult id="EID7c79cc6a-1253-463d-b4ef-71d65c25c30b">
+              <testAssertionResults>
+                <TestAssertionResult id="EID8e9f10e1-5523-4859-818a-f4ac5231e47a">
+                  <parent ref="EID7c79cc6a-1253-463d-b4ef-71d65c25c30b"/>
+                  <resultedFrom ref="EID8353f727-60ce-4893-9a33-5b93013ff6d8"/>
+                  <startTimestamp>2017-01-23T11:49:37.797+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7580c8ba-5d20-4c52-b48c-d591c97d11f9">
+                  <parent ref="EID7c79cc6a-1253-463d-b4ef-71d65c25c30b"/>
+                  <resultedFrom ref="EID8353f727-60ce-4893-9a33-5b93013ff6d8"/>
+                  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID77e61b54-f4f4-428e-994a-e2e7c6aba56d"/>
+              <resultedFrom ref="EID5330a6e0-8ddc-483e-86e2-1460b4c1ecc0"/>
+              <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDfd88b9d6-5be8-4a2a-9dd4-1ea7ecbc1341"/>
+          <resultedFrom ref="EIDf271ab9f-796b-4644-b27f-cf5dbb919cdc"/>
+          <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID3e935946-745a-4612-a812-c8b2a24e26d1"/>
+      <resultedFrom ref="EIDe11a7179-a5d8-4556-a94a-90fcfb7e6ffd"/>
+      <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+      <duration>177</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDf0d10f93-cb00-4e04-a0b5-76b9deffbdb5">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDbe2ae117-4294-4ca5-be42-003f7eaa2c53">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID4441cbde-371f-4899-90b3-145f4fd08ebc"/>
+  <startTimestamp>2017-01-23T11:49:37.884+01:00</startTimestamp>
+  <duration>177</duration>
+  <status>FAILED</status>
+</TestTaskResult>

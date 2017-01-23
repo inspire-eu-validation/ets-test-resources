@@ -1,0 +1,9 @@
+Testing 5 features
+Indexing features (parsing errors: 0): 1 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-gml\ets-tn-gml-bsxets.xml
+Statistics table: 3 ms
+Test Suite 'Conformance class: GML application schemas, Transport Networks' started
+Test Case 'Basic test' started
+Test Assertion 'tn-gml.a.1: Transport Network feature in dataset': PASSED - 0 ms
+Test Case 'Basic test' finished: PASSED
+Test Suite 'Conformance class: GML application schemas, Transport Networks' finished: PASSED

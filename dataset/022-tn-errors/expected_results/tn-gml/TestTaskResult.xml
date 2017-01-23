@@ -1,0 +1,64 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDfb1ac948-1515-4c99-84ba-75542690a9c9">
+  <testObject ref="EID02d2ea38-ecf1-492e-aed8-f4edcc2b4f25"/>
+  <testModuleResults>
+    <TestModuleResult id="EID738e247b-df01-44a2-b91d-c2c2cfcf4c3a">
+      <testCaseResults>
+        <TestCaseResult id="EID3ab2083e-62ec-4606-8058-33b5d3c34c8c">
+          <testStepResults>
+            <TestStepResult id="EID5c904e5a-86c4-41a4-8e98-f7f088e4cf0d">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDd3800ad6-e77b-4be8-a189-521b97db8e55">
+                  <messages>
+                    <message ref="TR.noFeature">
+                      <translationArguments>
+                        <argument token="theme">Transport Networks</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5c904e5a-86c4-41a4-8e98-f7f088e4cf0d"/>
+                  <resultedFrom ref="EID7425c468-5ec3-4cb0-bae9-acc066a2d8ee"/>
+                  <startTimestamp>2017-01-23T11:52:47.334+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID3ab2083e-62ec-4606-8058-33b5d3c34c8c"/>
+              <resultedFrom ref="EIDcbc1ae16-3ac4-4c46-bd48-56a94fae5d94"/>
+              <startTimestamp>2017-01-23T11:52:47.334+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID738e247b-df01-44a2-b91d-c2c2cfcf4c3a"/>
+          <resultedFrom ref="EID92ed634f-86bf-4b29-a1bb-ae2e7c4554ea"/>
+          <startTimestamp>2017-01-23T11:52:47.334+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDfb1ac948-1515-4c99-84ba-75542690a9c9"/>
+      <resultedFrom ref="EID5ace13a9-66c5-40ea-9625-174f5e10b56f"/>
+      <startTimestamp>2017-01-23T11:52:47.334+01:00</startTimestamp>
+      <duration>0</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDf965efab-d661-4596-8dbf-81b7f77947b9">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDd9578dc3-ea86-4caf-b3b9-8b721931eca6">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID9af1c865-1cf0-43ff-9250-069df01b0948"/>
+  <startTimestamp>2017-01-23T11:52:47.334+01:00</startTimestamp>
+  <duration>0</duration>
+  <status>FAILED</status>
+</TestTaskResult>
