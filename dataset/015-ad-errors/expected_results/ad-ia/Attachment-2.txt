@@ -1,0 +1,20 @@
+Testing 28 features
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-ad\ad-ia\ets-ad-ia-bsxets.xml
+Statistics table: 5 ms
+Test Suite 'Conformance class: Information accessibility, Addresses' started
+Test Case 'Code lists' started
+Test Assertion 'ad-ia.a.1: Code list extensions accessible': PASSED - 1 ms
+Test Case 'Code lists' finished: PASSED
+Test Case 'Feature references' started
+Test Assertion 'ad-ia.b.1: Address.component': FAILED - 19 ms
+Test Assertion 'ad-ia.b.2: Address.parcel': FAILED - 1 ms
+Test Assertion 'ad-ia.b.3: Address.parentAddress': FAILED - 2 ms
+Test Assertion 'ad-ia.b.4: Address.building': FAILED - 1 ms
+Test Assertion 'ad-ia.b.5: AddressAreaName.namedPlace': FAILED - 3 ms
+Test Assertion 'ad-ia.b.6: AddressComponent.situatedWithin': FAILED - 3 ms
+Test Assertion 'ad-ia.b.7: AdminUnitName.adminUnit': FAILED - 1 ms
+Test Assertion 'ad-ia.b.8: ThoroughfareName.transportLink': FAILED - 1 ms
+Test Assertion 'ad-ia.b.9: Address.locator.AddressLocator.withinScopeOf': FAILED - 1 ms
+Test Assertion 'ad-ia.b.10: AddressRepresentation.addressFeature': FAILED - 1 ms
+Test Case 'Feature references' finished: FAILED
+Test Suite 'Conformance class: Information accessibility, Addresses' finished: FAILED

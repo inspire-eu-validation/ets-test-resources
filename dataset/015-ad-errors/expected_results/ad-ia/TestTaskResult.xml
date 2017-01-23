@@ -1,0 +1,335 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID1a854fb2-7643-4ce1-868d-29be0689824e">
+  <testObject ref="EIDc021797a-2923-4120-b8cb-38fe4548012b"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDab6759b6-e201-43c7-a910-0de08ca1c07e">
+      <testCaseResults>
+        <TestCaseResult id="EID5e518692-a9e4-4f29-8c79-08a5a0b87962">
+          <testStepResults>
+            <TestStepResult id="EID76a5ce82-ed60-4adf-a903-77959a84e076">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDb1932978-ad7c-4bde-b7ba-c7c32f190ce0">
+                  <parent ref="EID76a5ce82-ed60-4adf-a903-77959a84e076"/>
+                  <resultedFrom ref="EID8b6190f2-8286-40c7-86d1-e49ff2646d80"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID5e518692-a9e4-4f29-8c79-08a5a0b87962"/>
+              <resultedFrom ref="EID7118218a-c220-42f7-8f4d-47996e340f21"/>
+              <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+              <duration>1</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDab6759b6-e201-43c7-a910-0de08ca1c07e"/>
+          <resultedFrom ref="EID8884e96f-f4d3-4ddb-a19a-caf4bd1a6ce3"/>
+          <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+          <duration>1</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDbdcda95c-78ef-4f07-be5e-726990f5db8c">
+          <testStepResults>
+            <TestStepResult id="EID1629a298-d0fb-4fb9-a451-7444e6ae6861">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDc7ea4b9a-da43-45d9-a6a5-9582e45d6b9c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.1.9910210WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">Address</argument>
+                        <argument token="url">#ES.SDGC.AD.04.001.1.10.9910908WG1191S</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="property">component</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">AddressComponent</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EID003874fa-0aa7-48c3-a2a1-a9df8ec2a434"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>19</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDc5b2a09f-e38f-4293-b067-0da2c40a1cfb">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.10.9910908WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">PostalDescriptor</argument>
+                        <argument token="url">#ES.SDGC.PD.04.001.4510</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="property">parcel</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">CadastralParcel</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDd82614a6-8496-4e4f-aef0-68c7c6fa7831"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDdb14694d-b8a2-4adf-ae32-aedb639ffe99">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">AdminUnitName</argument>
+                        <argument token="url">#ES.SDGC.AU.04.001</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="property">parentAddress</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">Address</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EID29f50239-c892-41dc-ac90-5eb5ca54623f"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID89c92956-b15c-4b30-a34b-ac285d1ae2b4">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.13.9910204WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">PostalDescriptor</argument>
+                        <argument token="url">#ES.SDGC.PD.04.001.4510</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="property">building</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">AbstractConstruction</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDb666e017-4ee3-42f5-b8f8-5d932facf462"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDbe225ac9-b33d-4fde-946b-4176c599ee5a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">AAN.001</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">AdminUnitName</argument>
+                        <argument token="url">#ES.SDGC.AU.04.001</argument>
+                        <argument token="featureType">AddressAreaName</argument>
+                        <argument token="property">namedPlace</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">NamedPlace</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDa6b0a310-e326-4192-9239-89010247f3b9"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>3</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID595bef92-f3b8-4be6-bd28-cc331967b735">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AU.04.002</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">Address</argument>
+                        <argument token="url">#ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="featureType">AdminUnitName</argument>
+                        <argument token="property">situatedWithin</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">AddressComponent</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDe7eacf58-3132-4df8-b62b-87e7ca61d8a7"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>3</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID443959f7-6371-4048-a726-de83874dd800">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AU.04.001</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">Address</argument>
+                        <argument token="url">#ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="featureType">AdminUnitName</argument>
+                        <argument token="property">adminUnit</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">AdministrativeUnit</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EID0abac29c-a839-4fd5-8218-170190f73ae4"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDeca0ce8f-ffa9-4d34-8fd9-9fd38b92426f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.TN.04.001.4</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">ThoroughfareName</argument>
+                        <argument token="url">#ES.SDGC.TN.04.001.5</argument>
+                        <argument token="featureType">ThoroughfareName</argument>
+                        <argument token="property">transportLink</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">TransportLink</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDeb441189-1b35-420a-b443-d32594cc171a"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID72991755-62dc-45f3-8b71-ec4dd5f83901">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.10.9910908WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">Address</argument>
+                        <argument token="url">#ES.SDGC.AD.04.001.1.11.9910205WG1191S</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="property">locator.withinScopeOf</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">AddressComponent</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EIDbf269ddb-61e8-4991-b850-3e42878ef386"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDf3495010-a6ab-481a-b500-d8e30edb097f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">AR.001</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="elementName">AdminUnitName</argument>
+                        <argument token="url">#ES.SDGC.AU.04.002</argument>
+                        <argument token="featureType">AddressRepresentation</argument>
+                        <argument token="property">addressFeature</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/ad/4.0</argument>
+                        <argument token="elementNameExpected">Address</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID1629a298-d0fb-4fb9-a451-7444e6ae6861"/>
+                  <resultedFrom ref="EID8db8c4ee-1953-4600-87d3-7084b81269ed"/>
+                  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDbdcda95c-78ef-4f07-be5e-726990f5db8c"/>
+              <resultedFrom ref="EIDee715d8b-e282-40d9-9392-8699db3bf7d7"/>
+              <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+              <duration>33</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDab6759b6-e201-43c7-a910-0de08ca1c07e"/>
+          <resultedFrom ref="EID1b1d01ce-a8b7-494c-9104-48916c925c8f"/>
+          <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+          <duration>33</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID1a854fb2-7643-4ce1-868d-29be0689824e"/>
+      <resultedFrom ref="EIDb0d37e73-cf64-4cbf-ab80-f6ea39572d0f"/>
+      <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+      <duration>34</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID2711729f-9bc8-457e-b886-e49d2b6acd5e">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDd8d24945-c200-4aba-9460-06d678e50fd0">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID334bbd38-378d-4a44-8a19-5d00df919ec0"/>
+  <startTimestamp>2017-01-23T11:10:11.875+01:00</startTimestamp>
+  <duration>34</duration>
+  <status>FAILED</status>
+</TestTaskResult>

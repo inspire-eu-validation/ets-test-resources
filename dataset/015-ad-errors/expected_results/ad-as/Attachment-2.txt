@@ -1,0 +1,36 @@
+Testing 28 features
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-ad\ad-as\ets-ad-as-bsxets.xml
+Statistics table: 10 ms
+Test Suite 'Conformance class: Application schema, Addresses' started
+Test Case 'Code list values' started
+Test Assertion 'ad-as.a.1: GeometryMethodValue attributes': FAILED - 265 ms
+Test Assertion 'ad-as.a.2: GeometrySpecificationValue attributes': FAILED - 109 ms
+Test Assertion 'ad-as.a.3: LocatorDesignatorTypeValue attributes': FAILED - 82 ms
+Test Assertion 'ad-as.a.4: LocatorLevelValue attributes': FAILED - 54 ms
+Test Assertion 'ad-as.a.5: LocatorNameTypeValue attributes': FAILED - 42 ms
+Test Assertion 'ad-as.a.6: PartTypeValue attributes': FAILED - 76 ms
+Test Assertion 'ad-as.a.7: StatusValue attributes': FAILED - 61 ms
+Test Case 'Code list values' finished: FAILED
+Test Case 'Constraints' started
+Test Assertion 'ad-as.b.1: An address shall have an admin unit address component spatial object whose level is 1 (Country).': FAILED - 7 ms
+Test Assertion 'ad-as.b.2: An address shall have exactly one default geographic position (default attribute of GeographicPosition must be true).': FAILED - 3 ms
+Test Assertion 'ad-as.b.3: Either a post code or a post name is required.': FAILED - 45 ms
+Test Assertion 'ad-as.b.4: Either a designator or a name is required.': FAILED - 2 ms
+Test Case 'Constraints' finished: FAILED
+Test Case 'Address Multiple Position' started
+Test Assertion 'ad-as.c.1: Verify whether each address with multiple positions contains different values for each specification attribute.': FAILED - 5 ms
+Test Case 'Address Multiple Position' finished: FAILED
+Test Case 'Address Position' started
+Test Assertion 'ad-as.d.1: Manual review - Verify whether, in the data set, the position of the address is represented by the coordinates of the actual location with the best available accuracy.': PASSED_MANUAL
+Test Case 'Address Position' finished: PASSED_MANUAL
+Test Case 'Country and Address Components' started
+Test Assertion 'ad-as.e.1: Verify that an address has associations to the address components necessary to the unambiguous identification and location of the address instance.': FAILED - 10 ms
+Test Assertion 'ad-as.e.2: Manual review': PASSED_MANUAL
+Test Case 'Country and Address Components' finished: FAILED
+Test Case 'Parent address' started
+Test Assertion 'ad-as.f.1: Manual review - Verify that the association role “parentAddress” is populated for all addresses which are connected to a parent (or main) address.': PASSED_MANUAL
+Test Case 'Parent address' finished: PASSED_MANUAL
+Test Case 'unambiguousness' started
+Test Assertion 'ad-as.g.1: Manual review - Verify whether the withinScopeOf association role is populated for all locators which are assigned according to rules that seek to ensure unambiguousness within a specific address component.': PASSED_MANUAL
+Test Case 'unambiguousness' finished: PASSED_MANUAL
+Test Suite 'Conformance class: Application schema, Addresses' finished: FAILED

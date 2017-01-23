@@ -1,0 +1,57 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID49c7b5a4-76d6-4729-b47a-e098e584b701">
+  <testObject ref="EID363f74ba-bf89-409c-9b22-9291e8d80f58"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDdbf76ff7-4d65-4058-a60a-b1faebdc607f">
+      <testCaseResults>
+        <TestCaseResult id="EIDa97d0a3e-5c8d-4ec1-ab89-c089f157f267">
+          <testStepResults>
+            <TestStepResult id="EID31b34d92-3025-41d3-b456-c603334af420">
+              <testAssertionResults>
+                <TestAssertionResult id="EID8b079669-f209-47e8-8de0-3d85f6a69de0">
+                  <parent ref="EID31b34d92-3025-41d3-b456-c603334af420"/>
+                  <resultedFrom ref="EID0ce0bfef-d18c-4e53-b661-ce08a4522eaa"/>
+                  <startTimestamp>2017-01-23T11:12:38.125+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDa97d0a3e-5c8d-4ec1-ab89-c089f157f267"/>
+              <resultedFrom ref="EIDee798152-9985-4006-b087-c6c23218f010"/>
+              <startTimestamp>2017-01-23T11:12:38.125+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDdbf76ff7-4d65-4058-a60a-b1faebdc607f"/>
+          <resultedFrom ref="EID2e25660d-733b-4ef9-87f8-5d675bcc7c03"/>
+          <startTimestamp>2017-01-23T11:12:38.125+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID49c7b5a4-76d6-4729-b47a-e098e584b701"/>
+      <resultedFrom ref="EID43dbd896-289c-4520-803b-4d699caee70c"/>
+      <startTimestamp>2017-01-23T11:12:38.125+01:00</startTimestamp>
+      <duration>0</duration>
+      <status>PASSED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID20832c7e-6c9c-46ad-8f9e-6f3ec511f41b">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDcc62dcce-68b4-4cb8-adbd-b6526bcd4b9f">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID6985a681-fd81-4448-83e8-061758b9ca8c"/>
+  <startTimestamp>2017-01-23T11:12:38.125+01:00</startTimestamp>
+  <duration>0</duration>
+  <status>PASSED</status>
+</TestTaskResult>

@@ -1,0 +1,566 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID7ffc8ab3-3d7c-41e0-8a85-8e351c665ba5">
+  <testObject ref="EIDba3e18f5-fc1b-46ce-87b5-71712968acd7"/>
+  <testModuleResults>
+    <TestModuleResult id="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613">
+      <testCaseResults>
+        <TestCaseResult id="EID0fbfd68a-e21d-4b55-9ba9-63eb02d97cef">
+          <testStepResults>
+            <TestStepResult id="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06">
+              <testAssertionResults>
+                <TestAssertionResult id="EID74388ef0-b52a-4bf8-8839-b1194d979d9b">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">3</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.19.9810402WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/GeometryMethodValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/GeometryMethodValue/fromture</argument>
+                        <argument token="property">method</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.2.9910904WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/GeometryMethodValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/GeometryMethodValue/Feature</argument>
+                        <argument token="property">method</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.20.9810511WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/GeometryMethodValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/GeometryMethodValue/byAdmin</argument>
+                        <argument token="property">method</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EID8255587c-2da4-4a51-997c-3c1774691533"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>265</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDdfbc964a-1e06-4f1c-bc5a-1c87f746ea8c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.18.9810510WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/Entrance</argument>
+                        <argument token="property">specification</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EID637ae4cc-a050-4e4e-b5f9-00d648be3e47"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>109</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe8b5ad77-5d5c-4df5-9803-5d4012e32dc6">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.22.9810501WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/address</argument>
+                        <argument token="property">type</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EIDc3568153-3b40-4bd3-8e2d-cc80df1966db"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>82</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID24c34f95-cde8-46bb-a3fa-3b887ef933c2">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.24.9810502WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/LocatorLevelValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/LocatorLevelValue/site</argument>
+                        <argument token="property">level</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EID390af7c9-305c-43ca-96e9-675b49efb287"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>54</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDee03ab8e-ee89-4137-bc51-a6c82a82de21">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.10.9910908WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/site</argument>
+                        <argument token="property">type</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EID165872a9-644d-4472-b6e5-b7c4f46993d7"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>42</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID10910c49-4885-4525-aa2c-b966fc9887e5">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.TN.04.001.4</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/PartTypeValue</argument>
+                        <argument token="featureType">ThoroughfareName</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/PartTypeValue/t</argument>
+                        <argument token="property">type</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.TN.04.001.5</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/PartTypeValue</argument>
+                        <argument token="featureType">ThoroughfareName</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/PartTypeValue/qual</argument>
+                        <argument token="property">type</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EID517b72d1-4d66-40a9-b360-79bde1fc9696"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>76</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID969a93ba-e4b6-41e8-b971-56ba47283787">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/StatusValue</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/StatusValue/curr</argument>
+                        <argument token="property">status</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID5bf30c9d-2a14-420d-8f86-11211d5bdd06"/>
+                  <resultedFrom ref="EIDc13310d2-5b9b-459e-974c-17fd1f3f5782"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>61</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID0fbfd68a-e21d-4b55-9ba9-63eb02d97cef"/>
+              <resultedFrom ref="EID6e008af0-a476-47a4-b980-e79a1b900a86"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>689</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EIDf0d71027-f61f-41ef-ab09-0021ae66c386"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>689</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID0f6ab79f-de65-4b25-abed-b5058f696b38">
+          <testStepResults>
+            <TestStepResult id="EID8be6fd04-f3c6-45e3-b45a-acaff36a8ffd">
+              <testAssertionResults>
+                <TestAssertionResult id="EID815530d4-ac49-4f4c-ad34-59b7282eca8c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="additionalInfo">No Country component found.</argument>
+                        <argument token="constraint">An address shall have an admin unit address component spatial object whose level is 1 (Country).</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.14.9910910WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="additionalInfo">No Country component found.</argument>
+                        <argument token="constraint">An address shall have an admin unit address component spatial object whose level is 1 (Country).</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8be6fd04-f3c6-45e3-b45a-acaff36a8ffd"/>
+                  <resultedFrom ref="EID110786b3-71a8-4926-a6ca-bf9b98ba0925"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>7</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID204002a6-149c-4cd9-860e-e47569f02152">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.11.9910205WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="additionalInfo">Found: 0 default positions.</argument>
+                        <argument token="constraint">An address shall have exactly one default geographic position (default attribute of GeographicPosition must be true).</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.13.9910204WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="additionalInfo">Found: 0 default positions.</argument>
+                        <argument token="constraint">An address shall have exactly one default geographic position (default attribute of GeographicPosition must be true).</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8be6fd04-f3c6-45e3-b45a-acaff36a8ffd"/>
+                  <resultedFrom ref="EID895a6424-a01e-4bda-81a7-1f81d030c513"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>3</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID103dfb67-e894-4eb6-97fd-2b14b2c519b1">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.PD.04.001.4533</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">PostalDescriptor</argument>
+                        <argument token="constraint">Either a post code or a a post name is required.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8be6fd04-f3c6-45e3-b45a-acaff36a8ffd"/>
+                  <resultedFrom ref="EID097f73e4-6dae-481d-8ea8-4d81a9a82348"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>45</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDa269836f-2727-4c7a-b540-98bb6142f605">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.12.9910909WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="constraint">Either a designator or a name is required.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.14.9910910WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="constraint">Either a designator or a name is required.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8be6fd04-f3c6-45e3-b45a-acaff36a8ffd"/>
+                  <resultedFrom ref="EID553f5896-eda9-4f74-a626-0d07b2033669"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID0f6ab79f-de65-4b25-abed-b5058f696b38"/>
+              <resultedFrom ref="EID6ad87ad2-ef11-4541-a9dd-c0b40cf047e3"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>57</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EID5c153f10-63a1-4c94-9e2d-ab4dc9c6da4b"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>57</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID55937536-a907-46e8-a5fd-00f0b64e8f27">
+          <testStepResults>
+            <TestStepResult id="EID410b8828-8912-44d1-b1db-1b148842679c">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDf356f1b7-1aa4-4a1c-a12a-d125a68e0856">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.incorrectAddressMultiplePosition">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.11.9910205WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.incorrectAddressMultiplePosition">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.13.9910204WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID410b8828-8912-44d1-b1db-1b148842679c"/>
+                  <resultedFrom ref="EID89d8cecb-dfe1-477b-aa1a-1d4721919176"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>5</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID55937536-a907-46e8-a5fd-00f0b64e8f27"/>
+              <resultedFrom ref="EIDf6550361-1a7d-4faf-91c8-c17de64cc584"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>5</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EID15f7a9ab-ee9e-4db8-95ce-b959aeab3a7d"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>5</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID7adbd720-077d-47ba-be73-4b2721cef0fc">
+          <testStepResults>
+            <TestStepResult id="EID02a48dd9-4f5d-4ad8-be8c-7e314b49579d">
+              <testAssertionResults>
+                <TestAssertionResult id="EID1ea636b6-9bd2-42fe-9127-44333ee5cc5e">
+                  <parent ref="EID02a48dd9-4f5d-4ad8-be8c-7e314b49579d"/>
+                  <resultedFrom ref="EIDab8922dd-9d3f-4440-b876-6b593ca0dbfa"/>
+                  <startTimestamp>2017-01-23T11:00:58.813+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID7adbd720-077d-47ba-be73-4b2721cef0fc"/>
+              <resultedFrom ref="EIDfa250f52-52ac-475a-97a9-a2e36c7ce476"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EIDee19727e-be66-4ec8-abc5-7718ca720e3a"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID4b6529a2-8ff0-4227-a4c9-cb82805de558">
+          <testStepResults>
+            <TestStepResult id="EID2e9636cd-5906-4e86-a423-a508d7415bb5">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDd8325eb5-cc14-413e-a838-5bc09f9db212">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">3</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.AmbiguousAddressComponents">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.16.9910901WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="AddressCombination">#ES.SDGC.AU.04.001;#ES.SDGC.PD.04.001.4510;#ES.SDGC.TN.04.001.1;19</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.AmbiguousAddressComponents">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.19.9810402WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="AddressCombination">#ES.SDGC.AU.04.001;#ES.SDGC.PD.04.001.4510;#ES.SDGC.TN.04.001.1;19</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.AmbiguousAddressComponents">
+                      <translationArguments>
+                        <argument token="gmlid">ES.SDGC.AD.04.001.1.2.9910904WG1191S</argument>
+                        <argument token="filename">015-ad-errors.xml</argument>
+                        <argument token="featureType">Address</argument>
+                        <argument token="AddressCombination">#ES.SDGC.AU.04.001;#ES.SDGC.PD.04.001.4510;#ES.SDGC.TN.04.001.1;19</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID2e9636cd-5906-4e86-a423-a508d7415bb5"/>
+                  <resultedFrom ref="EID037e000b-9195-42be-8137-db95958de62f"/>
+                  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+                  <duration>10</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID19fcc975-2eec-4c7a-962a-c00594c15645">
+                  <parent ref="EID2e9636cd-5906-4e86-a423-a508d7415bb5"/>
+                  <resultedFrom ref="EID9959487b-f87f-4889-818a-921f4ab20e66"/>
+                  <startTimestamp>2017-01-23T11:00:58.813+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID4b6529a2-8ff0-4227-a4c9-cb82805de558"/>
+              <resultedFrom ref="EIDbd3df0e3-f6ce-404c-8a92-6a1658a982de"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>10</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EID6c4a7cd9-1c5d-4e7a-9d36-a935c7c9b5b5"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>10</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID1fbdf76f-91f5-4e95-89f6-266face8a2f4">
+          <testStepResults>
+            <TestStepResult id="EIDf591c521-7dd6-447a-95ba-7426da722ca2">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDe2952d73-3e81-4729-a770-c07866f389ef">
+                  <parent ref="EIDf591c521-7dd6-447a-95ba-7426da722ca2"/>
+                  <resultedFrom ref="EIDb343dd44-3384-48c7-ad31-4192e12ba3cc"/>
+                  <startTimestamp>2017-01-23T11:00:58.813+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID1fbdf76f-91f5-4e95-89f6-266face8a2f4"/>
+              <resultedFrom ref="EIDfe2c1a36-6bd5-4d88-b1b7-b9f15bf43500"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EID85fe9136-88c6-4ca6-8628-298262c67c4c"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID09ee9950-2465-4de2-88f0-e00b08c4ea07">
+          <testStepResults>
+            <TestStepResult id="EIDfb2362cc-fcaa-42e6-b3b6-e13fa5fc3e23">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDabf5b00f-f787-41a1-b570-3173e6a453bb">
+                  <parent ref="EIDfb2362cc-fcaa-42e6-b3b6-e13fa5fc3e23"/>
+                  <resultedFrom ref="EID58c5b189-54f5-41b5-95ed-2484092e0a15"/>
+                  <startTimestamp>2017-01-23T11:00:58.813+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID09ee9950-2465-4de2-88f0-e00b08c4ea07"/>
+              <resultedFrom ref="EID086bb0ac-9fce-422f-94a7-d318d51e23c4"/>
+              <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID5d79cdc2-65e3-4e3a-8e6c-d6985f2e2613"/>
+          <resultedFrom ref="EID525ae7ca-4ca6-4b9e-978b-3041ee754eab"/>
+          <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID7ffc8ab3-3d7c-41e0-8a85-8e351c665ba5"/>
+      <resultedFrom ref="EID56df4fc5-92f0-40ed-837d-f5bfb1ef9463"/>
+      <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+      <duration>761</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDbde613ae-92d2-436a-9180-8b14af33c168">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDc69bea43-38a8-4fc6-8406-7a2b780bbf21">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID8aaef94b-6a4d-47ab-a5d0-70ad5cb28b08"/>
+  <startTimestamp>2017-01-23T11:00:59.085+01:00</startTimestamp>
+  <duration>761</duration>
+  <status>FAILED</status>
+</TestTaskResult>
