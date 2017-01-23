@@ -1,0 +1,26 @@
+<StatisticalReportTable xmlns="http://www.interactive-instruments.de/etf/2.0">
+  <type ref="EID8bb8f162-1082-434f-bd06-23d6507634b8"/>
+  <entries>
+    <entry>all; 27</entry>
+    <entry>AerodromeArea; 1</entry>
+    <entry>AerodromeCategory; 1</entry>
+    <entry>AerodromeType; 1</entry>
+    <entry>AirLinkSequence; 1</entry>
+    <entry>AirRoute; 1</entry>
+    <entry>AirRouteLink; 3</entry>
+    <entry>AirspaceArea; 1</entry>
+    <entry>ConditionOfAirFacility; 1</entry>
+    <entry>DesignatedPoint; 3</entry>
+    <entry>ElementLength; 1</entry>
+    <entry>FieldElevation; 1</entry>
+    <entry>LowerAltitudeLimit; 1</entry>
+    <entry>Navaid; 1</entry>
+    <entry>NetworkConnection; 4</entry>
+    <entry>RunwayArea; 1</entry>
+    <entry>RunwayCentrelinePoint; 1</entry>
+    <entry>SurfaceComposition; 1</entry>
+    <entry>TouchDownLiftOff; 1</entry>
+    <entry>UpperAltitudeLimit; 1</entry>
+    <entry>UseRestriction; 1</entry>
+  </entries>
+</StatisticalReportTable>

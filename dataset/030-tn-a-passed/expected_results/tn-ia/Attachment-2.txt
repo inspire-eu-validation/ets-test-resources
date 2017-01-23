@@ -1,0 +1,13 @@
+Testing 27 features
+Indexing features (parsing errors: 0): 10 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-ia\ets-tn-ia-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Information accessibility, Transport Networks' started
+Test Case 'Code lists' started
+Test Assertion 'tn-ia.a.1: Code list extensions accessible': PASSED - 0 ms
+Test Case 'Code lists' finished: PASSED
+Test Case 'Feature references' started
+Test Assertion 'tn-ia.b.1: MarkerPost.route': PASSED - 0 ms
+Test Assertion 'tn-ia.b.2: TransportLinkSet.post': PASSED - 0 ms
+Test Case 'Feature references' finished: PASSED
+Test Suite 'Conformance class: Information accessibility, Transport Networks' finished: PASSED

@@ -1,0 +1,30 @@
+Testing 27 features
+Indexing features (parsing errors: 0): 12 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-a-as\ets-tn-a-as-bsxets.xml
+Statistics table: 3 ms
+Test Suite 'Conformance class: Application schema, Air Transport Networks' started
+Test Case 'Code list values' started
+Test Assertion 'tn-a-as.a.1: AerodromeCategoryValue attributes': PASSED - 217 ms
+Test Assertion 'tn-a-as.a.2: AerodromeTypeValue attributes': PASSED - 51 ms
+Test Assertion 'tn-a-as.a.3: AirRouteLinkClassValue attributes': PASSED - 52 ms
+Test Assertion 'tn-a-as.a.4: AirRouteTypeValue attributes': PASSED - 60 ms
+Test Assertion 'tn-a-as.a.5: AirUseRestrictionValue attributes': PASSED - 60 ms
+Test Assertion 'tn-a-as.a.6: AirspaceAreaTypeValue attributes': PASSED - 81 ms
+Test Assertion 'tn-a-as.a.7: NavaidTypeValue attributes': PASSED - 99 ms
+Test Assertion 'tn-a-as.a.8: PointRoleValue attributes': PASSED - 158 ms
+Test Assertion 'tn-a-as.a.9: RunwayTypeValue attributes': PASSED - 77 ms
+Test Assertion 'tn-a-as.a.10: SurfaceCompositionValue attributes': PASSED - 38 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'tn-a-as.b.1: AerodromeCategory can only be associated with a spatial object that is an Aerodrome Node or an Aerodrome Area.': PASSED - 1 ms
+Test Assertion 'tn-a-as.b.2: AerodromeType can only be associated with a spatial object that is an Aerodrome Node or an Aerodrome Area.': PASSED - 1 ms
+Test Assertion 'tn-a-as.b.3: ConditionOfAirFacility can only be associated with a spatial object that is an Aerodrome Node, an Aerodrome Area or a Runway Area.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.4: ElementLength can only be associated with a spatial object that is an a Runway Area, Taxiway Area or Touch Down Lift Off.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.5: ElementWidth can only be associated with a spatial object that is a Runway Area, Taxiway Area or Touch Down Lift Off.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.6: FieldElevation can only be associated with a spatial object that is an Aerodrome Node or an Aerodrome Area.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.7: LowerAltitudeLimit can only be associated with a spatial object that is an Air Route Link or Airspace Area.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.8: SurfaceComposition can only be associated with a spatial object that is a Runway Area, Taxiway Area, Apron Area or Touch Down Lift Off.': PASSED - 0 ms
+Test Assertion 'tn-a-as.b.9: UpperAltitudeLimit can only be associated with a spatial object that is an Air Route Link or Airspace Area.': PASSED - 1 ms
+Test Assertion 'tn-a-as.b.10: UseRestriction can only be associated with a spatial object that is an Air Route, Air Link (or specialized Air Link), Air Node (or specialized Air Node) or Aerodrome Area.': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
+Test Suite 'Conformance class: Application schema, Air Transport Networks' finished: PASSED
