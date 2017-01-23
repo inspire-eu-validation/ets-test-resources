@@ -1,0 +1,578 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID876d8879-7253-4995-9e5f-f585db50a5d1">
+  <testObject ref="EID22d4ab92-cd9b-4b9f-9aba-4eae8347e948"/>
+  <testModuleResults>
+    <TestModuleResult id="EID29771d5b-86bb-492c-9b2d-cc99ec08d806">
+      <testCaseResults>
+        <TestCaseResult id="EIDe10212be-6f2e-495b-8934-66f5cadbbcb7">
+          <testStepResults>
+            <TestStepResult id="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDa7d1281b-b09d-4ee0-a961-b4b2c0dbee3e">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AerodromeCategory_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue</argument>
+                        <argument token="featureType">AerodromeCategory</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue/domestic</argument>
+                        <argument token="property">aerodromeCategory</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EID252ea42b-58cc-4263-867d-844a758c8a1c"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>124</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID3353e9d0-02c9-4c3a-ad71-01f53fe236bd">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AerodromeType_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AerodromeTypeValue</argument>
+                        <argument token="featureType">AerodromeType</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AerodromeTypeValue/heliport</argument>
+                        <argument token="property">aerodromeType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EIDee4ad8f4-6c6b-4e9e-adef-243d209d8534"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>45</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6db8b83b-316c-4180-b81c-a731acdc65d2">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AirRouteLink_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue</argument>
+                        <argument token="featureType">AirRouteLink</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/TAC</argument>
+                        <argument token="property">airRouteLinkClass</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AirRouteLink_03</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue</argument>
+                        <argument token="featureType">AirRouteLink</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/TAC</argument>
+                        <argument token="property">airRouteLinkClass</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EID551bdae4-461a-47ac-8dd2-8cc9bb2e71e6"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>45</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID1e46edbb-5f9c-4f54-95ef-5d2956cdbb1e">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AirRoute_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AirRouteTypeValue</argument>
+                        <argument token="featureType">AirRoute</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/N</argument>
+                        <argument token="property">airRouteType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EIDc339e30c-daf2-4af3-b79c-c2ef25386e07"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>41</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDa93b2cf9-0d20-41af-8fc5-65f8439b6ec5">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">useRestriction_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue</argument>
+                        <argument token="featureType">UseRestriction</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/temporal</argument>
+                        <argument token="property">restriction</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EID70d9a9d4-cd5a-4556-9c72-1fd3014a61d4"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>52</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6be18fdf-5fcf-4dc0-9c93-75cf0b62cc4e">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">AirspaceArea_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue</argument>
+                        <argument token="featureType">AirspaceArea</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/F</argument>
+                        <argument token="property">AirspaceAreaType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EIDf3874f02-64dd-4af5-a282-e773e5cbe21c"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>48</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDfc84dc9f-6fd9-473a-ab4d-76b84ddcf8ff">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">Navaid_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/NavaidTypeValue</argument>
+                        <argument token="featureType">Navaid</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/NavaidTypeValue/M</argument>
+                        <argument token="property">navaidType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EIDfc6a1bf9-d768-4849-bc3e-c2a70ef1942a"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>45</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID90f26032-ce17-4ffb-a6f4-72814b94dd0d">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RunwayCentrelinePoint_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/PointRoleValue</argument>
+                        <argument token="featureType">RunwayCentrelinePoint</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/PointRoleValue/beginning</argument>
+                        <argument token="property">pointRole</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EID49c59a54-4dcb-49e2-b504-4b893de1e4fc"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>47</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDc39c30e9-cee7-4c73-ad61-6eb8d112352f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RunwayArea_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/RunwayTypeValue</argument>
+                        <argument token="featureType">RunwayArea</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/RunwayTypeValue/rw</argument>
+                        <argument token="property">runwayType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EIDfe202d95-b882-4976-800e-3e694590569c"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>40</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe02eb483-b33a-42df-9d20-a6188f37011f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">SurfaceComposition_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue</argument>
+                        <argument token="featureType">SurfaceComposition</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/asfalt</argument>
+                        <argument token="property">surfaceComposition</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDe9ec3b1a-0d56-4da7-9672-bd4f62ec3301"/>
+                  <resultedFrom ref="EID5797768f-858c-4c7d-b063-4cab749e6841"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>50</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDe10212be-6f2e-495b-8934-66f5cadbbcb7"/>
+              <resultedFrom ref="EIDf6ef3d0d-e834-4358-bad8-a754ffca6d9d"/>
+              <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+              <duration>537</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID29771d5b-86bb-492c-9b2d-cc99ec08d806"/>
+          <resultedFrom ref="EID50088130-7624-433d-97df-d57003016a0b"/>
+          <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+          <duration>537</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDb9261be0-a7d0-4453-9ea4-711a03a8c583">
+          <testStepResults>
+            <TestStepResult id="EID881b0bbe-cc55-40fd-bd4c-b0593214502f">
+              <testAssertionResults>
+                <TestAssertionResult id="EID93b3c481-240d-423f-ae0a-47de0175ab1c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">AerodromeCategory_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">AerodromeType</argument>
+                        <argument token="url">#AerodromeType_01</argument>
+                        <argument token="featureType">AerodromeCategory</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AerodromeNode or AerodromeArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID08a218cc-84a3-403d-acfa-86d93c81ce5f"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDc992c1dc-9c34-49cd-8400-0e5940e0f9ce">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">AerodromeType_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">AerodromeType</argument>
+                        <argument token="url">#AerodromeType_01</argument>
+                        <argument token="featureType">AerodromeType</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AerodromeNode or AerodromeArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID0730c723-9cff-4af2-baae-8c02c812a375"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID0a0b2b67-8090-46cc-8137-fd597b755407">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ConditionOfAirFacility_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">ConditionOfAirFacility</argument>
+                        <argument token="url">#ConditionOfAirFacility_01</argument>
+                        <argument token="featureType">ConditionOfAirFacility</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AerodromeNode, AerodromeArea or RunwayArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID3ee4e8fb-46e1-40d7-936c-21f379e64eb7"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID060e112c-a3cd-4b0d-a42e-1d6de9ab20a2">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ElementLength_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">ElementLength</argument>
+                        <argument token="url">#ElementLength_02</argument>
+                        <argument token="featureType">ElementLength</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">RunwayArea, TaxiwayArea or TouchDownLiftOff</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EIDedc3f4e5-5074-45bc-b992-41d1a3475fe3"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDac1f002e-6059-42a7-962c-572f21a3fb6a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ElementWidth_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">ElementLength</argument>
+                        <argument token="url">#ElementLength_02</argument>
+                        <argument token="featureType">ElementWidth</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">RunwayArea, TaxiwayArea or TouchDownLiftOff</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EIDd729c515-1e58-4c4f-9bc4-86a0e93923bd"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID76a5c706-e2d7-4270-8341-b94499d4c994">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">FieldElevation_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">RunwayArea</argument>
+                        <argument token="url">#RunwayArea_01</argument>
+                        <argument token="featureType">FieldElevation</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AerodromeNode or AerodromeArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID5125b67d-ebf5-4c64-a0bb-bab774bdb21a"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7da1a589-44f1-430e-ab21-a20290d1a495">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">LowerAltitudeLimit_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">LowerAltitudeLimit</argument>
+                        <argument token="url">#LowerAltitudeLimit_01</argument>
+                        <argument token="featureType">LowerAltitudeLimit</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AirRouteLink or AirspaceArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EIDbd601462-c5b5-4d8b-ae48-2ea723992b07"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID4babbbb7-4da2-45df-bd86-e0d3235a1141">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">SurfaceComposition_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">AerodromeArea</argument>
+                        <argument token="url">#AerodromeArea_01</argument>
+                        <argument token="featureType">SurfaceComposition</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">RunwayArea, TaxiwayArea, ApronArea or TouchDownLiftOff</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID3bc69d02-1209-41ec-951d-f7d5d0fc1d61"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID155f83c9-117b-4ec4-89ba-510da6057c1b">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">UpperAltitudeLimit_02</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">LowerAltitudeLimit</argument>
+                        <argument token="url">#LowerAltitudeLimit_01</argument>
+                        <argument token="featureType">UpperAltitudeLimit</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AirRouteLink or AirspaceArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID3481390c-0924-4885-9d83-d65c3d28e4c7"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb72482ef-696b-43e6-9c89-01ff07d0d4f3">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">useRestriction_01</argument>
+                        <argument token="filename">029-tn-a-errors.xml</argument>
+                        <argument token="elementName">UseRestriction</argument>
+                        <argument token="url">#useRestriction_02</argument>
+                        <argument token="featureType">UseRestriction</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-a/4.0</argument>
+                        <argument token="elementNameExpected">AirRoute, AirRouteLink, ProcedureLink, StandardInstrumentDeparture, InstrumentApproachProcedure, StandardInstrumentArrival, Navaid, DesignatedPoint, RunwayCentrelinePoint, TouchDownLiftOff, AerodromeNode or AerodromeArea</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID881b0bbe-cc55-40fd-bd4c-b0593214502f"/>
+                  <resultedFrom ref="EID8be1202c-8599-473d-b0d6-60b197f12675"/>
+                  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDb9261be0-a7d0-4453-9ea4-711a03a8c583"/>
+              <resultedFrom ref="EIDb08a7446-4790-4764-b7ea-53f8dede232f"/>
+              <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+              <duration>2</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID29771d5b-86bb-492c-9b2d-cc99ec08d806"/>
+          <resultedFrom ref="EID7b22cdc3-009d-4071-8e19-3fd255e9c9d9"/>
+          <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+          <duration>2</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID876d8879-7253-4995-9e5f-f585db50a5d1"/>
+      <resultedFrom ref="EID87c4e8d9-c8bd-461d-b81c-4f5a6e60be2b"/>
+      <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+      <duration>539</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDc8c662b0-2eca-4d07-abca-e7e71c1d93fe">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID6fafa564-2516-4157-a72f-503940e33bfb">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID6800c834-b4e0-4631-9209-73530fb9ccee"/>
+  <startTimestamp>2017-01-23T17:11:12.875+01:00</startTimestamp>
+  <duration>539</duration>
+  <status>FAILED</status>
+</TestTaskResult>

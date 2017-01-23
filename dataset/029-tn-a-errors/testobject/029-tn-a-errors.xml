@@ -467,17 +467,13 @@
 				</base:Identifier>
 			</net:inspireId>
 			<net:geometry>
-				<gml:CompositeSurface gml:id="RSA_1" srsName="urn:ogc:def:crs:EPSG::3045">
-					<gml:surfaceMember>
-						<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1" srsDimension="2">
-							<gml:exterior>
-								<gml:LinearRing>
-									<gml:posList>1 0 1 9 6 16 15 16 16 6 1 0</gml:posList>
-								</gml:LinearRing>
-							</gml:exterior>
-						</gml:Polygon>
-					</gml:surfaceMember>
-				</gml:CompositeSurface>
+				<gml:Polygon srsName="urn:ogc:def:crs:EPSG::3045" gml:id="RSA_1" srsDimension="2">
+					<gml:exterior>
+						<gml:LinearRing>
+							<gml:posList>1 0 1 9 6 16 15 16 16 6 1 0</gml:posList>
+						</gml:LinearRing>
+					</gml:exterior>
+				</gml:Polygon>
 			</net:geometry>
 		</tn-a:AerodromeArea>
 	</gml:featureMember>
