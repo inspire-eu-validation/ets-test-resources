@@ -1,0 +1,20 @@
+Testing 33 features
+Indexing features (parsing errors: 0): 15 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-w-as\ets-tn-w-as-bsxets.xml
+Statistics table: 5 ms
+Test Suite 'Conformance class: Application schema, Water Transport Networks' started
+Test Case 'Code list values' started
+Test Assertion 'tn-w-as.a.1: FerryUseValue attributes': FAILED - 122 ms
+Test Assertion 'tn-w-as.a.2: FormOfWaterwayNodeValue attributes': FAILED - 91 ms
+Test Case 'Code list values' finished: FAILED
+Test Case 'Constraints' started
+Test Assertion 'tn-w-as.b.1: CEMTClass can only be associated with a spatial object that is part of a water transport network.': FAILED - 3 ms
+Test Assertion 'tn-w-as.b.2: ConditionOfWaterFacility can only be associated with a spatial object that is part of a water transport network.': FAILED - 1 ms
+Test Assertion 'tn-w-as.b.3: FerryUse can only be associated with a spatial object that is part of a water transport network.': FAILED - 2 ms
+Test Assertion 'tn-w-as.b.4: RestrictionForWaterVehicles can only be associated with a spatial object that is part of a water transport network.': FAILED - 0 ms
+Test Assertion 'tn-w-as.b.5: WaterTrafficFlowDirection can only be associated with a spatial object that is part of a water transport network.': FAILED - 0 ms
+Test Case 'Constraints' finished: FAILED
+Test Case 'Object references' started
+Test Assertion 'tn-w-as.c.1: Hydrography theme references': PASSED_MANUAL
+Test Case 'Object references' finished: PASSED_MANUAL
+Test Suite 'Conformance class: Application schema, Water Transport Networks' finished: FAILED

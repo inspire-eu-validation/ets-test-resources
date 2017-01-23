@@ -1,0 +1,487 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDd8e98271-0773-4974-a927-5d3263aa92b8">
+  <testObject ref="EID4581bb65-c82b-46ab-9bae-7e0e764e7946"/>
+  <testModuleResults>
+    <TestModuleResult id="EID7f474db2-4eaa-4264-9686-b289440946f1">
+      <testCaseResults>
+        <TestCaseResult id="EID32479ba6-cc8a-4d4e-8c35-d13ef7c9b7f6">
+          <testStepResults>
+            <TestStepResult id="EID82986f10-8a8d-4f7c-bcb8-a7e815f8352c">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDf6a856ea-ac54-4be1-a961-67bf99d41086">
+                  <parent ref="EID82986f10-8a8d-4f7c-bcb8-a7e815f8352c"/>
+                  <resultedFrom ref="EID28a341d3-c1cb-47fd-a2f4-1148cdffcde4"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>1634</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb32e239c-7ace-481a-a209-a2db6ab9a0fd">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RestrictionForWaterVehicles_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/RestrictionTypeValue</argument>
+                        <argument token="featureType">RestrictionForWaterVehicles</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximum</argument>
+                        <argument token="property">restrictionType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID82986f10-8a8d-4f7c-bcb8-a7e815f8352c"/>
+                  <resultedFrom ref="EID1a33615b-0723-4d4f-9bc3-69f0bac3572a"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>58</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID32479ba6-cc8a-4d4e-8c35-d13ef7c9b7f6"/>
+              <resultedFrom ref="EID21c7382b-8890-46b5-869d-756c1fcfad57"/>
+              <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+              <duration>1692</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID7f474db2-4eaa-4264-9686-b289440946f1"/>
+          <resultedFrom ref="EID14b1c9d9-59fe-4983-9e91-b5ec14d743a6"/>
+          <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+          <duration>1692</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDfe123181-4b03-4452-ad65-6abdd7bf43db">
+          <testStepResults>
+            <TestStepResult id="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2">
+              <testAssertionResults>
+                <TestAssertionResult id="EID4af94712-b73e-4715-ad33-df1e1b6c8a0a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">WaterTrafficFlowDirection_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">WaterwayNode</argument>
+                        <argument token="url">#WaterwayNode_03</argument>
+                        <argument token="featureType">WaterTrafficFlowDirection</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">Link or LinkSequence</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EIDfb2ed162-a2ef-4881-bb05-e261c2e316ae"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID4e36a0b5-7965-42f6-b014-5cc31a0f3e6a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">PortArea_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">PortArea</argument>
+                        <argument token="constraint">All transport areas have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EIDb7daf317-fad9-4d41-818f-1b43b52cb76a"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID64d644e7-f570-4cdf-93d7-c33acca9d5b2">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">3</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayLink_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayLink_03</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayLink_04</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EID2164f7e3-ca11-4958-a11e-c9482c0541d9"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID80b13602-6d03-4114-aebc-e24271de3364">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterLinkSequence_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterLinkSequence</argument>
+                        <argument token="constraint">All transport link sequences have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EIDe31f1598-98ec-4d1c-9ad8-7abca5a21214"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID77decdd3-2879-4342-bb1c-226c5d792335">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">MarineWaterway_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">MarineWaterway</argument>
+                        <argument token="constraint">All transport link sets have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EID8a716b73-cfef-4bc7-b2a0-496059c55136"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDf9e0213e-ad9a-4735-9a1e-571f58adeeaf">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">PortNode_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">PortNode</argument>
+                        <argument token="constraint">All transport nodes have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayNode_01</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayNode</argument>
+                        <argument token="constraint">All transport nodes have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EID6071c2b7-d4d3-4dcc-a3df-5d24e7739816"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID647a7266-11ba-4c13-b723-059888f4b36a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">Beacon_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">Beacon</argument>
+                        <argument token="constraint">All transport points have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EID89792a2f-f3b7-4008-a1c6-eedfc6909bfc"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6f20a59c-403c-4b48-9ee8-ccb52b84bb8f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RestrictionForWaterVehicles_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">RestrictionForWaterVehicles</argument>
+                        <argument token="constraint">All transport properties have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EIDe4cb76d6-b8a6-4d90-ae4f-f2bed0ae26ad"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>7</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDbfb8dbbb-2cef-4b9c-8781-979dee593906">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">WaterLinkSequence_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterLinkSequence</argument>
+                        <argument token="additionalInfo">The WaterwayLink 'WaterwayLink_02' does not share a common network with the link sequence: #NetworkOne vs. #NetworkTwo.</argument>
+                        <argument token="constraint">A transport link sequence must be composed of transport links that all belong to the same transport network.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EID8e5faabd-a733-4600-b519-18e53af211f4"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID53cebb6e-4fb5-4d67-b4a0-1d3dd71caebc">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">MarineWaterway_01</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">MarineWaterway</argument>
+                        <argument token="additionalInfo">The WaterwayLink 'WaterwayLink_02' does not share a common network with the link set: #NetworkOne vs. #NetworkTwo.</argument>
+                        <argument token="constraint">A transport link set must be composed of transport links and or transport link sequences that all belong to the same transport network</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8c255664-64f2-4f4c-8cda-9e029d1de2e2"/>
+                  <resultedFrom ref="EIDf56cfea3-56e6-4afd-b136-2fe78faacec1"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDfe123181-4b03-4452-ad65-6abdd7bf43db"/>
+              <resultedFrom ref="EID6bb73535-1e46-4a58-9cb1-f9d4acc653eb"/>
+              <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+              <duration>14</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID7f474db2-4eaa-4264-9686-b289440946f1"/>
+          <resultedFrom ref="EIDaf5b50fc-96a3-49e9-b015-d1400736687b"/>
+          <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+          <duration>14</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID32eb6e27-56f0-4fc1-9cf6-e6d320024dd6">
+          <testStepResults>
+            <TestStepResult id="EIDb1eeca1c-e4ae-4ac7-85b2-d005b3ac49fc">
+              <testAssertionResults>
+                <TestAssertionResult id="EID7f5134b5-b61f-4c3d-9b05-ea5f0b991f9c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.freeNode">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayNode_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.freeNode">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayNode_03</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">WaterwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDb1eeca1c-e4ae-4ac7-85b2-d005b3ac49fc"/>
+                  <resultedFrom ref="EIDd6fa7b64-9a2a-490e-aebe-7411a4610407"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>110</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID1012848b-da11-4bbe-a3d9-ef75b19d45ab">
+                  <parent ref="EIDb1eeca1c-e4ae-4ac7-85b2-d005b3ac49fc"/>
+                  <resultedFrom ref="EID4e0e2598-8103-4b18-a98a-673910214c91"/>
+                  <startTimestamp>2017-01-23T15:18:02.642+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID32eb6e27-56f0-4fc1-9cf6-e6d320024dd6"/>
+              <resultedFrom ref="EIDa0ccae1d-2917-417e-b29c-6553854c5d78"/>
+              <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+              <duration>110</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID7f474db2-4eaa-4264-9686-b289440946f1"/>
+          <resultedFrom ref="EIDc1219880-f263-4459-9c87-c6b9377458c0"/>
+          <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+          <duration>110</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDac146241-a097-4dcc-9312-610b3eb1968e">
+          <testStepResults>
+            <TestStepResult id="EIDb3a22f80-7fd3-49f8-ae7e-915827208433">
+              <testAssertionResults>
+                <TestAssertionResult id="EID28d92dbf-d4be-43c5-963d-d7190bdf9f5e">
+                  <parent ref="EIDb3a22f80-7fd3-49f8-ae7e-915827208433"/>
+                  <resultedFrom ref="EID11d618c8-56b1-4405-92ec-99b3c89bb36a"/>
+                  <startTimestamp>2017-01-23T15:18:02.642+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7a5e52c4-3618-4c9e-b928-cae68e0dcf65">
+                  <parent ref="EIDb3a22f80-7fd3-49f8-ae7e-915827208433"/>
+                  <resultedFrom ref="EID87866a02-fa9c-428a-bb9b-c22a7e80fa7e"/>
+                  <startTimestamp>2017-01-23T15:18:02.642+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID0b4e8a9e-29dd-4dd2-a136-49474603e694">
+                  <parent ref="EIDb3a22f80-7fd3-49f8-ae7e-915827208433"/>
+                  <resultedFrom ref="EID8ac3d9de-d077-424e-a327-70663cb50801"/>
+                  <startTimestamp>2017-01-23T15:18:02.642+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDac146241-a097-4dcc-9312-610b3eb1968e"/>
+              <resultedFrom ref="EID39e3afa5-cccc-4856-8329-4e9d57ee41b2"/>
+              <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID7f474db2-4eaa-4264-9686-b289440946f1"/>
+          <resultedFrom ref="EIDa85e3c90-3e4f-4c7a-a6a2-8e38671d6556"/>
+          <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDabcfcc1c-699c-4c23-a877-17307d4150ac">
+          <testStepResults>
+            <TestStepResult id="EIDf9477aec-a419-4173-aa2f-99b837a58ef0">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDa811747b-5d5b-486c-a519-b0fa6042b190">
+                  <parent ref="EIDf9477aec-a419-4173-aa2f-99b837a58ef0"/>
+                  <resultedFrom ref="EID8353f727-60ce-4893-9a33-5b93013ff6d8"/>
+                  <startTimestamp>2017-01-23T15:18:02.642+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID4810956b-3940-4daa-8125-c7f4728cdecb">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongIntermodalConnection">
+                      <translationArguments>
+                        <argument token="gmlid">NetworkConnection_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="featureType">NetworkConnection</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf9477aec-a419-4173-aa2f-99b837a58ef0"/>
+                  <resultedFrom ref="EID8353f727-60ce-4893-9a33-5b93013ff6d8"/>
+                  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDabcfcc1c-699c-4c23-a877-17307d4150ac"/>
+              <resultedFrom ref="EID5330a6e0-8ddc-483e-86e2-1460b4c1ecc0"/>
+              <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+              <duration>1</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID7f474db2-4eaa-4264-9686-b289440946f1"/>
+          <resultedFrom ref="EIDf271ab9f-796b-4644-b27f-cf5dbb919cdc"/>
+          <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+          <duration>1</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDd8e98271-0773-4974-a927-5d3263aa92b8"/>
+      <resultedFrom ref="EIDe11a7179-a5d8-4556-a94a-90fcfb7e6ffd"/>
+      <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+      <duration>1817</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDc21fb1fe-b2a8-4e02-b49c-5538c77d3883">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID8036da8d-33d8-4f68-b70b-b46a4662f119">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID4441cbde-371f-4899-90b3-145f4fd08ebc"/>
+  <startTimestamp>2017-01-23T15:18:02.723+01:00</startTimestamp>
+  <duration>1817</duration>
+  <status>FAILED</status>
+</TestTaskResult>

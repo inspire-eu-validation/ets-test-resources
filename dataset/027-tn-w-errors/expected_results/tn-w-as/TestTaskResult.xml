@@ -1,0 +1,277 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDfe1d122f-605b-4a0d-95f8-566fd98e6ce9">
+  <testObject ref="EIDe34dcd0d-73e0-4de8-ab3e-98d15517f5e0"/>
+  <testModuleResults>
+    <TestModuleResult id="EID71ac881d-fb29-4d59-a519-7d42c9f1d9d6">
+      <testCaseResults>
+        <TestCaseResult id="EIDec41f325-d076-4c3a-9511-1c3ef02e814e">
+          <testStepResults>
+            <TestStepResult id="EID396f0fbc-8400-4353-a6cc-bf4ee49e0093">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDd9695778-a873-4f33-b03a-873648d83194">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">FerryUse_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/FerryUseValue</argument>
+                        <argument token="featureType">FerryUse</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/FerryUseValue/car</argument>
+                        <argument token="property">ferryUse</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID396f0fbc-8400-4353-a6cc-bf4ee49e0093"/>
+                  <resultedFrom ref="EIDfc18326f-922d-4ff1-8056-1877f76d24cc"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>122</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6aa6e3ec-4664-45ef-a2d5-4ac6513f12f7">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">WaterwayNode_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue</argument>
+                        <argument token="featureType">WaterwayNode</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/ship</argument>
+                        <argument token="property">formOfWaterwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID396f0fbc-8400-4353-a6cc-bf4ee49e0093"/>
+                  <resultedFrom ref="EID17a46147-9005-46d1-b3ea-3e5bac3f3be8"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>91</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDec41f325-d076-4c3a-9511-1c3ef02e814e"/>
+              <resultedFrom ref="EIDaf406f0c-9d6e-4144-b703-3cf6b9677b0b"/>
+              <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+              <duration>213</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID71ac881d-fb29-4d59-a519-7d42c9f1d9d6"/>
+          <resultedFrom ref="EIDb6f94a1e-f7fb-4f09-b48e-63003c8d9fdf"/>
+          <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+          <duration>213</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDfe77313d-71f7-4014-bd09-c2df3906a830">
+          <testStepResults>
+            <TestStepResult id="EID4e715215-d1c1-43a2-a7dc-6de9228a8470">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDf623fe63-683b-47ef-8519-a00e176c0f4b">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">CEMTClass_01</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">WaterwayNode</argument>
+                        <argument token="url">#WaterwayNode_03</argument>
+                        <argument token="featureType">CEMTClass</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">InlandWaterway</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4e715215-d1c1-43a2-a7dc-6de9228a8470"/>
+                  <resultedFrom ref="EID681c1030-eda0-47fb-8203-dc860673a21c"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>3</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDf9414a63-fac5-44d1-abe4-60e2304eaf78">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">ConditionOfWaterFacility_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">InlandWaterway</argument>
+                        <argument token="url">#InlandWaterway_01</argument>
+                        <argument token="featureType">ConditionOfWaterFacility</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">PortArea or PortNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4e715215-d1c1-43a2-a7dc-6de9228a8470"/>
+                  <resultedFrom ref="EID120fa4ed-e5f9-4e1d-a028-e04d0170ca08"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDf0b583f0-378f-449f-b13b-2cdffe28434a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">FerryUse_01</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">InlandWaterway</argument>
+                        <argument token="url">#InlandWaterway_01</argument>
+                        <argument token="featureType">FerryUse</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">FerryCrossing</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4e715215-d1c1-43a2-a7dc-6de9228a8470"/>
+                  <resultedFrom ref="EIDdf285b92-adee-4d78-940b-14dd3f7c1172"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID957be355-95c1-4241-8a0b-4e756c5cf484">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">RestrictionForWaterVehicles_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">InlandWaterway</argument>
+                        <argument token="url">#InlandWaterway_01</argument>
+                        <argument token="featureType">RestrictionForWaterVehicles</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">WaterwayLink or WaterwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4e715215-d1c1-43a2-a7dc-6de9228a8470"/>
+                  <resultedFrom ref="EID7acc9e25-9f5d-4754-b35d-3ae50af84da8"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDa864a908-8390-48a1-94ae-f4424e7d8ae7">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">WaterTrafficFlowDirection_02</argument>
+                        <argument token="filename">027-tn-w-errors.xml</argument>
+                        <argument token="elementName">WaterwayNode</argument>
+                        <argument token="url">#WaterwayNode_03</argument>
+                        <argument token="featureType">WaterTrafficFlowDirection</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-w/4.0</argument>
+                        <argument token="elementNameExpected">WaterLinkSequence or WaterwayLink</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID4e715215-d1c1-43a2-a7dc-6de9228a8470"/>
+                  <resultedFrom ref="EID42aa49a4-82e5-49f5-881d-8771a43378ec"/>
+                  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDfe77313d-71f7-4014-bd09-c2df3906a830"/>
+              <resultedFrom ref="EID505ee758-bc4b-4770-8a07-3b28c3562477"/>
+              <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+              <duration>6</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID71ac881d-fb29-4d59-a519-7d42c9f1d9d6"/>
+          <resultedFrom ref="EID99cd35b9-336c-401f-8bf4-64a45a958371"/>
+          <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+          <duration>6</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID9f402fb6-8f10-4a68-9327-f329d1010751">
+          <testStepResults>
+            <TestStepResult id="EID974f4cee-4dd8-4eae-8064-a76f698c2cb4">
+              <testAssertionResults>
+                <TestAssertionResult id="EID67102e11-9e61-44c4-8bb4-bdb05674c34e">
+                  <parent ref="EID974f4cee-4dd8-4eae-8064-a76f698c2cb4"/>
+                  <resultedFrom ref="EID68c7c0b6-0df8-411a-b485-e1b394cd8d13"/>
+                  <startTimestamp>2017-01-23T15:21:37.457+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID9f402fb6-8f10-4a68-9327-f329d1010751"/>
+              <resultedFrom ref="EIDc2801ef3-9216-4fb5-8d42-469f78a2d61e"/>
+              <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID71ac881d-fb29-4d59-a519-7d42c9f1d9d6"/>
+          <resultedFrom ref="EID96f4a580-cc18-4295-96b3-5583fb4a1605"/>
+          <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDfe1d122f-605b-4a0d-95f8-566fd98e6ce9"/>
+      <resultedFrom ref="EIDb0126e6d-5913-49e3-add8-52f44263bc55"/>
+      <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+      <duration>219</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID576ccb78-d012-4831-85e2-15a46af50af3">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDfe1d122f-605b-4a0d-95f8-566fd98e6ce9-log.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDe380d3fa-6fcf-4bc4-b53d-38187dc5c656">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDfe1d122f-605b-4a0d-95f8-566fd98e6ce9-stat.xml"/>
+    </Attachment>
+    <Attachment type="Query" id="EID5944cf8f-7224-46d4-826b-aee06c66a2a5">
+      <label>XQuery executed against the dataset</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="file:///C:/Users/vandeloc/Documents/Documents/06%20ARE3NA/WP4/GitHub/ETS-repository/tmp/EIDfe1d122f-605b-4a0d-95f8-566fd98e6ce9-query.xq"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDeb35a20f-188d-4fd3-aee1-dd07eb3c3efa"/>
+  <startTimestamp>2017-01-23T15:21:37.537+01:00</startTimestamp>
+  <duration>219</duration>
+  <status>FAILED</status>
+</TestTaskResult>

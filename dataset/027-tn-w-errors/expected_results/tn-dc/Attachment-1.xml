@@ -1,0 +1,21 @@
+<StatisticalReportTable xmlns="http://www.interactive-instruments.de/etf/2.0">
+  <type ref="EID8bb8f162-1082-434f-bd06-23d6507634b8"/>
+  <entries>
+    <entry>all; 33</entry>
+    <entry>Beacon; 2</entry>
+    <entry>CEMTClass; 2</entry>
+    <entry>ConditionOfWaterFacility; 2</entry>
+    <entry>FerryCrossing; 1</entry>
+    <entry>FerryUse; 2</entry>
+    <entry>InlandWaterway; 1</entry>
+    <entry>MarineWaterway; 2</entry>
+    <entry>NetworkConnection; 4</entry>
+    <entry>PortArea; 2</entry>
+    <entry>PortNode; 2</entry>
+    <entry>RestrictionForWaterVehicles; 2</entry>
+    <entry>WaterLinkSequence; 2</entry>
+    <entry>WaterTrafficFlowDirection; 2</entry>
+    <entry>WaterwayLink; 4</entry>
+    <entry>WaterwayNode; 3</entry>
+  </entries>
+</StatisticalReportTable>
