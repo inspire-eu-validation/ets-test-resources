@@ -1,0 +1,169 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID3ede4693-bf30-4c12-b09e-40a9bdbe69d1">
+  <testObject ref="EIDe7a63476-ff15-41dc-b828-2a8002be4578"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDc82b0cab-f8cc-46c1-a738-6fcac91ce336">
+      <testCaseResults>
+        <TestCaseResult id="EID33716654-7be3-40ba-a777-b54033149b71">
+          <testStepResults>
+            <TestStepResult id="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b">
+              <testAssertionResults>
+                <TestAssertionResult id="EID647a195c-43c9-4e1b-be95-0b2ee7193e49">
+                  <parent ref="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b"/>
+                  <resultedFrom ref="EID9fb4a73a-8e08-4bc8-a608-b353dcb99d53"/>
+                  <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID1d1a7377-6eab-4fd3-9680-9fccf7ad06ff">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">11</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_03</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_04</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_03</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b"/>
+                  <resultedFrom ref="EIDdb7ae736-a7b8-41e2-ae62-4f98076bc6c4"/>
+                  <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+                  <duration>7</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID16af13b9-87f1-4ad0-8c37-fe21762fc68b">
+                  <parent ref="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b"/>
+                  <resultedFrom ref="EID3da8c41a-e1f1-47bc-8f60-1c92cfa02feb"/>
+                  <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7eb93ebe-dc05-45f6-8b37-be3e6260f76e">
+                  <parent ref="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b"/>
+                  <resultedFrom ref="EID9a50d25b-fe51-4142-b0b3-f90455e65158"/>
+                  <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID8746315f-aa70-4ba1-8e3c-a0099dc24f73">
+                  <parent ref="EIDd9007761-b848-45f9-97e1-91e20a6c4c7b"/>
+                  <resultedFrom ref="EIDead98020-36ba-4574-b03c-b688254f99e8"/>
+                  <startTimestamp>2017-01-30T16:53:40.501+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID33716654-7be3-40ba-a777-b54033149b71"/>
+              <resultedFrom ref="EIDb7d9c5fe-5943-4d7a-857a-5669beb7b647"/>
+              <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+              <duration>7</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDc82b0cab-f8cc-46c1-a738-6fcac91ce336"/>
+          <resultedFrom ref="EIDdc3b76de-68d5-46a6-bbe3-da0abb973f0f"/>
+          <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+          <duration>7</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID3ede4693-bf30-4c12-b09e-40a9bdbe69d1"/>
+      <resultedFrom ref="EID562e5045-5cdc-492a-be67-55b551ab3045"/>
+      <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+      <duration>7</duration>
+      <status>PASSED_MANUAL</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID032938d0-23a8-4926-98e4-d9819ec35403">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDcec36fdb-9d31-4db7-b541-45b3b1ab52a7">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID733af9a0-312b-4f71-9aa2-977cd2134d23"/>
+  <startTimestamp>2017-01-30T16:53:40.544+01:00</startTimestamp>
+  <duration>7</duration>
+  <status>PASSED_MANUAL</status>
+</TestTaskResult>

@@ -1,0 +1,13 @@
+Testing 39 features
+Indexing features (parsing errors: 0): 11 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-dc\ets-tn-dc-bsxets.xml
+Statistics table: 1 ms
+Test Suite 'Conformance class: Data consistency, Transport Networks' started
+Test Case 'Spatial consistency' started
+Test Assertion 'hy-dc.a.1: Each Transport Network Link or Node geometry is within a Network Area geometry (Road Transport Networks)': PASSED - 0 ms
+Test Assertion 'hy-dc.a.2: Each Transport Network Link or Node geometry is within a Network Area geometry (Railway Transport Networks)': PASSED_MANUAL - 7 ms
+Test Assertion 'hy-dc.a.3: Each Transport Network Link or Node geometry is within a Network Area geometry (Waterway Transport Networks)': PASSED - 0 ms
+Test Assertion 'hy-dc.a.4: Each Transport Network Link or Node geometry is within a Network Area geometry (Air Transport Networks)': PASSED - 0 ms
+Test Assertion 'tn-dc.a.5: Manual review': PASSED_MANUAL
+Test Case 'Spatial consistency' finished: PASSED_MANUAL
+Test Suite 'Conformance class: Data consistency, Transport Networks' finished: PASSED_MANUAL

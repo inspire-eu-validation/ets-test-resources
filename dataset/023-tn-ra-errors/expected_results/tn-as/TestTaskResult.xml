@@ -1,0 +1,436 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID3d5f4429-5649-4c96-b85a-dd3a1b642527">
+  <testObject ref="EIDdc339484-f8b0-425d-98f8-57e18d9cc62f"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175">
+      <testCaseResults>
+        <TestCaseResult id="EIDe099bee1-566a-4aa9-bf38-fe5433708cd4">
+          <testStepResults>
+            <TestStepResult id="EID8de2c52f-50df-4cc9-8353-dfc544c4e6e3">
+              <testAssertionResults>
+                <TestAssertionResult id="EID6e86e9a6-c8d4-4f9a-9a9b-7c30cc5f12ba">
+                  <parent ref="EID8de2c52f-50df-4cc9-8353-dfc544c4e6e3"/>
+                  <resultedFrom ref="EID28a341d3-c1cb-47fd-a2f4-1148cdffcde4"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>754</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDd211d8c4-1730-46ed-a5c5-3593735061dd">
+                  <parent ref="EID8de2c52f-50df-4cc9-8353-dfc544c4e6e3"/>
+                  <resultedFrom ref="EID1a33615b-0723-4d4f-9bc3-69f0bac3572a"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>291</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDe099bee1-566a-4aa9-bf38-fe5433708cd4"/>
+              <resultedFrom ref="EID21c7382b-8890-46b5-869d-756c1fcfad57"/>
+              <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+              <duration>1045</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175"/>
+          <resultedFrom ref="EID14b1c9d9-59fe-4983-9e91-b5ec14d743a6"/>
+          <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+          <duration>1045</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDce025b22-ff38-44f7-8b04-53b0cf4d5803">
+          <testStepResults>
+            <TestStepResult id="EID8fde6397-a282-499a-b17d-6414ae735edf">
+              <testAssertionResults>
+                <TestAssertionResult id="EID74ed52d0-dc08-4139-a794-1a42c9b4f0e6">
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EIDfb2ed162-a2ef-4881-bb05-e261c2e316ae"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6f6ca28d-6dac-418b-901e-1254dbd18ba6">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayArea_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayArea</argument>
+                        <argument token="constraint">All transport areas have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EIDb7daf317-fad9-4d41-818f-1b43b52cb76a"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7b5d929a-05f6-4d69-95a3-f357bb75974c">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">3</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_03</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_04</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                        <argument token="constraint">All transport links have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EID2164f7e3-ca11-4958-a11e-c9482c0541d9"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID97984405-3926-48b2-87be-a9b93ab677ff">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLinkSequence_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLinkSequence</argument>
+                        <argument token="constraint">All transport link sequences have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EIDe31f1598-98ec-4d1c-9ad8-7abca5a21214"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID58eeb989-523c-4c97-aa72-a7c2b0c4e21f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLine_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLine</argument>
+                        <argument token="constraint">All transport link sets have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EID8a716b73-cfef-4bc7-b2a0-496059c55136"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID6916da38-c702-427c-a784-a2a4a134ca44">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                        <argument token="constraint">All transport nodes have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                        <argument token="constraint">All transport nodes have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EID6071c2b7-d4d3-4dcc-a3df-5d24e7739816"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDea776f42-46a2-4db4-adbf-b8dd27c1a095">
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EID89792a2f-f3b7-4008-a1c6-eedfc6909bfc"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDc4a6f547-c7a6-4f7a-8c20-676db712de5e">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayUse_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayUse</argument>
+                        <argument token="constraint">All transport properties have an external object identifier.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EIDe4cb76d6-b8a6-4d90-ae4f-f2bed0ae26ad"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID919dd01a-8183-4027-8d40-f496388e2b68">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLinkSequence_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLinkSequence</argument>
+                        <argument token="additionalInfo">The RailwayLink 'RailwayLink_02' does not share a common network with the link sequence: #NetworkOne vs. #NetworkTwo.</argument>
+                        <argument token="constraint">A transport link sequence must be composed of transport links that all belong to the same transport network.</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EID8e5faabd-a733-4600-b519-18e53af211f4"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID57fe3c6b-1696-475e-95a8-d2a226dcf84e">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLine_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayLine</argument>
+                        <argument token="additionalInfo">The RailwayLink 'RailwayLink_02' does not share a common network with the link set: #NetworkOne vs. #NetworkTwo.</argument>
+                        <argument token="constraint">A transport link set must be composed of transport links and or transport link sequences that all belong to the same transport network</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID8fde6397-a282-499a-b17d-6414ae735edf"/>
+                  <resultedFrom ref="EIDf56cfea3-56e6-4afd-b136-2fe78faacec1"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDce025b22-ff38-44f7-8b04-53b0cf4d5803"/>
+              <resultedFrom ref="EID6bb73535-1e46-4a58-9cb1-f9d4acc653eb"/>
+              <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+              <duration>3</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175"/>
+          <resultedFrom ref="EIDaf5b50fc-96a3-49e9-b015-d1400736687b"/>
+          <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+          <duration>3</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID75a7a4d0-ebb4-431a-945b-8a321033f124">
+          <testStepResults>
+            <TestStepResult id="EID6b27db19-8494-43a1-b752-548de2340391">
+              <testAssertionResults>
+                <TestAssertionResult id="EID9259bacd-ee64-42a3-8a22-21c35df944db">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.freeNode">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.freeNode">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_03</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID6b27db19-8494-43a1-b752-548de2340391"/>
+                  <resultedFrom ref="EIDd6fa7b64-9a2a-490e-aebe-7411a4610407"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>5</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb69bdfcd-8e67-43d4-858c-3038502db58a">
+                  <parent ref="EID6b27db19-8494-43a1-b752-548de2340391"/>
+                  <resultedFrom ref="EID4e0e2598-8103-4b18-a98a-673910214c91"/>
+                  <startTimestamp>2017-01-30T16:55:16.087+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID75a7a4d0-ebb4-431a-945b-8a321033f124"/>
+              <resultedFrom ref="EIDa0ccae1d-2917-417e-b29c-6553854c5d78"/>
+              <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+              <duration>5</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175"/>
+          <resultedFrom ref="EIDc1219880-f263-4459-9c87-c6b9377458c0"/>
+          <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+          <duration>5</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID70525a14-50cc-4d7a-acb5-5206173b606d">
+          <testStepResults>
+            <TestStepResult id="EID6ff7bad6-fa71-459b-9839-dad13df83033">
+              <testAssertionResults>
+                <TestAssertionResult id="EID72f06a26-f130-4f1b-a3da-bc5aec06011c">
+                  <parent ref="EID6ff7bad6-fa71-459b-9839-dad13df83033"/>
+                  <resultedFrom ref="EID11d618c8-56b1-4405-92ec-99b3c89bb36a"/>
+                  <startTimestamp>2017-01-30T16:55:16.087+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID04646e54-655b-4f24-84ed-540b501380b4">
+                  <parent ref="EID6ff7bad6-fa71-459b-9839-dad13df83033"/>
+                  <resultedFrom ref="EID57a2596d-0730-409a-8ef1-7478a8ecda94"/>
+                  <startTimestamp>2017-01-30T16:55:16.087+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID5d27e005-ec58-4d3f-a851-e36541d8b4e4">
+                  <parent ref="EID6ff7bad6-fa71-459b-9839-dad13df83033"/>
+                  <resultedFrom ref="EID6b530474-d5fb-45b5-b4cc-5dbeb5a89670"/>
+                  <startTimestamp>2017-01-30T16:55:16.087+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID70525a14-50cc-4d7a-acb5-5206173b606d"/>
+              <resultedFrom ref="EID39e3afa5-cccc-4856-8329-4e9d57ee41b2"/>
+              <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175"/>
+          <resultedFrom ref="EIDa85e3c90-3e4f-4c7a-a6a2-8e38671d6556"/>
+          <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID6f1d39fb-6144-4be6-b629-3a99691b82bb">
+          <testStepResults>
+            <TestStepResult id="EID728bebbf-f031-45b8-aaec-e8b2bb2dcc18">
+              <testAssertionResults>
+                <TestAssertionResult id="EID61cbee1a-fd95-4d71-a51d-2e8ea6ec145c">
+                  <parent ref="EID728bebbf-f031-45b8-aaec-e8b2bb2dcc18"/>
+                  <resultedFrom ref="EID8353f727-60ce-4893-9a33-5b93013ff6d8"/>
+                  <startTimestamp>2017-01-30T16:55:16.087+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID537b3638-37a3-4407-b4c4-9f48bcd0e0fa">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.wrongIntermodalConnection">
+                      <translationArguments>
+                        <argument token="gmlid">NetworkConnection_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">NetworkConnection</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID728bebbf-f031-45b8-aaec-e8b2bb2dcc18"/>
+                  <resultedFrom ref="EID4412563c-a691-4479-bb70-a465d140ec64"/>
+                  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID6f1d39fb-6144-4be6-b629-3a99691b82bb"/>
+              <resultedFrom ref="EID5330a6e0-8ddc-483e-86e2-1460b4c1ecc0"/>
+              <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDa759a23f-a4b6-4bd1-b0a1-cfcbea677175"/>
+          <resultedFrom ref="EIDf271ab9f-796b-4644-b27f-cf5dbb919cdc"/>
+          <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID3d5f4429-5649-4c96-b85a-dd3a1b642527"/>
+      <resultedFrom ref="EIDe11a7179-a5d8-4556-a94a-90fcfb7e6ffd"/>
+      <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+      <duration>1053</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDa2364050-a519-4037-bb4a-3a8893bfb88e">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDf2f66b91-8812-485a-beef-bd074f5bb6bb">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID4441cbde-371f-4899-90b3-145f4fd08ebc"/>
+  <startTimestamp>2017-01-30T16:55:16.154+01:00</startTimestamp>
+  <duration>1053</duration>
+  <status>FAILED</status>
+</TestTaskResult>

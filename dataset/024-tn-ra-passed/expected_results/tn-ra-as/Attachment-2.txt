@@ -1,0 +1,25 @@
+Testing 24 features
+Indexing features (parsing errors: 0): 9 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-ra-as\ets-tn-ra-as-bsxets.xml
+Statistics table: 5 ms
+Test Suite 'Conformance class: Application schema, Rail Transport Networks' started
+Test Case 'Code list values' started
+Test Assertion 'tn-ra-as.a.1: FormOfRailwayNodeValue attributes': PASSED - 436 ms
+Test Assertion 'tn-ra-as.a.2: RailwayTypeValue attributes': PASSED - 271 ms
+Test Assertion 'tn-ra-as.a.3: RailwayUseValue attributes': PASSED - 239 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'tn-ra-as.b.1: DesignSpeed can only be associated with a spatial object that is part of a railway transport network.': PASSED - 1 ms
+Test Assertion 'tn-ra-as.b.2: NominalTrackGauge can only be associated with a spatial object that is part of a railway transport network.': PASSED - 0 ms
+Test Assertion 'tn-ra-as.b.3: NumberOfTracks can only be associated with a spatial object that is part of a railway transport network.': PASSED - 1 ms
+Test Assertion 'tn-ra-as.b.4: RailwayElectrification can only be associated with a spatial object that is part of a railway transport network.': PASSED - 1 ms
+Test Assertion 'tn-ra-as.b.5: RailwayStationCode can only be associated with a spatial object that is part of a railway transport network.': PASSED - 0 ms
+Test Assertion 'tn-ra-as.b.6: RailwayType can only be associated with a spatial object that is part of a railway transport network.': PASSED - 0 ms
+Test Assertion 'tn-ra-as.b.7: RailwayUse can only be associated with a spatial object that is part of a railway transport network.': PASSED - 0 ms
+Test Assertion 'tn-ra-as.b.8: For a railway station node, the value for the "formOfNode" attribute shall always be "RailwayStop".': PASSED - 0 ms
+Test Assertion 'tn-ra-as.b.9: For a railway yard node, the value for the "formOfNode" attribute shall always be "RailwayStop".': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
+Test Case 'Link centrelines' started
+Test Assertion 'tn-ro-as.a.1: Link centrelines test': PASSED_MANUAL
+Test Case 'Link centrelines' finished: PASSED_MANUAL
+Test Suite 'Conformance class: Application schema, Rail Transport Networks' finished: PASSED_MANUAL

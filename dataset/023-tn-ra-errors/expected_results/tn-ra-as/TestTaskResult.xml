@@ -1,0 +1,401 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDfbfccd88-e54e-47d2-90f8-6a17cb3ca2a7">
+  <testObject ref="EIDb0a53bea-a24a-4aa8-b261-7d46caf35ba5"/>
+  <testModuleResults>
+    <TestModuleResult id="EID49c639f3-5520-46f9-a8dc-a483409789d4">
+      <testCaseResults>
+        <TestCaseResult id="EID095a3899-0f2c-4c37-81ba-c23ebc4623e3">
+          <testStepResults>
+            <TestStepResult id="EIDf9b852ca-9db4-454c-8a3a-435b6b0099b7">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDcef41a23-ff7c-4548-9ce6-e493f795fe76">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">2</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railway</argument>
+                        <argument token="property">formOfNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/railway</argument>
+                        <argument token="property">formOfNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf9b852ca-9db4-454c-8a3a-435b6b0099b7"/>
+                  <resultedFrom ref="EID728c567a-7778-41b3-8e9b-b97d293af037"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>912</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID2ec1a7f3-57fe-40e2-8734-ac3175233062">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayType_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/RailwayTypeValue</argument>
+                        <argument token="featureType">RailwayType</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/RailwayTypeValue/carriage</argument>
+                        <argument token="property">type</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf9b852ca-9db4-454c-8a3a-435b6b0099b7"/>
+                  <resultedFrom ref="EID99ca512e-f8e6-40b7-8b46-c5eb4a53b8f9"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>321</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID7cea87a8-68f3-4a8d-a723-d5f2f06ffb31">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayUse_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/RailwayUseValue</argument>
+                        <argument token="featureType">RailwayUse</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/RailwayUseValue/people</argument>
+                        <argument token="property">use</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EIDf9b852ca-9db4-454c-8a3a-435b6b0099b7"/>
+                  <resultedFrom ref="EIDcd0361d5-7ced-4262-aa37-321762357289"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>274</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID095a3899-0f2c-4c37-81ba-c23ebc4623e3"/>
+              <resultedFrom ref="EIDbab16dce-156e-4693-94fc-84b34396f512"/>
+              <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+              <duration>1507</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID49c639f3-5520-46f9-a8dc-a483409789d4"/>
+          <resultedFrom ref="EID6cb7ec75-bfae-4f0b-9986-b1e6ff5b6e93"/>
+          <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+          <duration>1507</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDe5ef7ac7-10ef-429e-b390-52aa144f3248">
+          <testStepResults>
+            <TestStepResult id="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03">
+              <testAssertionResults>
+                <TestAssertionResult id="EID197adba8-c0a0-47f8-9f6b-3c6cf533f6f6">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">DesignSpeed_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">DesignSpeed</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EIDbacb06ed-98b4-4189-8027-512ddc9f6576"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDab76d5ec-b8b6-4d69-b276-38175ad043f7">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NominalTrackGauge_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">NominalTrackGauge</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EID54572543-d42a-46ac-917f-a71de8b669fd"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDbfe03b4b-70ad-42fc-8ea9-ceb1812a0034">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">NumberOfTracks_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">NumberOfTracks</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EID8fe15645-6a3e-4b4e-8018-b2f25d76f424"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID2553e39a-aeb6-42f9-a2da-fee9226e059a">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayElectrification_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">RailwayElectrification</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EIDc8691d78-6e76-4ba4-ab02-36dac196bbe5"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDe9ed8e6d-84f2-4ba3-a40c-f8a59e7cfff9">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationCode_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">RailwayStationCode</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EID7614cfde-656f-4f86-b94c-9a46c4572981"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID817dccf0-202b-4b2d-9ef4-4cb6ff7a2583">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayType_02</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">RailwayType</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EID17f81e3c-2b3c-41f5-86ed-df3ef6af1283"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID5c4bad6c-31ee-4a7b-817f-1dbc70987ea7">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayUse_03</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="elementName">DesignSpeed</argument>
+                        <argument token="url">#DesignSpeed_01</argument>
+                        <argument token="featureType">RailwayUse</argument>
+                        <argument token="property">networkRef.element</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ra/4.0</argument>
+                        <argument token="elementNameExpected">RailwayArea, RailwayYardArea, RailwayStationArea, RailwayLine, RailwayLinkSequence, RailwayLink, or RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EIDcbaed0d5-0f9a-4ba4-b601-b58b08a4f085"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EIDb6c710a0-213b-4f28-aa32-9a5d0abb6edf">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                        <argument token="constraint">For a railway station node, the value for the "formOfNode" attribute shall always be "RailwayStop".</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EID8be75714-787a-4321-97ec-498b95300fda"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>1</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID2e4c2685-4510-4919-8ff0-89cd06da1dfc">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.constraintViolation">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_01</argument>
+                        <argument token="filename">023-tn-ra-errors.xml</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                        <argument token="constraint">For a railway yard node, the value for the "formOfNode" attribute shall always be "RailwayStop".</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID18b5c0ff-8895-45dc-8a74-6c86c34b3f03"/>
+                  <resultedFrom ref="EIDb122b363-ea8c-4fb2-a9ae-c40c7014a910"/>
+                  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDe5ef7ac7-10ef-429e-b390-52aa144f3248"/>
+              <resultedFrom ref="EIDbb267d2e-d848-41c3-a7d1-fc83b8b32d2b"/>
+              <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+              <duration>5</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID49c639f3-5520-46f9-a8dc-a483409789d4"/>
+          <resultedFrom ref="EIDa660e7d9-0733-4f9c-abb2-e151c434dadc"/>
+          <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+          <duration>5</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDd01c179e-9791-46ba-9525-79e6309c6ade">
+          <testStepResults>
+            <TestStepResult id="EID1ec9aa12-8125-4eac-8246-3a05c7aea260">
+              <testAssertionResults>
+                <TestAssertionResult id="EID040e7579-91f6-4c12-9c8c-620a1a43707b">
+                  <parent ref="EID1ec9aa12-8125-4eac-8246-3a05c7aea260"/>
+                  <resultedFrom ref="EIDf98ca299-32a5-40c2-b72e-f3149fc9ed9b"/>
+                  <startTimestamp>2017-01-30T16:51:58.075+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDd01c179e-9791-46ba-9525-79e6309c6ade"/>
+              <resultedFrom ref="EIDf79bb252-9352-403d-a018-bd0fabc16c5e"/>
+              <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID49c639f3-5520-46f9-a8dc-a483409789d4"/>
+          <resultedFrom ref="EIDf691bd9a-7d43-453b-9d82-7337a16225fc"/>
+          <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDfbfccd88-e54e-47d2-90f8-6a17cb3ca2a7"/>
+      <resultedFrom ref="EID861c8be1-0c3b-4668-a292-cc9bfb5e6b62"/>
+      <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+      <duration>1512</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDa1dcc0cd-174b-4544-9ce1-47d8a14b2bb1">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID4f192c90-f4dd-44d1-aced-871824f41f2c">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDe2610a9f-6432-489d-8238-92b1193e7a3d"/>
+  <startTimestamp>2017-01-30T16:51:58.125+01:00</startTimestamp>
+  <duration>1512</duration>
+  <status>FAILED</status>
+</TestTaskResult>

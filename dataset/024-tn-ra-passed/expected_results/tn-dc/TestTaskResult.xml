@@ -1,0 +1,148 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDb89254d2-b9c8-4d52-9f35-1ba3d94549a5">
+  <testObject ref="EID00aa4f43-0042-428a-8c39-90d592a5595c"/>
+  <testModuleResults>
+    <TestModuleResult id="EID74a027b3-d935-4793-9450-ae196c3ef159">
+      <testCaseResults>
+        <TestCaseResult id="EID5146f679-ac46-4174-a829-56d0ffe5384a">
+          <testStepResults>
+            <TestStepResult id="EID27dc250f-dd22-4f50-b146-b431baa8467e">
+              <testAssertionResults>
+                <TestAssertionResult id="EID13319166-19ed-4472-b0f6-7c5e21281651">
+                  <parent ref="EID27dc250f-dd22-4f50-b146-b431baa8467e"/>
+                  <resultedFrom ref="EID9fb4a73a-8e08-4bc8-a608-b353dcb99d53"/>
+                  <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID4346e200-1806-494f-a67d-4e8ecff775c5">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">8</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_01</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_02</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayLink_03</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayLink</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_01</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_02</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayNode_03</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayStationNode_01</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayStationNode</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.notWithin">
+                      <translationArguments>
+                        <argument token="gmlid">RailwayYardNode_01</argument>
+                        <argument token="filename">024-tn-ra-passed.xml</argument>
+                        <argument token="featureType">RailwayYardNode</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID27dc250f-dd22-4f50-b146-b431baa8467e"/>
+                  <resultedFrom ref="EIDdb7ae736-a7b8-41e2-ae62-4f98076bc6c4"/>
+                  <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+                  <duration>8</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID4904f6a5-56fb-4fa9-bd8f-1fbada21d718">
+                  <parent ref="EID27dc250f-dd22-4f50-b146-b431baa8467e"/>
+                  <resultedFrom ref="EID3da8c41a-e1f1-47bc-8f60-1c92cfa02feb"/>
+                  <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID968280f5-16c3-4f3b-942d-72826c0f942d">
+                  <parent ref="EID27dc250f-dd22-4f50-b146-b431baa8467e"/>
+                  <resultedFrom ref="EID9a50d25b-fe51-4142-b0b3-f90455e65158"/>
+                  <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID0f858e36-a9bc-4a29-bfe9-ca14592cdb5e">
+                  <parent ref="EID27dc250f-dd22-4f50-b146-b431baa8467e"/>
+                  <resultedFrom ref="EIDead98020-36ba-4574-b03c-b688254f99e8"/>
+                  <startTimestamp>2017-01-30T16:44:33.817+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED_MANUAL</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID5146f679-ac46-4174-a829-56d0ffe5384a"/>
+              <resultedFrom ref="EIDb7d9c5fe-5943-4d7a-857a-5669beb7b647"/>
+              <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+              <duration>8</duration>
+              <status>PASSED_MANUAL</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID74a027b3-d935-4793-9450-ae196c3ef159"/>
+          <resultedFrom ref="EIDdc3b76de-68d5-46a6-bbe3-da0abb973f0f"/>
+          <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+          <duration>8</duration>
+          <status>PASSED_MANUAL</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDb89254d2-b9c8-4d52-9f35-1ba3d94549a5"/>
+      <resultedFrom ref="EID562e5045-5cdc-492a-be67-55b551ab3045"/>
+      <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+      <duration>8</duration>
+      <status>PASSED_MANUAL</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDd712486d-9273-464b-9e7b-d789e1bff9c8">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID93bbb03d-715a-4b3c-a061-2edb9a70c836">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID733af9a0-312b-4f71-9aa2-977cd2134d23"/>
+  <startTimestamp>2017-01-30T16:44:33.862+01:00</startTimestamp>
+  <duration>8</duration>
+  <status>PASSED_MANUAL</status>
+</TestTaskResult>
