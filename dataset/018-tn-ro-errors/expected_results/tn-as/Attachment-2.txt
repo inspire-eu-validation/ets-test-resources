@@ -1,0 +1,35 @@
+Testing 37 features
+Indexing features (parsing errors: 0): 11 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-as\ets-tn-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Transport Networks Common' started
+Test Case 'Code list values' started
+Test Assertion 'tn-as.a.1: AccessRestrictionValue attributes': PASSED - 236 ms
+Test Assertion 'tn-as.a.2: RestrictionTypeValue attributes': PASSED - 131 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'tn-as.b.1: TrafficFlowDirection can only be associated with a spatial object of the type Link or LinkSequence.': PASSED - 0 ms
+Test Assertion 'tn-as.b.2: All transport areas have an external object identifier.': FAILED - 1 ms
+Test Assertion 'tn-as.b.3: All transport links have an external object identifier.': PASSED - 1 ms
+Test Assertion 'tn-as.b.4: All transport link sequences have an external object identifier.': FAILED - 0 ms
+Test Assertion 'tn-as.b.5: All transport link sets have an external object identifier.': FAILED - 1 ms
+Test Assertion 'tn-as.b.6: All transport nodes have an external object identifier.': FAILED - 2 ms
+Test Assertion 'tn-as.b.7: All transport points have an external object identifier.': PASSED - 0 ms
+Test Assertion 'tn-as.b.8: All transport properties have an external object identifier.': FAILED - 3 ms
+Test Assertion 'tn-as.b.9: A transport link sequence must be composed of transport links that all belong to the same transport network.': FAILED - 4 ms
+Test Assertion 'tn-as.b.10: A transport link set must be composed of transport links and or transport link sequences that all belong to the same transport network.': FAILED - 1 ms
+Test Case 'Constraints' finished: FAILED
+Test Case 'Geometry' started
+Test Assertion 'tn-as.c.1: No free transport nodes': FAILED - 9 ms
+Test Assertion 'tn-as.c.2: Intersections only at crossings': PASSED_MANUAL
+Test Case 'Geometry' finished: FAILED
+Test Case 'Network connectivity' started
+Test Assertion 'tn-as.d.1: Connectivity at crossings': PASSED_MANUAL
+Test Assertion 'tn-as.d.2: Unconnected nodes': PASSED_MANUAL
+Test Assertion 'tn-as.d.3: Connectivity tolerance': PASSED_MANUAL
+Test Case 'Network connectivity' finished: PASSED_MANUAL
+Test Case 'Object References' started
+Test Assertion 'tn-as.e.1: Linear references': PASSED_MANUAL
+Test Assertion 'tn-as.e.2: Inter-modal connections': FAILED - 0 ms
+Test Case 'Object References' finished: FAILED
+Test Suite 'Conformance class: Application schema, Transport Networks Common' finished: FAILED

@@ -1,0 +1,20 @@
+<StatisticalReportTable xmlns="http://www.interactive-instruments.de/etf/2.0">
+  <type ref="EID8bb8f162-1082-434f-bd06-23d6507634b8"/>
+  <entries>
+    <entry>all; 24</entry>
+    <entry>FormOfWay; 1</entry>
+    <entry>FunctionalRoadClass; 1</entry>
+    <entry>NetworkConnection; 4</entry>
+    <entry>NumberOfLanes; 1</entry>
+    <entry>Road; 1</entry>
+    <entry>RoadLink; 6</entry>
+    <entry>RoadLinkSequence; 1</entry>
+    <entry>RoadName; 1</entry>
+    <entry>RoadNode; 3</entry>
+    <entry>RoadServiceArea; 1</entry>
+    <entry>RoadServiceType; 1</entry>
+    <entry>RoadSurfaceCategory; 1</entry>
+    <entry>RoadWidth; 1</entry>
+    <entry>SpeedLimit; 1</entry>
+  </entries>
+</StatisticalReportTable>

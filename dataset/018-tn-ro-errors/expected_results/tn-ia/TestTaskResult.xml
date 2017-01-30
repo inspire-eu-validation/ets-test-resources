@@ -1,0 +1,108 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EIDfbf43347-28ff-4aff-8d04-d470249a27ab">
+  <testObject ref="EID419899bd-3d7f-45b7-9786-cefd8537363f"/>
+  <testModuleResults>
+    <TestModuleResult id="EID57583d1b-031d-499f-83a8-3c599004cf24">
+      <testCaseResults>
+        <TestCaseResult id="EIDb9320f35-d658-4cf1-bd73-f3b4ad672022">
+          <testStepResults>
+            <TestStepResult id="EIDa90cc5d6-5135-4b13-b01f-01b8208b7f75">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDae13fee0-8927-4222-a1eb-858c282d70b6">
+                  <parent ref="EIDa90cc5d6-5135-4b13-b01f-01b8208b7f75"/>
+                  <resultedFrom ref="EID4f79ee34-f4a6-457c-9fa9-a7a74a0657d3"/>
+                  <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDb9320f35-d658-4cf1-bd73-f3b4ad672022"/>
+              <resultedFrom ref="EID09cfafa7-8c3b-4e6c-abb6-c9f62a17304e"/>
+              <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID57583d1b-031d-499f-83a8-3c599004cf24"/>
+          <resultedFrom ref="EIDce3aeebe-a896-461f-9fe6-71dd6cd911ca"/>
+          <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EID60d25b44-5dea-41aa-b17e-642ee298a1ec">
+          <testStepResults>
+            <TestStepResult id="EID53b0c02a-cae0-4970-9045-ef11c8c17db7">
+              <testAssertionResults>
+                <TestAssertionResult id="EID3180eb88-e146-40fb-b190-98e275a8cd32">
+                  <parent ref="EID53b0c02a-cae0-4970-9045-ef11c8c17db7"/>
+                  <resultedFrom ref="EID92834091-d43e-47c5-90a9-9232f0291e37"/>
+                  <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+                <TestAssertionResult id="EID390097fa-66b9-4382-a783-9c9b2affb93f">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.unknownXMLResource2">
+                      <translationArguments>
+                        <argument token="gmlid">Road_01</argument>
+                        <argument token="filename">018-tn-ro-errors.xml</argument>
+                        <argument token="elementName">RoadLink</argument>
+                        <argument token="url">#RL_01</argument>
+                        <argument token="featureType">Road</argument>
+                        <argument token="property">post</argument>
+                        <argument token="namespace">http://inspire.ec.europa.eu/schemas/tn-ro/4.0</argument>
+                        <argument token="elementNameExpected">MarkerPost</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID53b0c02a-cae0-4970-9045-ef11c8c17db7"/>
+                  <resultedFrom ref="EID6afecd44-db3b-46ae-baae-1cc22f8bef11"/>
+                  <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+                  <duration>2</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EID60d25b44-5dea-41aa-b17e-642ee298a1ec"/>
+              <resultedFrom ref="EID85a4dd2c-3d07-4e7b-85c3-f6b8100ac11f"/>
+              <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+              <duration>2</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EID57583d1b-031d-499f-83a8-3c599004cf24"/>
+          <resultedFrom ref="EID1e697789-a7b5-4761-ab3f-5e4ceee91792"/>
+          <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+          <duration>2</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EIDfbf43347-28ff-4aff-8d04-d470249a27ab"/>
+      <resultedFrom ref="EID3f79cc9b-7162-401b-9ad8-6c2fa69f2b96"/>
+      <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+      <duration>2</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EIDaa4e8260-6473-4770-927e-8bbfaa0d9187">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EID10c5815c-d55b-422d-ad9a-6634a4d22382">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EIDdf5db9a4-b15f-4193-a6ff-6e9951af46f5"/>
+  <startTimestamp>2017-01-30T16:36:55.611+01:00</startTimestamp>
+  <duration>2</duration>
+  <status>FAILED</status>
+</TestTaskResult>
