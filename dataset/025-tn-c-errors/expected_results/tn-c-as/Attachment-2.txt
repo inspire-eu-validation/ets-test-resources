@@ -1,0 +1,12 @@
+Testing 14 features
+Indexing features (parsing errors: 0): 6 ms
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-c-as\ets-tn-c-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Cable Transport Networks' started
+Test Case 'Code list values' started
+Test Assertion 'tn-c-as.a.1: CablewayTypeValue attributes': FAILED - 126 ms
+Test Case 'Code list values' finished: FAILED
+Test Case 'Constraints' started
+Test Assertion 'tn-c-as.b.1: Test always passes': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
+Test Suite 'Conformance class: Application schema, Cable Transport Networks' finished: FAILED

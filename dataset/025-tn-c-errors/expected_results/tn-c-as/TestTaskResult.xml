@@ -1,0 +1,99 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID0f1245a4-97ad-4b1a-a478-d7db4f6f031e">
+  <testObject ref="EID45a50a41-b615-49e0-a35d-3db2560d1460"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDd8a210ca-f24e-48b5-a5bf-5430d508af9b">
+      <testCaseResults>
+        <TestCaseResult id="EIDeb6f9ecb-c515-4d2d-b3ca-28dd53751e30">
+          <testStepResults>
+            <TestStepResult id="EID6cab24e6-a2d3-4f13-99b7-e24264b72a76">
+              <testAssertionResults>
+                <TestAssertionResult id="EID6ce35d95-33ec-4d30-96e4-3c4d9a4e1d37">
+                  <messages>
+                    <message ref="TR.featuresWithErrors">
+                      <translationArguments>
+                        <argument token="count">1</argument>
+                      </translationArguments>
+                    </message>
+                    <message ref="TR.disallowedCodeListValue">
+                      <translationArguments>
+                        <argument token="gmlid">CablewayLink_01</argument>
+                        <argument token="filename">025-tn-c-errors.xml</argument>
+                        <argument token="codelist">http://inspire.ec.europa.eu/codelist/CablewayTypeValue</argument>
+                        <argument token="featureType">CablewayLink</argument>
+                        <argument token="value">http://inspire.ec.europa.eu/codelist/CablewayTypeValue/ski</argument>
+                        <argument token="property">cablewayType</argument>
+                      </translationArguments>
+                    </message>
+                  </messages>
+                  <parent ref="EID6cab24e6-a2d3-4f13-99b7-e24264b72a76"/>
+                  <resultedFrom ref="EIDd8723bc9-444a-4680-8299-13a6489a0740"/>
+                  <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+                  <duration>126</duration>
+                  <status>FAILED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDeb6f9ecb-c515-4d2d-b3ca-28dd53751e30"/>
+              <resultedFrom ref="EIDf8b08ade-8047-4151-839e-eb80f9bb4c87"/>
+              <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+              <duration>126</duration>
+              <status>FAILED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDd8a210ca-f24e-48b5-a5bf-5430d508af9b"/>
+          <resultedFrom ref="EID13aa2844-5d9c-4643-bef4-9eb2faf5f124"/>
+          <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+          <duration>126</duration>
+          <status>FAILED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDf6a5ab7d-2e3f-40d7-8b01-4ce9a59bc1ea">
+          <testStepResults>
+            <TestStepResult id="EID04db465b-a6e0-42af-88e6-345daf6c0ba6">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDd43560d1-7103-46ad-94b1-851a83f5db70">
+                  <parent ref="EID04db465b-a6e0-42af-88e6-345daf6c0ba6"/>
+                  <resultedFrom ref="EID41aa5625-b3ff-451d-8091-f6bc3ca78ff4"/>
+                  <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDf6a5ab7d-2e3f-40d7-8b01-4ce9a59bc1ea"/>
+              <resultedFrom ref="EID46e639bd-c4e7-41ef-b954-199e4edc587f"/>
+              <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDd8a210ca-f24e-48b5-a5bf-5430d508af9b"/>
+          <resultedFrom ref="EID1b9ad257-e61b-4082-826f-e5253ebd8295"/>
+          <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID0f1245a4-97ad-4b1a-a478-d7db4f6f031e"/>
+      <resultedFrom ref="EID58d2f7d5-9c81-4858-aaf7-5fe5a19e9bf2"/>
+      <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+      <duration>126</duration>
+      <status>FAILED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID6f95c7a2-e2a3-4ae8-a5d2-4303809699d0">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDa490aaef-2bc9-43e4-b2bc-87e0a2ee311e">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID731621b9-2daa-49fd-99ef-9279b7f335b5"/>
+  <startTimestamp>2017-01-30T17:04:16.674+01:00</startTimestamp>
+  <duration>126</duration>
+  <status>FAILED</status>
+</TestTaskResult>

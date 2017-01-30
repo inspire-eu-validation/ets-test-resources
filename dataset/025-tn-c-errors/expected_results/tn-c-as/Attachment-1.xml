@@ -1,0 +1,11 @@
+<StatisticalReportTable xmlns="http://www.interactive-instruments.de/etf/2.0">
+  <type ref="EID8bb8f162-1082-434f-bd06-23d6507634b8"/>
+  <entries>
+    <entry>all; 14</entry>
+    <entry>CablewayLink; 3</entry>
+    <entry>CablewayLinkSequence; 2</entry>
+    <entry>CablewayLinkSet; 2</entry>
+    <entry>CablewayNode; 3</entry>
+    <entry>NetworkConnection; 4</entry>
+  </entries>
+</StatisticalReportTable>

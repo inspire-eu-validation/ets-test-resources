@@ -1,0 +1,82 @@
+<TestTaskResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interactive-instruments.de/etf/2.0" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 http://services.interactive-instruments.de/etf/schema/model/resultSet.xsd" id="EID2de47888-7d8d-41b8-a56d-d3a23ee5169d">
+  <testObject ref="EID8d8d5cf8-2e9a-404f-9add-d1105c05f918"/>
+  <testModuleResults>
+    <TestModuleResult id="EIDd78c3f27-ba1b-4d64-9eba-69641d9af580">
+      <testCaseResults>
+        <TestCaseResult id="EIDe15aa4d0-7745-4f29-b137-ef0a150ec8b0">
+          <testStepResults>
+            <TestStepResult id="EIDc0ae3538-d103-4592-9a48-9425b2ffa995">
+              <testAssertionResults>
+                <TestAssertionResult id="EIDf0d56c48-5360-4ef0-aa4e-a831b0f723e6">
+                  <parent ref="EIDc0ae3538-d103-4592-9a48-9425b2ffa995"/>
+                  <resultedFrom ref="EIDd8723bc9-444a-4680-8299-13a6489a0740"/>
+                  <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+                  <duration>302</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDe15aa4d0-7745-4f29-b137-ef0a150ec8b0"/>
+              <resultedFrom ref="EIDf8b08ade-8047-4151-839e-eb80f9bb4c87"/>
+              <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+              <duration>302</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDd78c3f27-ba1b-4d64-9eba-69641d9af580"/>
+          <resultedFrom ref="EID13aa2844-5d9c-4643-bef4-9eb2faf5f124"/>
+          <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+          <duration>302</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+        <TestCaseResult id="EIDb9b402f8-0059-4f9a-a333-5528fe3a793a">
+          <testStepResults>
+            <TestStepResult id="EID50512ca4-a401-4dca-9781-36f41592e85d">
+              <testAssertionResults>
+                <TestAssertionResult id="EID4dd6c4b7-5d71-4246-9474-5c251ac942da">
+                  <parent ref="EID50512ca4-a401-4dca-9781-36f41592e85d"/>
+                  <resultedFrom ref="EID41aa5625-b3ff-451d-8091-f6bc3ca78ff4"/>
+                  <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+                  <duration>0</duration>
+                  <status>PASSED</status>
+                </TestAssertionResult>
+              </testAssertionResults>
+              <parent ref="EIDb9b402f8-0059-4f9a-a333-5528fe3a793a"/>
+              <resultedFrom ref="EID46e639bd-c4e7-41ef-b954-199e4edc587f"/>
+              <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+              <duration>0</duration>
+              <status>PASSED</status>
+            </TestStepResult>
+          </testStepResults>
+          <parent ref="EIDd78c3f27-ba1b-4d64-9eba-69641d9af580"/>
+          <resultedFrom ref="EID1b9ad257-e61b-4082-826f-e5253ebd8295"/>
+          <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+          <duration>0</duration>
+          <status>PASSED</status>
+        </TestCaseResult>
+      </testCaseResults>
+      <parent ref="EID2de47888-7d8d-41b8-a56d-d3a23ee5169d"/>
+      <resultedFrom ref="EID58d2f7d5-9c81-4858-aaf7-5fe5a19e9bf2"/>
+      <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+      <duration>302</duration>
+      <status>PASSED</status>
+    </TestModuleResult>
+  </testModuleResults>
+  <attachments>
+    <Attachment type="LogFile" id="EID8ab55ffe-6d95-48d9-96b1-2eb7ea7ec9e5">
+      <label>Log file</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>text/plain</mimeType>
+      <referencedData href="Attachment-2.txt"/>
+    </Attachment>
+    <Attachment type="StatisticalReport" id="EIDeefac35f-5160-4dbc-b6ce-d1598587da28">
+      <label>Feature statistics</label>
+      <encoding>UTF-8</encoding>
+      <mimeType>application/xml</mimeType>
+      <referencedData href="Attachment-1.xml"/>
+    </Attachment>
+  </attachments>
+  <resultedFrom ref="EID731621b9-2daa-49fd-99ef-9279b7f335b5"/>
+  <startTimestamp>2017-01-30T17:00:38.008+01:00</startTimestamp>
+  <duration>302</duration>
+  <status>PASSED</status>
+</TestTaskResult>
