@@ -1,3 +1,30 @@
-System error in the Executable Test Suite. Please contact a system administrator. Error information:
-[err:XPST0017] Q{http://www.w3.org/2005/xquery-...: 6 arguments supplied, 5 or 4 expected. 
-C:/Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository/inspire-bsxets.xq (180/14)
+Testing 24 features
+Executing Test Suite: /Users/vandeloc/Documents/Documents/06 ARE3NA/WP4/GitHub/ETS-repository\data-tn\tn-ro-as\ets-tn-ro-as-bsxets.xml
+Statistics table: 2 ms
+Test Suite 'Conformance class: Application schema, Road Transport Networks' started
+Test Case 'Code list values' started
+Test Assertion 'tn-ro-as.a.1: AreaConditionValue attributes': PASSED - 104 ms
+Test Assertion 'tn-ro-as.a.2: FormOfRoadNodeValue attributes': PASSED - 43 ms
+Test Assertion 'tn-ro-as.a.3: FormOfWayValue attributes': PASSED - 54 ms
+Test Assertion 'tn-ro-as.a.4: RoadPartValue attributes': PASSED - 45 ms
+Test Assertion 'tn-ro-as.a.5: RoadServiceTypeValue attributes': PASSED - 40 ms
+Test Assertion 'tn-ro-as.a.6: RoadSurfaceCategoryValue attributes': PASSED - 97 ms
+Test Assertion 'tn-ro-as.a.7: ServiceFacilityValue attributes': PASSED - 53 ms
+Test Assertion 'tn-ro-as.a.8: SpeedLimitSourceValue attributes': PASSED - 60 ms
+Test Assertion 'tn-ro-as.a.9: VehicleTypeValue attributes': PASSED - 125 ms
+Test Assertion 'tn-ro-as.a.10: WeatherConditionValue attributes': PASSED - 62 ms
+Test Case 'Code list values' finished: PASSED
+Test Case 'Constraints' started
+Test Assertion 'tn-ro-as.b.1: FormOfWay can only be associated with a spatial object that is part of a road transport network.': PASSED - 0 ms
+Test Assertion 'tn-ro-as.b.2: FunctionalRoadClass can only be associated with a spatial object that is part of a road transport network.': PASSED - 1 ms
+Test Assertion 'tn-ro-as.b.3: NumberOfLanes can only be associated with a spatial object that is part of a road transport network.': PASSED - 0 ms
+Test Assertion 'tn-ro-as.b.4: RoadName can only be associated with a spatial object that is part of a road transport network.': PASSED - 0 ms
+Test Assertion 'tn-ro-as.b.5: RoadSurfaceCategory can only be associated with a spatial object that is part of a road transport network.': PASSED - 1 ms
+Test Assertion 'tn-ro-as.b.6: RoadWidth can only be associated with a spatial object that is part of a road transport network.': PASSED - 0 ms
+Test Assertion 'tn-ro-as.b.7: SpeedLimit can only be associated with a spatial object that is part of a road transport network.': PASSED - 0 ms
+Test Assertion 'tn-ro-as.b.8: RoadServiceType can only be associated with a spatial object of the type RoadServiceArea or RoadNode (when formOfRoadNode=roadServiceArea)': PASSED - 0 ms
+Test Case 'Constraints' finished: PASSED
+Test Case 'Link centrelines' started
+Test Assertion 'tn-ro-as.c.1: Link centrelines test': PASSED_MANUAL
+Test Case 'Link centrelines' finished: PASSED_MANUAL
+Test Suite 'Conformance class: Application schema, Road Transport Networks' finished: PASSED_MANUAL
