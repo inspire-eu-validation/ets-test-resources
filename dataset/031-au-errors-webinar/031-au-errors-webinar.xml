@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<wfs:FeatureCollection xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0"
+    xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:ns1="http://www.w3.org/1999/xhtml"
+    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0"
+    xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfs="http://www.opengis.net/wfs/2.0"
+    xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/au/4.0 http://inspire.ec.europa.eu/schemas/au/4.0/AdministrativeUnits.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd">
+    <wfs:member>
+        <au:AdministrativeUnit gml:id="AU.001">
+        <au:geometry>
+                <gml:MultiSurface gml:id="_AU.001_geo"
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="_AU.001.1_geo"
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>1 2 1 4 3 4 3 1 1 2</gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </au:geometry>
+            <au:nationalLevel xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder"/>
+            <au:upperLevelUnit/>
+        </au:AdministrativeUnit>
+    </wfs:member>
+    <wfs:member>
+        <au:AdministrativeUnit gml:id="AU.002">
+            <au:geometry>
+                <gml:MultiSurface gml:id="_AU.002_geo"
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="_AU.002.1_geo"
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>2 3 2 6 4 5 4 3 2 3</gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </au:geometry>
+            <au:nationalLevel xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder"/>   
+            <au:upperLevelUnit xlink:href="#AU.001"/>
+        </au:AdministrativeUnit>
+    </wfs:member> 
+    <wfs:member>
+        <au:AdministrativeUnit gml:id="AU.003">
+            <au:geometry>
+                <gml:MultiSurface gml:id="_AU.003_geo"
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="_AU.003.1_geo"
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>0 0 0 1 1 0 0 0 0 0</gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </au:geometry>
+            <au:nationalLevel xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder"/>  
+        </au:AdministrativeUnit>
+    </wfs:member> 
+    <wfs:member>
+        <au:AdministrativeUnit gml:id="AU.004">
+            <au:geometry>
+                <gml:MultiSurface gml:id="_AU.004_geo"
+                    srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                    <gml:surfaceMember>
+                        <gml:Polygon gml:id="_AU.004.1_geo"
+                            srsName="urn:ogc:def:crs:EPSG::4258" srsDimension="2">
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList>1 1 2 3 3 2 2 1 1 1</gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gml:surfaceMember>
+                </gml:MultiSurface>
+            </au:geometry>
+            <au:nationalLevel xlink:href="http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/7thOrder"/>
+        </au:AdministrativeUnit>
+    </wfs:member>   
+</wfs:FeatureCollection>
