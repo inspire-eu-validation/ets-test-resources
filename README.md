@@ -1,5 +1,7 @@
-# Purpose
+# Test resources for the INSPIRE validator
 This repository is intended to store Test Objects and expected test results for automated regression tests. Executable Test Suites from the [ets-repository](https://github.com/inspire-eu-validation/ets-repository) are executed against the Test Objects and the generated results are compared with the expected test results.
+
+&copy; 2017 European Union. Licensed under the [EUPL](LICENSE).
 
 ## Repository structure
 There are three root folders for dataset, metadata and service tests resources.
